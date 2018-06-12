@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <listPerson type="divinities">
+            <person xml:id="Hades">
+               <persName xml:lang="grc">ᾍδης</persName>
+               <persName xml:lang="en">Hades</persName>
+            </person>
+            <person sameAs="#Hades">
+               <persName xml:lang="grc">Πλούτων</persName>
+               <persName xml:lang="en">Pluto</persName>
+            </person>
+            <person xml:id="Helios">
+               <persName xml:lang="grc">Ἥλιος</persName>
+               <persName xml:lang="lat">Helios</persName>
+            </person>
+            <person xml:id="Apollo">
+               <persName xml:lang="grc">Απόλλων</persName>
+               <persName xml:lang="lat">Apollo</persName>
+            </person>
+            <person sameAs="#Apollo">
+               <persName xml:lang="grc">Φοῖβος</persName>
+               <persName xml:lang="lat">Phoebos</persName>
+            </person>
+            <person sameAs="Apollo">
+               <persName xml:lang="grc">Παιάν</persName>
+               <persName xml:lang="lat">Paean</persName>
+            </person>
+            <person xml:id="Syria">
+               <persName xml:lang="grc">Συρία θεᾶ</persName>
+               <persName xml:lang="lat">Dea Syria</persName>
+               <idno type="wp">https://en.wikipedia.org/wiki/Atargatis</idno>
+            </person>
+            <person xml:id="Calchas">
+               <persName xml:lang="grc">Κάλχας</persName>
+               <persName xml:lang="lat">Calchas</persName>
+               <idno type="wp">https://en.wikipedia.org/wiki/Calchas</idno>
+            </person>
+            <person xml:id="Polydamas">
+               <persName xml:lang="grc">Πολυδάμας Φρύγιος</persName>
+               <persName xml:lang="lat">Polydamas</persName>
+               <idno type="wp">https://en.wikipedia.org/wiki/Polydamas_(mythology)</idno>
+            </person>
+            <person xml:id="Halitherses">
+               <persName xml:lang="grc">Ἁλιθέρσης</persName>
+               <persName xml:lang="lat">Halitherses</persName>
+               <idno type="wp">https://en.wikipedia.org/wiki/Halitherses</idno>
+            </person>
+         </listPerson>
+      </body>
+  </text>
+</TEI>

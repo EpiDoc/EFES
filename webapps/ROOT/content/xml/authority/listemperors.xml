@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <listPerson type="rome">
+            <person xml:id="Traianus">
+               <persName xml:lang="lat">Nerva Traianus</persName>  
+               <persName xml:lang="grc">Νέρουα Τραιανός</persName>
+               <floruit>98 - 117</floruit>
+               <idno type="wp">https://en.wikipedia.org/wiki/Trajan</idno>
+            </person>
+            <person xml:id="MarcusAurelius">
+               <persName xml:lang="lat">Marcus Aurelius Antoninus Augustus</persName>
+               <persName xml:lang="grc">Μάρκος Αὐρήλιος Ἀντονείνος  Σεβαστός</persName>
+            <floruit>161 - 180</floruit></person>
+            <person xml:id="Commodus">
+               <persName xml:lang="grc">Μάρκος Αὐρήλιος Κόμμοδος Ἀντονείνος</persName>
+               <persName xml:lang="lat">Marcus Aurelius Commodus Antoninus</persName>
+               <floruit>177-192</floruit>
+               <idno type="wp">https://en.wikipedia.org/wiki/Commodus</idno>
+            </person>
+            <person xml:id="Caracalla">
+               <persName xml:lang="lat">Marcus Aurelius Severus Antoninus Caracalla</persName>
+               <persName xml:lang="grc">Μάρκος Αὐρήλιος Σευέρος Ἀντονείνος</persName>
+               <floruit>198-217</floruit>
+               <idno type="wp">https://en.wikipedia.org/wiki/Caracalla</idno>
+            </person>
+            <person xml:id="Thrax">
+               <persName xml:lang="lat">Gaius Julius Verus Maximinus Augustus</persName>
+               <persName xml:lang="grc">Γάιος Ἰ̣ο̣ύλιος Οὐῆρος Μάξ̣ιμ̣ινο̣ς</persName>
+               <floruit>235-238</floruit>
+               <idno type="wp">https://en.wikipedia.org/wiki/Maximinus_Thrax</idno>
+            </person>
+            <person xml:id="Thraxson">
+               <persName xml:lang="lat">Gaius Julius Verus Maximus</persName>
+               <persName xml:lang="grc">Γάιος Ἰ̣ο̣ύλιος Οὐῆρος Μάξ̣ιμ̣ο̣ς</persName>
+               <floruit>236-238</floruit>
+               <idno type="wp">https://en.wikipedia.org/wiki/Gaius_Julius_Verus_Maximus</idno>
+            </person>
+            <person xml:id="Gordianus"><persName xml:lang="lat">Marcus Antonius Gordianus Pius Augustus</persName>
+               <persName xml:lang="grc">Μάρκος Ἀντώνιος Γορδιανός</persName>
+               <floruit>238 - 244</floruit>
+               <idno type="wp">https://en.wikipedia.org/wiki/Gordian_III</idno>
+            </person>
+            <person xml:id="Balbinus">
+               <persName xml:lang="grc">Δέκιος Καίλιος Καλβ̣ε̣ῖ̣ν̣ο̣νς Βαλβεῖνος</persName>
+               <persName xml:lang="lat">Decimus Caelius Calvinus Balbinus Pius Augustus</persName>
+               <floruit>April - July 238</floruit>
+               <idno type="wp">https://en.wikipedia.org/wiki/Balbinus</idno>
+            </person>
+            <person xml:id="PhilippusI">
+               <persName xml:lang="grc">Μᾶρκος Ἰούλιος Φίλιππος Αὔγουστος (Σεβαστός)</persName>
+               <persName xml:lang="lat">Marcus Iulius Philippus Augustus</persName>
+               <floruit>244 - 249</floruit>
+               <idno type="wp">https://en.wikipedia.org/wiki/Philip_the_Arab</idno>
+            </person>
+            <person xml:id="Otacilia">
+               <persName xml:lang="grc">Μαρκία Ὠτακιλ̣ί̣α̣ Σ̣ε̣ο̣υήρα</persName>
+               <persName xml:lang="lat">Marcia Otacilia Severa</persName>
+               <floruit>244 - 249</floruit>
+               <idno type="wp">https://en.wikipedia.org/wiki/Marcia_Otacilia_Severa</idno>
+            </person>
+            <person xml:id="PhilippusII">
+               <persName xml:lang="grc">Μᾶρκος Ἰούλιος Φίλιππος Σευέρος</persName>
+               <persName xml:lang="lat">Marcus Julius Philippus Severus</persName>
+               <floruit>247 - 249</floruit>
+               <idno type="wp">https://en.wikipedia.org/wiki/Philip_II_(emperor)</idno>
+            </person>
+            <person xml:id="Caecilius"><persName xml:lang="grc">Καικίλιος Ματέρνος</persName>
+               <persName xml:lang="lat">Caecilius Maternus</persName>
+               <occupation xml:lang="grc">ἡγεμονεύων ἐπαρχείας Θρᾳκῶν</occupation>
+               <occupation xml:lang="lat">legatus Augusti pro praetore</occupation>
+               <floruit>187</floruit>
+               <idno type="wp">https://bg.wikipedia.org/wiki/%D0%A6%D0%B5%D1%86%D0%B8%D0%BB%D0%B8%D0%B9_%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%BD</idno>
+            </person>
+            <person xml:id="Celer"><persName xml:lang="grc">Λούκιος Καττίου Κέλερος</persName>
+               <persName xml:lang="lat">Lucius Catius Celer</persName>
+               <floruit>238 - 241</floruit>
+               <occupation xml:lang="grc">ἡγεμονεύων ἐπαρχείας Θρᾳκῶν</occupation>
+               <occupation xml:lang="lat">legatus Augusti pro praetore</occupation>
+               <idno type="wp">https://en.wikipedia.org/wiki/Lucius_Catius_Celer</idno>
+            </person>
+            <person sameAs="Celer">
+               <idno type="https://bg.wikipedia.org/wiki/%D0%9A%D0%B2%D0%B8%D0%BD%D1%82_%D0%90%D1%82%D0%B8%D0%B9_%D0%A6%D0%B5%D0%BB%D0%B5%D1%80"></idno>
+            </person>
+            <person xml:id="Polemarchus"><persName xml:lang="grc">Τιβέριος Κλαύδιος Πολέμαρχος</persName>
+            <persName xml:lang="lat">Tiberius Claudius Polemarchus</persName>
+               <occupation xml:lang="grc">ἀρχιερεύς</occupation>
+               <!--could be this guy?https://bg.wikipedia.org/wiki/%D0%A2%D0%B8%D0%B1%D0%B5%D1%80%D0%B8%D0%B9_%D0%9A%D0%BB%D0%B0%D0%B2%D0%B4%D0%B8%D0%B9_%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC-->
+            </person>
+            <person xml:id="Asellius">
+               <persName xml:lang="grc">Ἀσέλλιος Αἰμιλιανός</persName>
+               <persName xml:lang="lat">Asellius Aemilianus</persName>
+               <idno type="wp">https://bg.wikipedia.org/wiki/%D0%90%D1%81%D0%B5%D0%BB%D0%B8%D0%B9_%D0%95%D0%BC%D0%B8%D0%BB%D0%B8%D0%B0%D0%BD</idno>
+               <occupation xml:lang="lat">legatus Augusti pro praetore</occupation>
+               <occupation xml:lang="grc">ἡγεμονεύων ἐπαρχείας Θρᾳκῶν</occupation>
+               <floruit>176 - 193</floruit>
+            </person>
+            <person xml:id="Iuvenis">
+               <persName xml:lang="grc">Λούκιος Οὐεττίου Ἰουβένως</persName>
+               <persName xml:lang="lat">Lucius Vettius Iuvenis</persName>
+               <idno type="wp">https://bg.wikipedia.org/wiki/%D0%90%D1%81%D0%B5%D0%BB%D0%B8%D0%B9_%D0%95%D0%BC%D0%B8%D0%BB%D0%B8%D0%B0%D0%BD</idno>
+               <occupation xml:lang="lat">legatus Augusti pro praetore</occupation>
+               <occupation xml:lang="grc">ἡγεμονεύων ἐπαρχείας Θρᾳκῶν</occupation>
+               <floruit>176 - 193</floruit>
+            </person>
+            <person xml:id="Saturninus">
+               <persName xml:lang="lat">Titus Clodius Saturninus Fidus</persName>
+               <persName xml:lang="grc">Τίτος Κλώδιος Σατορνείνος</persName>
+               <idno type="wp">https://bg.wikipedia.org/wiki/%D0%A2%D0%B8%D1%82_%D0%9A%D0%BB%D0%BE%D0%B4%D0%B8%D0%B9_%D0%A1%D0%B0%D1%82%D1%83%D1%80%D0%BD%D0%B8%D0%BD_%D0%A4%D0%B8%D0%B4</idno>
+               <occupation xml:lang="lat">legatus Augusti pro praetore</occupation>
+               <occupation xml:lang="grc">ἡγεμονεύων ἐπαρχείας Θρᾳκῶν</occupation>
+               <floruit>235 - 238</floruit>
+            </person>
+            <person xml:id="Furnius"> 
+               <persName xml:lang="lat">Sextus Furnius Publianus</persName>
+               <persName xml:lang="grc">Σέξτος Φούρνιος Πουβλιανός</persName>
+               <idno type="wp">https://bg.wikipedia.org/wiki/%D0%A1%D0%B5%D0%BA%D1%81%D1%82_%D0%A4%D1%83%D1%80%D0%BD%D0%B8%D0%B9_%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D0%B0%D0%BD</idno>
+               <floruit>244 - 247 <!--check somehow-->`</floruit>
+               <occupation xml:lang="lat">legatus Augusti pro praetore</occupation>
+               <occupation xml:lang="grc">ἡγεμονεύων ἐπαρχείας Θρᾳκῶν</occupation>
+            </person>
+         </listPerson>
+      </body>
+  </text>
+</TEI>

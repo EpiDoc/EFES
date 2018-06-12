@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+                <item xml:id="m">
+                    <gloss xml:lang="bg">мрамор</gloss>
+                    <term xml:lang="en">marble</term>
+                </item>
+                <item xml:id="l">
+                    <term xml:lang="en">limestone</term>
+                    <gloss xml:lang="bg">варовик</gloss>
+                </item>
+                <item xml:id="syen">
+                    <term xml:lang="en">syenite</term>
+                    <gloss xml:lang="bg">сиенит</gloss>
+                </item>
+            </list>
+        </body></text>
+</TEI>
