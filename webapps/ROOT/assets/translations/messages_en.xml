@@ -1,15 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Example format for catalogue files. -->
 <catalogue xml:lang="en">
+  
+  <!-- Home page -->
+  <message key="home-title">Telamon</message>
+  <message key="home-welcome">Ancient Greek Inscriptions from Bulgaria</message>
+  <message key="home-inscriptions">Inscriptions</message>
+  <message key="home-inscriptions-info">List of currently encoded inscriptions.</message>
+  
+  <!-- Menu labels -->
   <message key="menu-inscriptions">Inscriptions</message>
   <message key="menu-indices">Indices</message>
   <message key="menu-index-abbreviation">Abbreviations</message>
   <message key="menu-index-fragment">Fragments</message>
-  <message key="menu-index-lemma">Lemmata</message>
+  <message key="menu-index-lemma">Lemmata</message>s
   <message key="menu-index-numeral">Numerals</message>
   <message key="menu-index-person_name">Personal names</message>
   <message key="menu-index-symbol">Symbols</message>
   <message key="menu-index-word">Words</message>
   <message key="menu-search">Search</message>
   <message key="menu-admin">Admin</message>
+  
+  <!-- Footer -->
+  <message key="footer-telamon">Telamon Project, 2018, University of Sofiа </message>
+   <message key="footer-license">Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International</a></message>
+ 
+  <!-- Inscriptions XSLT-->
+  <message key="epidoc-xslt-telamon-monument">Monument</message>
+  <message key="epidoc-xslt-telamon-monument-type">Type of monument</message>
+  <message key="epidoc-xslt-telamon-not-specified">Unknown</message>
+  <message key="epidoc-xslt-telamon-material">Material</message>
+  <message key="epidoc-xslt-telamon-find-place">Find place</message>
+  <message key="epidoc-xslt-telamon-modern-location">Modern location</message>
+  <message key="epidoc-xslt-telamon-dimensions">Dimensions</message>
+  <message key="epidoc-xslt-telamon-institution-inventory">Institution and inventory</message>
+  <message key="epidoc-xslt-telamon-letterheight">Letterheight</message>
+  <message key="epidoc-xslt-telamon-text">Text</message>
+  <message key="epidoc-xslt-telamon-category">Category</message>
+  <message key="epidoc-xslt-telamon-date">Date</message>
+  <message key="epidoc-xslt-telamon-dating-criteria">Dating criteria</message>
+  <message key="epidoc-xslt-iospe-apparatus">Apparatus</message>
+  <message key="epidoc-xslt-iospe-translation">Translation</message>
+  <message key="epidoc-xslt-iospe-commentary">Commentary</message>
+  <message key="epidoc-xslt-iospe-images">Images</message>
+  <message key="epidoc-xslt-inslib-diplomatic">Diplomatic</message>
+  <message key="epidoc-xslt-inslib-edition">Interpretive</message>
 </catalogue>

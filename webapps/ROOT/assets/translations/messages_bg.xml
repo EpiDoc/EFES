@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Example format for catalogue files. -->
+<catalogue xml:lang="bg">
+  
+  <!-- Home page -->
+  <message key="home-title">Теламон</message>
+  <message key="home-welcome">Антични гръцки надписи от територията на България</message>
+  <message key="home-inscriptions">Надписи</message>
+  <message key="home-inscriptions-info">Списък на надписите, които са кодирани към настоящия момент</message>
+  
+  <!-- Menu labels -->
+  <message key="menu-inscriptions">Надписи</message>
+  <message key="menu-indices">Показалци</message>
+  <message key="menu-index-abbreviation">Съкращения</message>
+  <message key="menu-index-fragment">Фрагменти</message>
+  <message key="menu-index-lemma">Леми</message>
+  <message key="menu-index-numeral">Числителни имена</message>
+  <message key="menu-index-person_name">Лични имена</message>
+  <message key="menu-index-symbol">Символи</message>
+  <message key="menu-index-word">Думи</message>
+  <message key="menu-search">Търси</message>
+  <message key="menu-admin">Админ</message>
+  
+  <!-- Footer -->
+  <message key="footer-telamon">Проект Теламон, 2018, Софийски университет "Св. Климент Охридски"</message>
+  <message key="footer-license">Лиценз на <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Признание-Некомерсиален 4.0</a></message>
+  
+  <!-- Inscriptions XSLT-->
+  <message key="epidoc-xslt-iospe-monument">Паметник</message>
+  <message key="epidoc-xslt-iospe-monument-type">Вид паметник</message>
+  <message key="epidoc-xslt-iospe-not-specified">Неизвестно</message>
+  <message key="epidoc-xslt-iospe-material">Материал</message>
+  <message key="epidoc-xslt-iospe-find-place">Място на намиране</message>
+  <message key="epidoc-xslt-iospe-modern-location">Съвременно местонахождение</message>
+  <message key="epidoc-xslt-iospe-dimensions">Размери</message>
+  <message key="epidoc-xslt-iospe-institution-inventory">Институция и инвентарен номер</message>
+  <message key="epidoc-xslt-iospe-letterheight">Размер на буквите</message>
+  <message key="epidoc-xslt-iospe-text">Надпис</message>
+  <message key="epidoc-xslt-iospe-category">Жанр</message>
+  <message key="epidoc-xslt-iospe-date">Датиране</message>
+  <message key="epidoc-xslt-iospe-dating-criteria">Критерии за датиране</message>
+  <message key="epidoc-xslt-iospe-apparatus">Критически апарат</message>
+  <message key="epidoc-xslt-iospe-translation">Превод</message>
+  <message key="epidoc-xslt-iospe-commentary">Коментар</message>
+  <message key="epidoc-xslt-iospe-images">Изображения</message>
+  <message key="epidoc-xslt-inslib-diplomatic">Дипломатическо издание</message>
+  <message key="epidoc-xslt-inslib-edition">Интерпретативно издание</message>
+  <message key="epidoc-xslt-iospe-commentary">Коментар</message>
+  <message key="epidoc-xslt-iospe-commentary">Коментар</message>
+  <message key="epidoc-xslt-iospe-commentary">Коментар</message>
+  <message key="epidoc-xslt-iospe-commentary">Коментар</message>
+  
+  
+</catalogue>
