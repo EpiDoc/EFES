@@ -13,10 +13,10 @@
     <item label="Symbols" match="local-index-display-html" params="epidoc symbol" i18n:key="menu-index-symbol"/>
     <item label="Words" match="local-index-display-html" params="epidoc word" i18n:key="menu-index-word"/>
   </menu>
-  <menu label="Concordances" i18n:key="menu-concordances">
+  <!--<menu label="Concordances" i18n:key="menu-concordances">
     <item label="Bibliographic" match="local-concordance-bibliography"
           i18n:key="menu-concordance-bibliography" />
-  </menu>
+  </menu>-->
   <menu label="Search" match="local-search" i18n:key="menu-search" />
   <menu label="Admin" language="" match="local-admin-home-page" i18n:key="menu-admin" />
 </root>

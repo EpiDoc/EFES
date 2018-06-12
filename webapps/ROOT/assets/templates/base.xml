@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<kiln:root xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
+<kiln:root xmlns:i18n="http://apache.org/cocoon/i18n/2.1"
+           xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
            xmlns:xi="http://www.w3.org/2001/XInclude"
            xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
@@ -83,8 +84,8 @@
           </kiln:block>
           <kiln:block name="footer">
             <footer>
-              <p>Powered by <a href="http://kcl-ddh.github.io/kiln/">Kiln</a></p>
-              <p>Theme by <a href="http://foundation.zurb.com/">Foundation</a></p>
+              <p>Проект "Теламон", 2018, Софийски университет "Св. Климент Охридски"</p>
+              <p><i18n:text i18n:key="footer-license" >Лиценз на <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Признание-Некомерсиален 4.0</a></i18n:text></p>
             </footer>
           </kiln:block>
           <kiln:block name="end-js">

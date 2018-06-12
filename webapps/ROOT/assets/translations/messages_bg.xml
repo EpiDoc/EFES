@@ -45,10 +45,12 @@
   <message key="epidoc-xslt-iospe-images">Изображения</message>
   <message key="epidoc-xslt-inslib-diplomatic">Дипломатическо издание</message>
   <message key="epidoc-xslt-inslib-edition">Интерпретативно издание</message>
-  <message key="epidoc-xslt-iospe-commentary">Коментар</message>
-  <message key="epidoc-xslt-iospe-commentary">Коментар</message>
-  <message key="epidoc-xslt-iospe-commentary">Коментар</message>
-  <message key="epidoc-xslt-iospe-commentary">Коментар</message>
+  <message key=""></message>
+  <message key=""></message>
+  <message key=""></message>
+  <message key=""></message>
+  <message key=""></message>
+  <message key=""></message>
   
   
 </catalogue>
