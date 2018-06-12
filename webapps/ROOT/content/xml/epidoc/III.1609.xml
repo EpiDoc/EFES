@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Funerary inscription found in Augusta Traiana
+                </title>
+                <editor><name>Georgi Mihailov</name></editor>
+            </titleStmt>
+           <publicationStmt>
+                <publisher>Telamon Project
+                </publisher>
+                <pubPlace>
+                    <settlement>Sofia
+                    </settlement>
+                    <country>Bulgaria
+                    </country>
+                </pubPlace>
+                <date>2018
+                </date>
+                <idno type="filename">III.1609</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>NA</repository>
+                        <idno>NA</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="material.xml#m">marble</material> 
+                                    <objectType ref="object.xml#sl">slab</objectType> 
+                                    with decoration (tabula ansata) on the side of a <objectType ref="object.xml#sarc">sarcophagus</objectType>
+                                    <dimensions>
+                                        <height quantity="150" unit="cm">150</height>
+                                    <width quantity="270" unit="cm">270</width>
+                                    <depth quantity="145" unit="cm">145</depth>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName ref="origloc.xml#AugTr">Augusta Traiana
+                                </placeName>
+                            </origPlace>
+                            <origDate></origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="findsp.xml#StZ">Stara Zagora</placeName>
+                        </provenance>
+                        <provenance type="observed"><placeName ref="http://www.geonames.org/733115/bogomilovo.html">Bogomilovo</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc><change when="2018-06-11" who="EB">encoded</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                <ab>
+                    <lb n="1"/><lg type="elegiac_distich"><l n="1"><w lemma="ἀμφότερος">Ἀμφοτέρων</w> <w lemma="ὅδε">τόδε</w> 
+                        <lb n="2"/> <w lemma="σῆμα"> σῆμα </w><persName ref="listPers.xml#AT010" type="attested">Σαβείνης</persName> 
+                        <lb n="3"/><persName ref="listPers.xml#AT011" type="attested">Αἰμιλίου</persName> τε </l>
+                       <lb n="4"/> <l n="2"><w lemma="ἀνήρ">ἀνδρὸς</w> <w lemma="κυδάλιμος">κυδα 
+                           <lb n="5" break="no"/>λίμου</w> <w lemma="καὶ">καὶ</w> <w lemma="πινυτός">πινυ
+                              <lb n="6" break="no"/>τῆς</w> <w lemma="ἄλοχος">ἀλόχου.</w></l></lg>
+                </ab>
+            </div>
+            <div type="apparatus">
+            </div>
+            <div type="translation">
+            </div>
+            <div type="commentary">
+            </div>
+            <div type="bibliography">
+               <p> <listBibl>
+                    <biblStruct>
+                        <monogr>
+                            <author><ref target="GM">Georgi Mihailov</ref></author>
+                            <title>Inscriptones Grecae in Bulgaria repertae</title>
+                            <imprint>
+                                <biblScope unit="volume">3.2</biblScope>
+                                <pubPlace>
+                                    <settlement>Sofia</settlement>
+                                    <country>Bulgaria</country>
+                                </pubPlace>
+                                <date>1964</date>
+                            </imprint></monogr>
+                    </biblStruct>
+                </listBibl></p>
+            </div>
+        </body>
+    </text>
+</TEI>
