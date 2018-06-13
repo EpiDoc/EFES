@@ -21,20 +21,24 @@
             <listPlace>
                 <place xml:id="Discoduraterae">
                     <placeName xml:lang="grc">Δισκοδουρατέραι</placeName>
-                    <placeName xml:lang="lat">Discoduraterae</placeName>
+                    <placeName xml:lang="en">Discoduraterae</placeName>
+                    <placeName xml:lang="bg">Дискодуратере</placeName>
                     <idno type="pleiades">https://pleiades.stoa.org/places/216803</idno>
                 </place>
                 <place xml:id="AugTr"><placeName xml:lang="grc">πόλις ἡ Τραιανέων</placeName>
-                <placeName xml:lang="lat">Augusta Traiana</placeName>
+                <placeName xml:lang="en">Augusta Traiana</placeName>
+                    <placeName xml:lang="bg">Августа Траяна</placeName>
                     <idno type="pleiades">https://pleiades.stoa.org/places/216731</idno>
                 </place>
                 <place xml:id="Phil"><placeName xml:lang="grc">Φιλιππόπολις</placeName>
-                <placeName xml:lang="lat">Philippopolis</placeName>
+                <placeName xml:lang="en">Philippopolis</placeName>
+                    <placeName xml:lang="bg">Филипопол</placeName>
                     <idno type="pleiades">https://pleiades.stoa.org/places/216927</idno>
                 </place>
                 <place xml:id="Solun">
                     <placeName xml:lang="grc">Θεσσαλονείκη</placeName>
-                    <placeName xml:lang="lat">Thessaloniki</placeName>
+                    <placeName xml:lang="en">Thessaloniki</placeName>
+                    <placeName xml:lang="bg">Солун (Тесалоники)</placeName>
                 </place>
             </listPlace>
         </body>
