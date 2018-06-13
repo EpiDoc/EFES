@@ -5,8 +5,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="bg"></title>
-                <title xml:lang="en"></title>
+                <title xml:lang="bg">Погребален метрически надпис от Августа Траяна</title>
+                <title xml:lang="en">Metrical funerary inscription from Augusta Traiana</title>
                 <editor>
                     <persName xml:lang="bg">Георги Михайлов</persName>
                     <persName xml:lang="en">Georgi Mihailov</persName>
@@ -21,8 +21,8 @@
                 <msDesc>
                     <msIdentifier><country/>
                         <altIdentifier  xml:lang="bg">
-                            <repository></repository>
-                            <idno></idno>
+                            <repository>няма</repository>
+                            <idno>няма</idno>
                         </altIdentifier>
                         <altIdentifier xml:lang="en">
                             <repository>NA</repository>
@@ -30,21 +30,21 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <summary corresp="document-type.xml#doc2">
-                            <seg xml:lang="bg"></seg>
-                            <seg xml:lang="en">funerary inscription</seg>
+                        <summary corresp="document-type.xml#doc18">
+                            <seg xml:lang="bg">метрически погребален надпис</seg>
+                            <seg xml:lang="en">metrical funerary inscription</seg>
                         </summary>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material xml:lang="bg" ref="material.xml#m"></material>
+                                    <material xml:lang="bg" ref="material.xml#m">мраморен</material>
                                     <material xml:lang="en">marbe</material>
-                                    <objectType xml:lang="bg" ref="object.xml#sarc"></objectType>
+                                    <objectType xml:lang="bg" ref="object.xml#sarc">саркофаг</objectType>
                                     <objectType xml:lang="en">sarcophagus</objectType>
                                     <seg xml:lang="en">inscribed in a panel with decoration (tabula ansata) on one side </seg>
-                                    <seg xml:lang="bg"></seg>
+                                    <seg xml:lang="bg">с надпис върху плоча с декорация от едната страна</seg>
                                     <dimensions>
                                         <height quantity="150">150</height>
                                         <width quantity="270">270</width>
@@ -65,7 +65,7 @@
                     <history>
                         <origin>
                             <origPlace ref="origloc.xml#AugTr">
-                                <seg xml:lang="bg"></seg>
+                                <seg xml:lang="bg">Августа Траяна</seg>
                                 <seg xml:lang="en">Augusta Traiana</seg>
                             </origPlace>
                             <origDate>
@@ -75,7 +75,7 @@
                         </origin>
                         <provenance type="found">
                             <seg xml:lang="bg">
-                                <placeName type="ancientFindspot" ref="findsp.xml#StZ"></placeName>
+                                <placeName type="ancientFindspot" ref="findsp.xml#StZ">Стара Загора</placeName>
                             </seg>
                             <seg xml:lang="en">
                                 <placeName  type="ancientFindspot">Stara Zagora</placeName>
@@ -83,7 +83,7 @@
                         </provenance>
                         <provenance type="observed">
                             <seg xml:lang="bg">
-                                <placeName ref="findsp.xml#Bogomilovo"></placeName>
+                                <placeName ref="findsp.xml#Bogomilovo">Богомилово</placeName>
                             </seg>
                             <seg xml:lang="en">
                                 <placeName ref="findsp.xml#Bogomilovo">Bogomilovo</placeName>
