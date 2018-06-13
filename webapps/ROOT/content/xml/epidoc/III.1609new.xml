@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bg"></title>
+                <title xml:lang="en"></title>
+                <editor>
+                    <persName xml:lang="bg">Георги Михайлов</persName>
+                    <persName xml:lang="en">Georgi Mihailov</persName>
+                </editor> 
+            </titleStmt>            
+            <publicationStmt>
+                <authority>Telamon Project</authority>
+                <date>2018</date>
+                <idno type="filename">III.1609</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><country/>
+                        <altIdentifier  xml:lang="bg">
+                            <repository></repository>
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier xml:lang="en">
+                            <repository>NA</repository>
+                            <idno>NA</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="document-type.xml#doc2">
+                            <seg xml:lang="bg"></seg>
+                            <seg xml:lang="en">funerary inscription</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material xml:lang="bg" ref="material.xml#m"></material>
+                                    <material xml:lang="en">marbe</material>
+                                    <objectType xml:lang="bg" ref="object.xml#sarc"></objectType>
+                                    <objectType xml:lang="en">sarcophagus</objectType>
+                                    <seg xml:lang="en">inscribed in a panel with decoration (tabula ansata) on one side </seg>
+                                    <seg xml:lang="bg"></seg>
+                                    <dimensions>
+                                        <height quantity="150">150</height>
+                                        <width quantity="270">270</width>
+                                        <depth quantity="145">145</depth>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <height quantity="0"></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="origloc.xml#AugTr">
+                                <seg xml:lang="bg"></seg>
+                                <seg xml:lang="en">Augusta Traiana</seg>
+                            </origPlace>
+                            <origDate>
+                                <seg xml:lang="bg"></seg>
+                                <seg xml:lang="en"></seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <seg xml:lang="bg">
+                                <placeName type="ancientFindspot" ref="findsp.xml#StZ"></placeName>
+                            </seg>
+                            <seg xml:lang="en">
+                                <placeName  type="ancientFindspot">Stara Zagora</placeName>
+                            </seg>
+                        </provenance>
+                        <provenance type="observed">
+                            <seg xml:lang="bg">
+                                <placeName ref="findsp.xml#Bogomilovo"></placeName>
+                            </seg>
+                            <seg xml:lang="en">
+                                <placeName ref="findsp.xml#Bogomilovo">Bogomilovo</placeName>
+                            </seg>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2018-06-13" who="EB">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="1609.jpeg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                <ab>
+                    <lb n="1"/><lg type="elegiac_distich"><l n="1"><w lemma="ἀμφότερος">Ἀμφοτέρων</w> <w lemma="ὅδε">τόδε</w> 
+                        <lb n="2"/> <w lemma="σῆμα"> σῆμα </w><persName ref="listPers.xml#AT010" type="attested">Σαβείνης</persName> 
+                        <lb n="3"/><persName ref="listPers.xml#AT011" type="attested">Αἰμιλίου</persName> <w>τε</w> </l>
+                       <lb n="4"/> <l n="2"><w lemma="ἀνήρ">ἀνδρὸς</w> <w lemma="κυδάλιμος">κυδα 
+                           <lb n="5" break="no"/>λίμου</w> <w>καὶ</w> <w lemma="πινυτός">πινυ
+                              <lb n="6" break="no"/>τῆς</w> <w lemma="ἄλοχος">ἀλόχου.</w></l></lg>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app>
+                    <note></note>
+                    <rdg></rdg>
+                </app>
+            </listApp>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+            </div>
+            <div type="bibliography">
+ <p><listBibl>
+                    <biblStruct>
+                        <monogr>
+                            <author><ref target="GM">Georgi Mihailov</ref></author>
+                            <title>Inscriptones Grecae in Bulgaria repertae</title>
+                            <imprint>
+                                <biblScope unit="volume">3.2</biblScope>
+                                <pubPlace>
+                                    <settlement>Sofia</settlement>
+                                    <country>Bulgaria</country>
+                                </pubPlace>
+                                <date>1964</date>
+                            </imprint></monogr>
+                    </biblStruct>
+                </listBibl></p>
+            </div>
+        </body>
+    </text>
+</TEI>
