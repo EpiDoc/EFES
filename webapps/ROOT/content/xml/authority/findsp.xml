@@ -72,6 +72,12 @@
                     <idno type="geonames">http://www.geonames.org/732874/brezovo.html</idno>
                     <idno type="pleiades"></idno>
                 </place>
+                <place xml:id="Gost">
+                    <placeName xml:lang="en">Gostilica</placeName>
+                    <placeName xml:lang="bg">Гостилица</placeName>
+                    <idno type="geonames">http://www.geonames.org/732874/gostilica.html</idno>
+                    <idno type="pleiades"></idno>
+                </place>
             </listPlace>
         </body>
     </text>

@@ -15,3 +15,5 @@ footer {
     font-size: 80%;
     padding: 1em;
 }
+
+th[scope=row] { text-align: left; }

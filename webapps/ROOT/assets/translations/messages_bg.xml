@@ -7,6 +7,16 @@
   <message key="home-welcome">Антични гръцки надписи от територията на България</message>
   <message key="home-inscriptions">Надписи</message>
   <message key="home-inscriptions-info">Списък на надписите, които са кодирани към настоящия момент</message>
+  <message key="home-text"><p>Целта на проект "Теламон", провеждан в рамките на Софийски университет "Св. Климент Охридски", Катедра Класическа филология,
+  е да бъде създанена дигитална библиотека на античните гръцки надписи, открити на територията на България. Техният брой надвишава 3500 надписа, създадени
+  през период от около 1000 години (VI в. пр. Хр. — IV в. сл. Хр. ). Георги Михайлов публикува тези от тях, които са открити до средата на 80-те години в корпуса "Inscriptiones Graecae
+  in Bulgaria repertae".</p>
+  <p>Към настоящия момент фокусът на проекта е върху дигитализирането на надписите от най-забележителните полиси от Римска Тракия - Филипополис и Августа Траяна.
+  Тези надписи са около 1600, 1200 от които са включени в IGBulg. Една трета от тях имат нужда от редакции и корекции, а други 400 не са публикувани или са публикувани в 
+  разпръснати и често недостъпни публикации на български език.</p>
+   <p>По тази причина се надяваме, че създаването на електронна база данни от тези надписи би улеснила изучаването на историята, културата и езика както на българските земи през античността,
+   така и на гръко-римската цивилизация като цяло.</p>
+  </message>
   
   <!-- Menu labels -->
   <message key="menu-inscriptions">Надписи</message>
@@ -25,6 +35,13 @@
   <message key="footer-telamon">Проект Теламон, 2018, Софийски университет "Св. Климент Охридски"</message>
   <message key="footer-license">Лиценз на <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Признание-Некомерсиален 4.0</a></message>
   
+  <!-- Facets -->
+  <message key="facet-found_provenance">Място на намиране</message>
+  <message key="facet-origin_place">Произход</message>
+  <message key="facet-support_material">Материал</message>
+  <message key="facet-support_object_type">Вид паметник</message>
+  <message key="facet-inscription_category">Жанр на надписа</message>
+  
   <!-- Inscriptions XSLT-->
   <message key="epidoc-xslt-iospe-monument">Паметник</message>
   <message key="epidoc-xslt-iospe-monument-type">Вид паметник</message>
@@ -34,7 +51,7 @@
   <message key="epidoc-xslt-iospe-modern-location">Съвременно местонахождение</message>
   <message key="epidoc-xslt-iospe-dimensions">Размери</message>
   <message key="epidoc-xslt-iospe-institution-inventory">Институция и инвентарен номер</message>
-  <message key="epidoc-xslt-iospe-letterheight">Размер на буквите</message>
+  <message key="epidoc-xslt-iospe-letterheights">Размер на буквите</message>
   <message key="epidoc-xslt-iospe-text">Надпис</message>
   <message key="epidoc-xslt-iospe-category">Жанр</message>
   <message key="epidoc-xslt-iospe-date">Датиране</message>
@@ -45,9 +62,9 @@
   <message key="epidoc-xslt-iospe-images">Изображения</message>
   <message key="epidoc-xslt-inslib-diplomatic">Дипломатическо издание</message>
   <message key="epidoc-xslt-inslib-edition">Интерпретативно издание</message>
-  <message key=""></message>
-  <message key=""></message>
-  <message key=""></message>
+  <message key="h">вис.</message>
+  <message key="w">шир.</message>
+  <message key="th">дълб.</message>
   <message key=""></message>
   <message key=""></message>
   <message key=""></message>

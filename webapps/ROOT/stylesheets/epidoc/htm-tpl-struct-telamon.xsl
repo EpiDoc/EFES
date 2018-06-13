@@ -70,9 +70,9 @@
           <td>
             <xsl:choose>
               <xsl:when test="//t:support/t:dimensions//text()[not(normalize-space(.)=' ')]">
-                <xsl:if test="//t:support/t:dimensions/t:height/text()[not(normalize-space(.)=' ')]">H. <xsl:value-of select="//t:support/t:dimensions/t:height"/>,</xsl:if>
-                <xsl:if test="//t:support/t:dimensions/t:width/text()[not(normalize-space(.)=' ')]">W. <xsl:value-of select="//t:support/t:dimensions/t:width"/>,</xsl:if>
-                <xsl:if test="//t:support/t:dimensions/t:depth/text()[not(normalize-space(.)=' ')]">Th. <xsl:value-of select="//t:support/t:dimensions/t:depth"/></xsl:if>
+                <xsl:if test="//t:support/t:dimensions/t:height/text()[not(normalize-space(.)=' ')]"><i18n:text i18n:key="h">h.</i18n:text> <xsl:value-of select="//t:support/t:dimensions/t:height"/>,</xsl:if>
+                <xsl:if test="//t:support/t:dimensions/t:width/text()[not(normalize-space(.)=' ')]"><i18n:text i18n:key="w">w.</i18n:text> <xsl:value-of select="//t:support/t:dimensions/t:width"/>,</xsl:if>
+                <xsl:if test="//t:support/t:dimensions/t:depth/text()[not(normalize-space(.)=' ')]"><i18n:text i18n:key="th">th.</i18n:text> <xsl:value-of select="//t:support/t:dimensions/t:depth"/></xsl:if>
                 <xsl:if test="//t:support/t:dimensions/t:dim[@type='diameter']/text()[not(normalize-space(.)=' ')]">, Diam. <xsl:value-of select="//t:support/t:dimensions/t:dim[@type='diameter']"/></xsl:if>
               </xsl:when>
               <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-iospe-unknown">Unknown</i18n:text></xsl:otherwise>

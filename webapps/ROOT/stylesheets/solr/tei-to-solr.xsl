@@ -21,10 +21,22 @@
       <xsl:apply-imports />
     </add>
   </xsl:template>
+  
+  <xsl:template match="tei:summary/@corresp" mode="facet_inscription_category">
+    <field name="inscription_category">
+      <xsl:value-of select="."/>
+    </field>
+  </xsl:template>
 
   <!-- This template is called by the Kiln tei-to-solr.xsl as part of
        the main doc for the indexed file. Put any code to generate
        additional Solr field data (such as new facets) here. -->
-  <xsl:template name="extra_fields" />
+  <xsl:template name="extra_fields" >
+    <xsl:call-template name="field_inscription_category"/>
+  </xsl:template>
+  
+  <xsl:template name="field_inscription_category">
+    <xsl:apply-templates mode="facet_inscription_category" select="//tei:summary/@corresp"/>
+  </xsl:template>
 
 </xsl:stylesheet>

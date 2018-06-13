@@ -36,5 +36,24 @@
         </div>
       </main>
     </kiln:block>
+    
+    <kiln:block name="content-section">
+      <main>
+        <div class="row">
+          <div class="large-12 columns text-center">
+            <div class="panel radius">
+              <p><strong><i18n:text i18n:key="home-welcome"/></strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-12 columns text-justified">
+            <div class="panel radius">
+              <p><i18n:text i18n:key="home-text"></i18n:text>.</p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </kiln:block>
   </kiln:child>
 </kiln:root>
