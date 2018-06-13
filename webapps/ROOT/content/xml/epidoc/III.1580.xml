@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+              <title>Honorary inscription found in Augusta Traiana</title>
+                <editor><name>Georgi Mihailov</name></editor>
+            </titleStmt> 
+            <publicationStmt>
+                  <publisher>Telamon Project
+                </publisher>
+                <pubPlace>
+                    <settlement>Sofia
+                    </settlement>
+                    <country>Bulgaria
+                    </country>
+                </pubPlace>
+                <date>2017
+                </date>
+                <idno type="filename">III.1580</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>NA</repository>
+                        <idno>NA</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="material.xml#m">marble</material>
+                                    <objectType ref="object.xml#b">base
+                                    </objectType>
+                                    <p>above a vase, decorated with branches and with hole in the centre for running water</p>  
+                                    <dimensions>
+                                    <height quantity="173" unit="cm">173</height>
+                                    <width quantity="78" unit="cm">78</width>
+                                    <depth quantity="62" unit="cm">62</depth>
+                                </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height atLeast="4.5" unit="cm">Letters 4.5 cm</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                           <origPlace>
+                                <placeName ref="origloc.xml#AugTr">Augusta Traiana
+                                </placeName>
+                            </origPlace>
+                            <origDate notBefore="0250" notAfter="0251" cert="low">250 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">near the public fontain in <placeName ref="findsp.xml#StZ">Stara Zagora</placeName>
+                        </provenance>
+                        <provenance type="observed">in the area ot the Military club in <placeName ref="http://www.geonames.org/726848/stara-zagora.html">Stara Zagora</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2018-06-11" who="EB">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                <ab>
+                      <lb n="1"/><w lemma="ἀγαθός"><supplied reason="lost">Ἀγ</supplied>αθῆι</w> <w lemma="τύχη">τύχηι</w>. 
+                <lb n="2"/><lg type="elegiac_distich"> <l n="1"><w><unclear>Τ</unclear>ὸν</w> <w lemma="κρατερός">κρατερὸν</w> 
+                   <w lemma="πτόλεμος">πτολέ
+                        <lb n="3" break="no"/><supplied reason="lost">μ</supplied>οισι</w> 
+                    <w>καὶ</w> <w lemma="ἄτρομος">ἄτρομον</w>  
+                   <lb n="4"/><w lemma="ἀσπιδιώτης"><supplied reason="lost">ἀ</supplied>σπιδιώτην</w></l> 
+                   <lb n="5"/><l n="2"><persName ref="listPers.xml#AT012" type="attested"><unclear>Ἄ</unclear>σπαρα</persName> <w lemma="χαλκεία">χαλκείῃ</w>  
+                    <lb n="6"/><w lemma="εἰκών"><unclear>εἰ</unclear>κόνι</w> <w lemma="τίνω">τῖσε</w> <w lemma="πόλις">πόλις</w></l></lg>.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p></p>
+            </div>
+            <div type="bibliography">
+                <p><listBibl>
+                    <biblStruct>
+                        <monogr>
+                            <author><ref target="GM">Georgi Mihailov</ref></author>
+                            <title level="m" xml:lang="lat" >Inscriptones Grecae in Bulgaria repertae</title>
+                            <imprint>
+                                <biblScope unit="volume">3.2</biblScope>
+                                <pubPlace>
+                                    <settlement>Sofia</settlement>
+                                    <country>Bulgaria</country>
+                                </pubPlace>
+                                <date>1964</date>
+                            </imprint></monogr>
+                    </biblStruct>
+                </listBibl></p>
+            </div>
+        </body>
+    </text>
+</TEI>

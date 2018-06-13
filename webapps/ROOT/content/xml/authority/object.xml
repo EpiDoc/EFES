@@ -43,6 +43,10 @@
                     <term xml:lang="en">altar</term>
                     <gloss xml:lang="bg">олтар</gloss>
                 </item>
+                <item xml:id="sl">
+                    <term xml:lang="en">slab</term>
+                    <gloss xml:lang="bg">плоча</gloss>
+                </item>
             </list>
         </body></text>
 </TEI>

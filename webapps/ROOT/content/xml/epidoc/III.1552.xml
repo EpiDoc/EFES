@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorary inscription found in Augusta Traiana
+                </title>
+                <editor>
+                    <name>Georgi Mihajlov</name>
+                </editor>
+            </titleStmt>
+           <publicationStmt>
+                <publisher>Telamon Project
+                </publisher>
+                <pubPlace>
+                    <settlement>Sofia
+                    </settlement>
+                    <country>Bulgaria
+                    </country>
+                </pubPlace>
+                <date>2018
+                </date>
+                <idno type="filename">III.1552</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Archeological Museum  Sofia
+                        </repository>
+                        <idno>1172
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="material.xml#l">limestone</material>
+                                    <objectType ref="object.xml#b">base
+                                    </objectType> 
+                                    <dimensions>
+                                    <height quantity="175" unit="cm">175</height> 
+                                    <width quantity="75" unit="cm">75</width> 
+                                    <depth quantity="62" unit="cm">62</depth> 
+                                </dimensions> 
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height atLeast="3.0" atMost="3.5" unit="cm">3.0-3.5 cm</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName ref="origloc.xml#AugTr">Augusta Traiana
+                                </placeName>
+                            </origPlace>
+                            <origDate notBefore="0186" notAfter="0187" calendar="http://en.wikipedia.org/wiki/Julian_calendar" cert="high">187 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found"> Turkish cemetery in <placeName ref="findsp.xml#StZ">Stara Zagora</placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2018-06-11" who="EB">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                <ab>
+                    <lb n="1"/> <w lemma="ἀγαθός">Ἀγαθῆι</w> <w lemma="τύχη">τύχῃ</w>. 
+                    <lb n="2"/> <w>Τὸν</w> <w lemma="θεῖος">θειότατον</w> <w>καὶ</w> <w lemma="μέγας">μέ
+                    <lb n="3" break="no"/>γιστ<unclear>ο</unclear>ν</w> <w lemma="αὐτοκράτωρ">αὐτοκράτορα</w> <w lemma="καῖσαρ">καί
+                    <lb n="4" break="no"/>σα<unclear>ρ</unclear><supplied reason="lost">α</supplied></w> 
+                    <persName ref="listemperors.xml#Commodus"><name><expan><abbr>Μ</abbr><ex>ᾶρκον</ex></expan></name>
+                        <name><expan><abbr>Αὐ<hi rend="ligature">ρή</hi>λ</abbr><ex>ιον</ex></expan></name> 
+                        <name>Κό<hi rend="ligature">μμ</hi>οδον</name>
+                        <lb n="5"/><name>Ἀ<hi rend="ligature">ντ</hi>ω<hi rend="ligature">νε</hi>ῖνον</name>
+                    </persName> <w lemma="σεβαστός">σεβαστὸν</w>
+                    <lb n="6"/><w lemma="Γερμανικός">Γερμανικὸν</w> 
+                    <w lemma="Σαρματικός">Σαρμ<unclear>ατικ</unclear><supplied reason="lost">ὸ</supplied>ν</w>
+                    <lb n="7"/><w lemma="Βρεταννικός">Βρεταννικὸν</w> <w lemma="ἀρχιερεύς">ἀρχιερέα</w>
+                    <lb n="8"/><w lemma="μέγας">μέγιστον</w> 
+                    <w lemma="δημαρχικός"><expan><abbr>δημ</abbr><ex>αρχικῆς</ex></expan></w> 
+                    <w lemma="ἐξουσία"><expan><abbr>ἐξ</abbr><ex>ουσίας</ex></expan></w> 
+                    τὸ <num value="12">ιβ</num>, <w lemma="αὐτοκράτωρ">αὐτο          
+                   <lb n="9" break="no"/> κράτορα</w> <w>τὸ</w> <num value="10">ι</num>, 
+                    <w lemma="ὕπατος">ὕπατον</w> <w>τὸ</w> <num value="5">ε</num>, 
+                    <lb n="10"/><w lemma="πατήρ"><expan><abbr>π</abbr><ex>ατέρα</ex></expan></w> 
+                    <w lemma="πατρίς"><expan><abbr>π</abbr><ex>ατρίδος</ex></expan></w>, <w lemma="ἡγεμονεύω">ἡγεμονεύοντος</w> <w>τῆς</w> 
+                    <placeName type="ethnic" ref="https//pleiades.stoa.org/places/992078"><expan><abbr>Θρᾳ</abbr><ex>κῶν</ex></expan></placeName>
+                    <lb n="11"/><w lemma="ἐπαρχεία">ἐπαρχείας</w> 
+                                           <persName ref="listemperors.xml#Caecilius"><name><expan><abbr>Καικ</abbr><ex>ιλίου</ex></expan></name>
+                            <name>Ματέρνου</name></persName>
+                    <lb n="12"/> <w lemma="πρεσβευτής"><expan><abbr>πρεσβ</abbr><ex>ευτοῦ</ex></expan></w>
+                            <w lemma="σεβαστός"><expan> <abbr>σεβ</abbr><ex>αστοῦ</ex></expan></w> <w lemma="ἀντιστράτηγος">ἀντιστρατήγου</w>,
+                    <lb n="13"/><persName ref="listPers.xml#AT002"><persName ref="listPers.xml#AT022">Ἀντίπατρος</persName> 
+                        <persName ref="listPers.xml#023">Ἀπολλωνίου</persName></persName>
+                    <lb n="14"/> <w>τοῦ</w> <roleName><w lemma="ἀρχιερεύς">ἀρχιερέως</w></roleName> <num value="2">β</num>, 
+                    <w>κατὰ</w> <w lemma="ὑπόσχεσις">ὑπό
+                     <lb n="15" break="no"/>σχεσιν</w> <w>τοῦ</w> <w lemma="πατήρ">πατρὸς</w> <w>ἐκ</w> <w>τῶν</w> <w lemma="ἴδιος">ἰδί
+                     <lb n="16" break="no"/>ων</w> <w lemma="ποιέω">ποιήσας</w> <w lemma="ἀνίστημι">ἀνέστησεν</w>. 
+                </ab>
+            </div>
+            <div type="apparatus"><app>
+                <note>
+                    Letters in ligature:
+                l.2 - νκ, με
+                l.4 - ρη, μμ
+                l.5 - ντ, νε
+                l.7 - νν
+                l.8 - με, ημ
+                l.10 - μνε (with superscript ο), ντ, τησ
+                l.11 - τε, ου
+                l.12 - πρ, τηγ
+                l.13 - ντ
+                l.14 - ου
+                l.15 - ντ
+                l.16 - νπ, ησ, νε, τη
+                </note>
+            </app>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p></p>
+            </div>
+            <div type="bibliography">
+                <p><bibl><author>Georgi Mihailov</author>
+                    <title>Inscriptones Grecae in Bulgaria repertae</title>
+                    <biblScope unit="volume">3.2</biblScope>
+                    <date>1964</date>
+                </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

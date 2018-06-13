@@ -20,37 +20,46 @@
         <body>
             <listPlace>
                 <place xml:id="BonaMansio">
-                    <placeName xml:lang="lat">Bona Mansio</placeName>
+                    <placeName xml:lang="en">Bona Mansio</placeName>
+                    <placeName xml:lang="bg">Бона Мансио</placeName>
                     <idno type="wp">https://bg.wikipedia.org/wiki/%D0%91%D0%BE%D0%BD%D0%B0_%D0%9C%D0%B0%D0%BD%D1%81%D0%B8%D0%BE</idno>
                 </place>
-                <place sameAs="#BonaMansio"><placeName xml:lang="lat">Mansio Lissae</placeName></place>
+                <place sameAs="#BonaMansio"><placeName xml:lang="en">Mansio Lissae</placeName>
+                    <placeName xml:lang="bg">Мансио Лисе</placeName>
+                </place>
                 <place xml:id="Discoduraterae">
                     <placeName xml:lang="grc">Δισκοδουρατέραι</placeName>
-                    <placeName xml:lang="lat">Discoduraterae</placeName>
+                    <placeName xml:lang="en">Discoduraterae</placeName>
+                    <placeName xml:lang="bg">Дискодуратере</placeName>
                     <idno type="pleiades">https://pleiades.stoa.org/places/216803</idno>
                 </place>
                 <place xml:id="AugTr">
                     <placeName xml:lang="grc">πόλις ἡ Τραιανέων</placeName>
-                    <placeName xml:lang="lat">Augusta Traiana</placeName>
+                    <placeName xml:lang="en">Augusta Traiana</placeName>
+                    <placeName xml:lang="bg">Августа Траяна</placeName>
                     <idno type="pleiades">https://pleiades.stoa.org/places/216731</idno>
                 </place>
                 <place xml:id="Phil">
                     <placeName xml:lang="grc">Φιλιππόπολις</placeName>
-                    <placeName xml:lang="lat">Philippopolis</placeName>
+                    <placeName xml:lang="en">Philippopolis</placeName>
+                    <placeName xml:lang="bg">Филипопол</placeName>
                     <idno type="pleiades">https://pleiades.stoa.org/places/216927</idno>
                 </place>
                 <place xml:id="Parembole">
                     <placeName xml:lang="grc">Παρεμβολή</placeName>
-                    <placeName xml:lang="lat">Parembole</placeName>
+                    <placeName xml:lang="en">Parembole</placeName>
+                    <placeName xml:lang="bg">Парамболе</placeName>
                     <idno type="wp">https://bg.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D0%B0%D0%BC%D0%B1%D0%BE%D0%BB%D0%B5</idno>
                 </place>
                 <place xml:id="Cillae">
                     <placeName xml:lang="grc">Κελαι</placeName>
-                    <placeName xml:lang="lat">Cillae</placeName>
+                    <placeName xml:lang="en">Cillae</placeName>
+                    <placeName xml:lang="bg">Циле</placeName>
                     <idno type="other">http://www.bulgariancastles.com/bg/node/928</idno>
                 </place>
                 <place xml:id="Tug">
-                    <placeName xml:lang="lat">Tugugerum</placeName>
+                    <placeName xml:lang="en">Tugugerum</placeName>
+                    <placeName xml:lang="bg">Тугугерум</placeName>
                 </place>
             </listPlace>
         </body>

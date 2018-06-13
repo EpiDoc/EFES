@@ -22,45 +22,55 @@
             <person xml:id="Hades">
                <persName xml:lang="grc">ᾍδης</persName>
                <persName xml:lang="en">Hades</persName>
+               <persName xml:lang="bg">Хадес</persName>
             </person>
             <person sameAs="#Hades">
                <persName xml:lang="grc">Πλούτων</persName>
                <persName xml:lang="en">Pluto</persName>
+               <persName xml:lang="bg">Плутон</persName>
             </person>
             <person xml:id="Helios">
                <persName xml:lang="grc">Ἥλιος</persName>
-               <persName xml:lang="lat">Helios</persName>
+               <persName xml:lang="en">Helios</persName>
+               <persName xml:lang="bg">Хелиос</persName>
             </person>
             <person xml:id="Apollo">
                <persName xml:lang="grc">Απόλλων</persName>
-               <persName xml:lang="lat">Apollo</persName>
+               <persName xml:lang="en">Apollo</persName>
+               <persName xml:lang="bg">Аполон</persName>
             </person>
             <person sameAs="#Apollo">
                <persName xml:lang="grc">Φοῖβος</persName>
-               <persName xml:lang="lat">Phoebos</persName>
+               <persName xml:lang="en">Phoebos</persName>
+               <persName xml:lang="bg">Феб</persName>
             </person>
             <person sameAs="Apollo">
                <persName xml:lang="grc">Παιάν</persName>
-               <persName xml:lang="lat">Paean</persName>
+               <persName xml:lang="en">Paean</persName>
+               <persName xml:lang="bg">Пеан</persName>
             </person>
             <person xml:id="Syria">
                <persName xml:lang="grc">Συρία θεᾶ</persName>
-               <persName xml:lang="lat">Dea Syria</persName>
+               <persName xml:lang="en">Dea Syria</persName>
+               <persName xml:lang="bg">Сирийската богиня</persName>
                <idno type="wp">https://en.wikipedia.org/wiki/Atargatis</idno>
             </person>
             <person xml:id="Calchas">
                <persName xml:lang="grc">Κάλχας</persName>
-               <persName xml:lang="lat">Calchas</persName>
+               <persName xml:lang="en">Calchas</persName>
+               <persName xml:lang="bg">Калхант</persName>
                <idno type="wp">https://en.wikipedia.org/wiki/Calchas</idno>
             </person>
             <person xml:id="Polydamas">
-               <persName xml:lang="grc">Πολυδάμας Φρύγιος</persName>
-               <persName xml:lang="lat">Polydamas</persName>
+               <persName xml:lang="grc">Πολυδάμας</persName>
+               <persName xml:lang="en">Polydamas</persName>
+               <persName xml:lang="bg">Полидамант</persName>
                <idno type="wp">https://en.wikipedia.org/wiki/Polydamas_(mythology)</idno>
             </person>
             <person xml:id="Halitherses">
                <persName xml:lang="grc">Ἁλιθέρσης</persName>
-               <persName xml:lang="lat">Halitherses</persName>
+               <persName xml:lang="en">Halitherses</persName>
+               <persName xml:lang="bg">Халитерс</persName>
                <idno type="wp">https://en.wikipedia.org/wiki/Halitherses</idno>
             </person>
          </listPerson>

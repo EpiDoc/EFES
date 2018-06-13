@@ -21,53 +21,54 @@
             <listPlace>
                 <place xml:id="Vetren">
                     <placeName xml:lang="en">Vetren</placeName>
+                    <placeName xml:lang="bg">Ветрен</placeName>
                     <idno type="geonames">http://www.geonames.org/725930/vetren.html</idno>
                     <idno type="wp">https://bg.wikipedia.org/wiki/%D0%91%D0%BE%D0%BD%D0%B0_%D0%9C%D0%B0%D0%BD%D1%81%D0%B8%D0%BE</idno>
                 </place>
                 <place xml:id="StZ">
                     <placeName xml:lang="en">Stara Zagora</placeName>
-                    <placeName xml:lang="bg"></placeName>
+                    <placeName xml:lang="bg">Стара Загора</placeName>
                     <idno type="geonames">http://www.geonames.org/726848/stara-zagora.html</idno>
                     <idno type="pleiades">https://pleiades.stoa.org/places/216731</idno>
                 </place>
                 <place xml:id="Pl">
                     <placeName xml:lang="en">Plovdiv</placeName>
-                    <placeName xml:lang="bg"></placeName>
+                    <placeName xml:lang="bg">Пловдив</placeName>
                     <idno type="geonames">http://www.geonames.org/728193/plovdiv.html</idno>
                     <idno type="pleiades">https://pleiades.stoa.org/places/216927</idno>
                 </place>
                 <place xml:id="Belozem">
                     <placeName xml:lang="en">Belozem</placeName>
-                    <placeName xml:lang="bg"></placeName>
+                    <placeName xml:lang="bg">Белозем</placeName>
                     <idno type="geonames">http://www.geonames.org/733284/belozem.html</idno>
                     <idno type="pleiades"></idno>
                 </place>
                 <place xml:id="ChG">
                     <placeName xml:lang="en">Cherna Gora</placeName>
-                    <placeName xml:lang="bg"></placeName>
+                    <placeName xml:lang="bg">Черна гора</placeName>
                     <idno type="geonames">http://www.geonames.org/732579/cherna-gora.html</idno>
                     <idno type="pleiades"></idno>
                 </place>
                 <place xml:id="ByalIzvor">
                     <placeName xml:lang="en">Byal Izvor</placeName>
-                    <placeName xml:lang="bg"></placeName>
+                    <placeName xml:lang="bg">Бял извор</placeName>
                     <idno type="geonames">http://www.geonames.org/732697/byal-izvor.html</idno>
                     <idno type="pleiades"></idno>
                 </place>
                 <place xml:id="Zlat">
                     <placeName xml:lang="en">Zlatovrah</placeName>
-                    <placeName xml:lang="bg"></placeName>
+                    <placeName xml:lang="bg">Златовръх</placeName>
                     <idno type="geonames">http://www.geonames.org/725263/zlatovrah.html</idno>
                 </place>
                 <place xml:id="As">
                     <placeName xml:lang="en">Asenovgrad</placeName>
-                    <placeName xml:lang="bg"></placeName>
+                    <placeName xml:lang="bg">Асеновград</placeName>
                     <idno type="geonames">http://www.geonames.org/733618/asenovgrad.html</idno>
                     <idno type="pleiades"></idno>
                 </place>
                 <place xml:id="Brezovo">
                     <placeName xml:lang="en">Brezovo</placeName>
-                    <placeName xml:lang="bg"></placeName>
+                    <placeName xml:lang="bg">Брезово</placeName>
                     <idno type="geonames">http://www.geonames.org/732874/brezovo.html</idno>
                     <idno type="pleiades"></idno>
                 </place>

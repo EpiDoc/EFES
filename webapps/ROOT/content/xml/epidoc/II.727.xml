@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription found in Discoduraterae</title>
+                <editor><name>Nikolai Sharankov</name></editor>
+            </titleStmt>
+            <publicationStmt>
+                  <publisher>Telamon Project
+                </publisher>
+                <pubPlace>
+                    <settlement>Sofia
+                    </settlement>
+                    <country>Bulgaria
+                    </country>
+                </pubPlace>
+                <date>2018
+                </date>
+                <idno type="filename">II.727</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>NA</repository>
+                        <idno>NA</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="material.xml#l">limestone</material> 
+                                    <objectType ref="object.xml#b">base</objectType> upper part chopped off
+                                    <dimensions>
+                                        <height quantity="176" unit="cm">176</height>
+                                    <width quantity="55" unit="cm">55</width>
+                                    <depth quantity="53" unit="cm">53</depth>   
+                                    </dimensions>
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height atLeast="0.55" atMost="0.35" unit="cm">Letters 0,35 - 0,55</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="origloc.xml#Discoduraterae">Discoduraterae</origPlace>
+                            <origDate notBefore="0175" notAfter="0180" calendar="http://en.wikipedia.org/wiki/Julian_calendar" cert="high">175 - 180 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">Kaleto, near <placeName ref="findsp.xml#Gost">Gostilica</placeName>
+                        </provenance>
+                        <provenance type="observed">Discoduraterae, extra moenia
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2018-06-11" who="EB">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                <ab>
+                     <lb n="1"/><w lemma="ἀγαθός">Ἀγαθῇ</w> <w lemma="τύχη">τύχῃ.</w>
+ <lb n="2"/><persName type="emperor" ref="listemperors.xml#MarcusAurelius"><name>Μᾶρκον</name> 
+     <name>Αὐρήλιον</name> <name>Ἀν 
+<lb n="3" break="no"/>τωνεῖνον</name> </persName> <w lemma="αὐτοκράτωρ">αὐτοκράτο 
+<lb n="4" break="no"/>ρα</w> <w lemma="Γερμανικός">Γερμανικὸν</w> <w lemma="Σαρματικός">Σαρματι 
+<lb n="5" break="no"/> κὸν</w> <w lemma="Μηδικός">Μηδικὸν</w> <w lemma="Παρθικός">Παρθι	
+<lb n="6" break="no"/>κὸν</w> <w>ἡ</w> <placeName ref="listPlaces.xml#AugTr"><w lemma="πόλις">πόλις</w> <w>ἡ</w> 
+    <w lemma="Τραιανέος">Τραιαν 
+<lb n="7" break="no"/>έων</w></placeName> <w>τὸν</w> <w lemma="ἑαυτοῦ">αὑτῆς</w> 
+                    <w lemma="κτίστης">κτίστ 
+<lb n="8" break="no"/>ην</w> <w>ἐν</w> <w>τῷ</w> <w lemma="ἐμπόριον">ἐνπορίῳ</w> <w>ἐν</w> 
+                    <placeName ref="listPlaces.xml#Discoduraterae">Δισ 
+<lb n="9" break="no"/>κοδουρατέραις</placeName>, <w lemma="ἡγεμονεύω">ἡγεμο 
+<lb n="10" break="no"/>νεύοντος</w> <w>τῆς</w> <w lemma="ἐπαρχία">ἐπαρχίας</w> 
+<lb n="11"/><del rend="erasure"><persName type="official" ref="listemperors.xml#Asellius"> 
+    <name><unclear>Ἀ</unclear>σε<unclear>λλίου</unclear></name>
+    <name><unclear>Αἰμ</unclear>
+    <supplied reason="lost" extent="unknown" unit="character"/>
+    <unclear>αν</unclear><supplied reason="lost" extent="2" unit="character"></supplied></name></persName></del>. 
+                </ab>
+            </div>
+            <div type="apparatus">
+                <app>
+                    <note>
+                        Letters in ligature:
+                        l.3 - αυ
+                        l.7 - αυ, ησ
+                        l.8 - ηνε, ντ, ωε
+                        l.9 - τε, ηγ
+                        l.10 - νε, ντ, ησ
+                    </note>
+                </app>
+            </div>
+            <div type="translation">
+            </div>
+            <div type="commentary">
+            </div>
+            <div type="bibliography">
+                  <p><listBibl>
+                    <biblStruct>
+                        <monogr>
+                            <author><ref target="GM">Georgi Mihailov</ref></author>
+                           <title> Inscriptones Grecae in Bulgaria repertae</title>
+                            <imprint>
+                                <biblScope unit="volume">2</biblScope>
+                                <pubPlace>
+                                    <settlement>Sofia</settlement>
+                                    <country>Bulgaria</country>
+                                </pubPlace>
+                                <date>1958</date>
+                            </imprint></monogr>
+                    </biblStruct>
+                </listBibl> p. 137-138</p>
+            </div>
+        </body>
+    </text>
+</TEI>
