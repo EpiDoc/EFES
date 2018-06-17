@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Marble slab found in Philippopolis</title>
+                <editor><name>Nikolai Sharankov</name></editor>
+            </titleStmt>
+             <publicationStmt>
+                <publisher>Telamon Project
+                </publisher>
+                <pubPlace>
+                    <settlement>Sofia
+                    </settlement>
+                    <country>Bulgaria
+                    </country>
+                </pubPlace>
+                <date>2018
+                </date>
+                 <idno type="filename">III.920</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>National Archeological Museum</repository>
+                        <idno>2645</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="material.xml#m">Marble</material>
+                                    <objectType ref="object.xml#sl">slab</objectType>
+                                    <dimensions>
+                                           <height quantity="50" unit="cm">50</height>
+                                    <width quantity="32" unit="cm">23</width>
+                                    <depth atLeast="12" atMost="15" unit="cm">12 - 15</depth>
+                                    </dimensions></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height atLeast="1" atMost="1.5" unit="cm">1 - 1.5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ><placeName ref="origloc.xml#Phil">Philippopolis</placeName>, the temple of Apollo Cendrisus</origPlace>
+                            <origDate></origDate>
+                        </origin>
+                        <provenance type="found">in the graveyard of the church sv. Petka in <placeName ref="findsp.xml#Pl">Plovdiv</placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <lg met="hexameter">
+                    <l><lb n="0"/><gap reason="lost" quantity="1" unit="line"/></l>
+                    <l><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" unit="character" quantity="1"/>ω
+                        <gap reason="illegible" unit="character" quantity="1"/>ο<gap reason="lost" extent="unknown" unit="character"/></l>
+                    <l><lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> 
+                            <persName type="divine" ref="listDivine.xml#Apollo">Φ̣οίβῳ</persName> μαν̣<supplied reason="lost">τ</supplied>
+                        <gap reason="lost" extent="unknown"/></l>
+                    <l><lb n="3"/><supplied reason="lost"><w>καὶ</w></supplied> <w>γά̣ρ</w> <w lemma="ἐγώ">μοι</w> 
+                                <w lemma="δῶρον">δῶρον</w> <w lemma="χαρίζομαι">ἐχαρείσα<unclear>το</unclear></w> <w lemma="μαντοσύνη">μαντοσυνάων</w>,</l>
+                    <l><lb n="4"/><w lemma="ὥσπερ">ὥσπερ</w> <persName type="divine" ref="listDivine.xml#Calchas">Θεστορίδῃ Κάλχᾳ</persName> 
+                            <w lemma="πόρω">πόρε</w> 
+                                <persName type="divine" ref="listDivine.xml#Apollo">Φοῖβο<supplied reason="lost">ς Ἀπόλλων</supplied></persName></l>
+                    <l><lb n="5"/><w lemma="ὄρνις">ὄρνειθας</w> <w lemma="καθοράω">καθορᾶν</w> <w>καὶ</w> <w lemma="ἀτρεκής">ἀτρεκέα</w> 
+                                <w lemma="μαντεύομαι">μαν<supplied reason="lost">τεύσασθαι</supplied></w>.</l>
+                    <l><lb n="6"/><w>καὶ</w> <w>γὰρ</w> <persName ref="listDivine.xm#Polydamas" type="divine">Πουλυδάμας</persName> 
+                            <w lemma="Φρύγιος">Φρύγιος</w> <w>καὶ</w>
+                                <w lemma="μάντις">μάντις</w> <w lemma="ἀμύμων"><unclear>ἀ</unclear><supplied reason="lost">μύμων</supplied></w></l>
+                    <l><lb n="7"/><w lemma="ἀετός">αἰετὸν</w> <w lemma="εἰσοράω">εἰσορόων</w> <w lemma="ὄφις">ὄφεως</w> 
+                                <w lemma="σπεῖρα">σπείραισι</w> <w lemma="δέω">δεθέντ<supplied reason="lost">α</supplied></w></l>
+                    <l><lb n="8"/><w lemma="μνηστήρ">μνηστῆρσιν</w> <w lemma="ὄλεθρος">ὄλεθρον</w> 
+                                <persName ref="listDivine.xml#Halitherses" type="divine">Ἁλιθέρσης</persName> <w lemma="ἔπος">ἔπε</w> 
+                                <w lemma="πάρειμι">παρό<supplied reason="lost">ντα</supplied></w>·</l>
+                    <l><lb n="9"/><w lemma="τοὔνεκα"><unclear>τ</unclear>ὔνεκα</w> 
+                                <w lemma="σύ">σοί</w>, <persName ref="listDivine.xml#Apollo" type="divine">Παιάν</persName>, 
+                                <w lemma="χαρίεις">χαριέστατα</w> <w lemma="δῶρον">δῶρ’</w> <w lemma="ἀνατίθημι">ἀνέθηκα</w>,</l>
+                    <l><lb n="10"/><w lemma="ὄφρα">ὄφρα</w> <w lemma="τις">τις</w> 
+                                <w lemma="ὀψίγονος">ὀψ<supplied reason="omitted">ι</supplied>γόνων</w> <w><unclear>ἐ</unclear><supplied reason="lost">κ</supplied></w> 
+                                    <supplied reason="lost"><w lemma="γῆ">γῆς</w></supplied> 
+                                <w lemma="ἄπιος"><unclear>ἀ</unclear>πίης</w> <w lemma="εἰσαθρέω">ἐσαθρήσα<unclear>ς</unclear></w></l>
+                    <l><lb n="11"/><w lemma="γνῶσις">γνώσῃ</w> Τε<seg met="- - + -"><gap reason="lost" quantity="8" unit="character" precision="low"/></seg> 
+                                <w lemma="οἰωνοπόλος"><supplied reason="lost">οἰωνοπ</supplied>όλων</w> 
+                                    <w lemma="ὄχα">ὄχ’</w> <w lemma="ἄριστος">ἄριστο<unclear>ν</unclear></w>.</l>
+                    <l><lb n="12"/><w lemma="οὗτος">ταῦτα</w> <seg met="- + - - + - - +"><gap reason="lost" precision="low" unit="character" quantity="15"/></seg> 
+                                    <w lemma="σύ"><supplied reason="lost">σ</supplied>οι</w> <w lemma="δῶρον">δῶρ’</w> 
+                                <w lemma="ἀνατίθημι">ἀνέθηκ<supplied reason="lost">α</supplied></w></l>
+                    <l><lb n="13"/><w lemma="σός">σὸς</w> <w lemma="πρόπολος">πρόπ̣<supplied reason="lost">ολος</supplied></w>
+                                    <seg met="- - + - - +"><gap reason="lost" quantity="12" unit="character" precision="low"/></seg> 
+                        <persName ref="listDivine.xml#Apollo" type="divine"><supplied reason="lost">Φοί</supplied>βοιο</persName> 
+                                    <w lemma="προφήτης">προφήτ<unclear>η</unclear><supplied reason="lost">ς</supplied></w></l>
+                    <l><lb n="14"/><app type="editorial"><lem source="IGB III.1, p. 47"><w lemma="εὐσεβής">εὐ<unclear>σ</unclear><supplied reason="lost">εβέος</supplied></w> 
+                                    <supplied reason="lost"><w lemma="πόλις">πόλεως</w> <w lemma="ἔντροφος">ἔντροφος</w></supplied> 
+                                <w lemma="οἰνοπόλος">οἰνοπόλο<unclear>υ</unclear></w></lem>
+                        <rdg><w lemma="">εὐτε<supplied reason="lost">χνίῃ</supplied></w> <supplied reason="lost"><w lemma="κλεινός">κλεινὸς</w> 
+                            <w lemma="πᾶς">πᾶσιν</w><w>ἐν</w></supplied> <w lemma="οἰνοπόλος">οἰνοπόλοις</w></rdg></app>
+                        .</l>
+ </lg>            </div>
+            <div type="apparatus">
+                  </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary"><p> N. Sharankov has revised the inscription and proposes restoration of the last verse of the epigram such as, e.g., εὐτε[χνίῃ κλεινὸς πᾶσιν ἐν] οἰνοπόλοις “famous for his skill among all bird-seers”, since the last word in the line is
+ΟΙΝΟΠΟΛΟΙ, i.e. οἰνοπόλοις in the dative plural, and not in the genitive singular οἰνοπόλου, as read by Mihailov
+</p>
+                <p></p>
+            </div>
+            <div type="bibliography">
+                <p><listBibl>
+                    <biblStruct>
+                        <monogr>
+                            <author><ref target="GM">Georgi Mihailov</ref></author>
+                            <title>Inscriptones Grecae in Bulgaria repertae</title>
+                            <imprint>
+                                <biblScope unit="volume">3.1</biblScope>
+                                <pubPlace>
+                                    <settlement>Sofia</settlement>
+                                    <country>Bulgaria</country>
+                                </pubPlace>
+                                <date>1961</date>
+                            </imprint></monogr>
+                    </biblStruct>
+                </listBibl></p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorary inscription found in Augusta Traiana</title>
+                    <editor><persName>Georgi Mihailov</persName></editor>                   
+            </titleStmt>
+            <publicationStmt>
+              <publisher>Telamon Project</publisher>
+                <pubPlace><settlement>Sofia</settlement><country>Bulgaria</country></pubPlace>
+                <date>2018</date>
+                <idno type="filename">III.1557</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <repository>Archeological Museum Sofia</repository>
+                        <idno>3577</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="material.xml#l">limestone
+                                    </material>  
+                                    <objectType ref="object.xml#b">base
+                                    </objectType>with ornaments
+                                     <dimensions>
+                                    <height quantity="180" unit="cm">180</height>
+                                    <width quantity="70" unit="cm">70</width>
+                                    <depth quantity="55" unit="cm">55</depth>
+                                </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <height atLeast="4.0" atMost="5.0" unit="cm">Letters 4.0-5.0
+                            </height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName ref="origloc.xml#AugTr">Augusta Traiana
+                                </placeName>
+                            </origPlace>
+                            <origDate notBefore="0196" notAfter="0217" cert="high">between 196 - 217 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found"><placeName ref="findsp.xml#StZ">Stara Zagora</placeName>
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2018-06-09" who="EB">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                <ab>
+                    <lb n="1"/><persName type="emperor" ref="listemperors#Caracalla">Ἀντωνεῖν<supplied reason="lost">ον</supplied></persName>. 
+                    <lb n="2"/><w lemma="ἀγαθός">Ἀγαθῆι</w> <w lemma="τύχη">τύχηι</w>.
+                    <lb n="3"/><w>Τὴν</w> <w lemma="ἀνάστασις">ἀνάστασιν</w>
+                    <lb n="4"/> <w>κατὰ</w> <w lemma="δόγμα">δόγμα</w> <w lemma="βουλή">βου
+                    <lb n="5" break="no"/>λῆς</w> <w>καὶ</w> <w lemma="δῆμος">δήμου</w> <placeName type="ethnic">Τραι
+                    <lb n="6" break="no"/>ανέων</placeName> ἐπὶ <w lemma="συναρχία">συναρχί
+                    <lb n="7" break="no"/>ας</w> <persName type="attested" ref="listPers#AT013"><name><expan><abbr>Αὐρ</abbr><ex>ηλίου</ex></expan></name> 
+                    <name>Δημη<hi rend="ligature">τρ</hi>ίου</name> <persName type="attested" ref="listPers#AT024"><name>Απ
+                        <lb n="8" break="no"/>φου</name></persName></persName> καὶ <w lemma="ἐπιμελέομαι">ἐπιμελουμέ
+                        <lb n="9" break="no"/>νου</w> <w>τῆς</w> <w lemma="ἀνάστασις">ἀναστάσε
+                        <lb n="10" break="no"/>ως</w> <w lemma="αὐτός">αὐτοῦ</w> <w>ἐκ</w> <w>τῶν</w> <w>τῆς</w>
+                        <lb n="11"/><w lemma="πόλις">πόλεως</w>.
+                </ab>
+            </div>
+            <div type="apparatus"><listApp>
+                <app>
+                    <note>
+                        Letters in ligature:
+                        l.3 - ην
+                        l.5 - ησ, ημ, τρ
+                        l.6 - νε, ωνε
+                        l.7 - δημη, τρ
+                        l.8 - με
+                        l.9 - τησ
+                        l.10 - ωσ, τησ
+                        l.11 - ωσ
+                        and the diphtong ου frequently.
+                    </note>
+                    <rdg>different readings (or in the text)</rdg>
+                </app>
+            </listApp>
+            </div>
+            <div type="translation"><p>bg trans</p>
+            </div>
+            <div type="commentary">
+            </div>
+            <div type="bibliography">
+                 <!--<p><listBibl>
+                    <biblStruct>
+                        <monogr>
+                            <author><ref target="GM">Georgi Mihailov</ref></author>
+                            <title>Inscriptones Grecae in Bulgaria repertae</title>
+                            <imprint>
+                                <biblScope unit="volume">3.2</biblScope>
+                                <pubPlace>
+                                    <settlement>Sofia</settlement>
+                                    <country>Bulgaria</country>
+                                </pubPlace>
+                                <date>1964</date>
+                            </imprint></monogr>
+                    </biblStruct>
+                </listBibl></p>-->
+            </div>
+        </body>
+    </text>
+</TEI>
