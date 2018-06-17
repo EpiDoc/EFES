@@ -122,8 +122,8 @@
                     <lb n="10" break="no"/>νεύοντος</w> <w>τῆς</w> <w lemma="ἐπαρχία">ἐπαρχίας</w> 
                     <lb n="11"/><del rend="erasure"><persName type="official" ref="listemperors.xml#Asellius"> 
                                     <name><unclear>Ἀ</unclear>σε<unclear>λλίου</unclear></name>
-                                            <name><unclear>Αἰμ</unclear><supplied reason="lost" extent="unknown" unit="character"/>
-                            <unclear>αν</unclear><supplied reason="lost" extent="2" unit="character"></supplied></name></persName></del>. 
+                                            <name><unclear>Αἰμ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                            <unclear>αν</unclear><gap reason="lost" extent="2" unit="character"/></name></persName></del>. 
                 </ab>
             </div>
             <div type="apparatus">
@@ -139,11 +139,11 @@
                     </note>
                     <note xml:lang="bg">
                         Букви в лигатура:
-                        l.3 - αυ
-                        l.7 - αυ, ησ
-                        l.8 - ηνε, ντ, ωε
-                        l.9 - τε, ηγ
-                        l.10 - νε, ντ, ησ
+                        l.3 - αυ; 
+                        l.7 - αυ, ησ; 
+                        l.8 - ηνε, ντ, ωε; 
+                        l.9 - τε, ηγ; 
+                        l.10 - νε, ντ, ησ.
                     </note>
                     <rdg></rdg>
                 </app>
