@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bg"></title><!-- Заглавие -->
+                <title xml:lang="en"></title>
+                <editor>
+                    <persName xml:lang="bg">Георги Михайлов</persName>
+                    <persName xml:lang="en">Georgi Mihailov</persName>
+                </editor>
+                <editor>
+                    <persName xml:lang="bg">Николай Шаранков</persName>
+                    <persName xml:lang="en">Nikolay Sharankov</persName>
+                </editor> 
+            </titleStmt>            
+            <publicationStmt>
+                <authority>Telamon Project</authority>
+                <date>2018</date>
+                <idno type="filename"></idno><!-- номер на надписа -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><country/> <!-- какво слагаме в първия идентификатор и в алт идентификатора? на едното място може би да отиде инв. номер от музея, но на кое? ДИ -->
+                        <altIdentifier  xml:lang="bg">
+                            <repository></repository><!-- Институция -->
+                            <idno></idno><!-- Инвентарен номер -->
+                        </altIdentifier>
+                        <altIdentifier xml:lang="en">
+                            <repository></repository>
+                            <idno>3577</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents><!-- Жанр на надписа -->
+                        <summary corresp="document-type.xml#"><!-- добави в @corresp след # съответното id от document-type.xml -->
+                            <seg xml:lang="bg"></seg><!-- с думи -->
+                            <seg xml:lang="en"></seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material xml:lang="bg" ref="material.xml#"></material><!-- добави в @ref след # съответното id от material.xml; съдържание на елемента - с думи -->  
+                                    <material xml:lang="en"></material>
+                                    <objectType xml:lang="bg" ref="object.xml#b"></objectType><!-- добави в @ref след # съответното id от object.xml; съдържание на елемента - с думи--> 
+                                    <objectType xml:lang="en"></objectType>
+                                    <dimensions><!-- само числова стойност като стойност на атрибута и като съдържание на елемента -->
+                                        <height quantity="0"></height>
+                                        <width quantity="0"></width>
+                                        <depth quantity="0"></depth>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout> <!-- трябва да добавим и специален таг за място на надписа върху обекта, който може и да не се пълни винаги ДИ -->
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <height quantity="0"></height><!-- само числова стойност като стойност на атрибута и като съдържание на елемента -->
+                            </handNote>
+                        </handDesc> <!-- и decoDesc, също незадължително за пълнене всеки път? ДИ -->
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="origloc.xml#"><!-- добави в @ref след # съответното id от origloc.xml; съдържание на елемента - с думи -->
+                                <seg xml:lang="bg"></seg>
+                                <seg xml:lang="en"></seg>
+                            </origPlace>
+                            <origDate><!-- приема @notBefore заедно с @notAfter, ако имаме датировка по години на управление на император или посочен век (виж бележки как се бележат вековете), както и @when във формат година-месец-дата -->
+                                <seg xml:lang="bg"></seg>
+                                <seg xml:lang="en"></seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <seg xml:lang="bg">
+                                <placeName type="ancientFindspot" ref="findsp.xml#"></placeName><!-- добави в @ref след # съответното id от findsp.xml; съдържание на елемента - с думи -->
+                            </seg>
+                            <seg xml:lang="en">
+                                <placeName  type="ancientFindspot"></placeName>
+                            </seg>
+                        </provenance>
+                        <provenance type="observed">
+                            <seg xml:lang="bg">
+                                <placeName></placeName><!-- само с думи --> <!-- само с думи ли да остане наистина или да имаме референтен списък на места и тук? ДИ -->
+                            </seg>
+                            <seg xml:lang="en">
+                                <placeName></placeName>
+                            </seg>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change></change><!-- сложи @when с година-месец-ден и @who с инициали; като съдържание сложи описание на свършената от теб работа по надписа -->
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="именаснимка.jpeg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                <ab>
+                    <lb n="1"/><w lemma="ἀγαθός">Ἀγαθῆι</w>
+                                      <w lemma="τύχη">τύχηι</w>
+                    <lb n="2"/> <persName>
+                                      <name type="forename"> Ζῆθος </name> </persName>
+                                      <w lemma="πραγματευτὴς">πραγματευ
+                    <lb n="3" break="no"/>τὴς</w> <persName><name type="surname"> Εὐστοχίου </name> 
+                                      <name>Κέλε
+                    <lb n="4" break="no"/><unclear>ρ</unclear>ος</name></persName> <!-- не съм сигурен как да го свържа към списък с имена -->
+                                       <w lemma="θρᾳκάρχης">θρᾳκάρχου</w> <w>καὶ</w>
+                    <lb n="5"/> <persName>
+                                <name>
+                                    <expan> <!-- не съм сигурен как да го свържа към списък с имена -->
+                                        <abbr>Κλ</abbr>
+                                        <ex>αυδίας</ex>
+                                    </expan>
+                                </name> 
+                                <name>Ἀντίας</name> 
+                                <name>Ἀσκληπιο
+                    <lb n="6" break="no"/>
+                                    δότης</name> </persName>
+                           <persName type="divine">
+                            <roleName>
+                            <w lemma="κυρία">κυρίᾳ</w>
+                            </roleName>
+                            <name nymRef="nametable.xml#Ἥρα">Ἥρᾳ</name> </persName>
+                            <w lemma="εὐξάμενος">εὐξ<unclear>ά</unclear>
+                    <lb n="7" break="no"/>μενος</w> <w>ὑπὲρ</w> <w lemma="αὐτός">αὐτῶν</w> <w>τῆς</w>    
+                               <w lemma="σωτηρία">σωτη<supplied reason="lost">ρί</supplied>
+                    <lb n="8" break="no"/>ας</w> <w>σὺν</w> <w lemma="αὐτός">ἑαυτῷ</w>
+                                <w lemma="βωμός">βωμὸν</w> <w>σ<supplied reason="lost">ὺν</supplied></w>
+                    <lb n="9"/> <w lemma="κανκέλλος">κανκέλλῳ</w> <w lemma="κατασκεάζω">κατεσκεύα
+                    <lb n="10" break="no"/>σεν</w> <w>ἐκ</w> <w>τῶν</w> <w lemma="ἴδιος">ἰδίων.</w>
+                                <w lemma="εὐτυχῶς">εὐτυχῶς</w>
+        </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app>
+                    <note></note><!-- бележки за лигатури и особености -->
+                    <rdg></rdg>
+                </app>
+            </listApp>
+            </div>
+            <div type="translation">
+                <p></p><!-- превод -->
+            </div>
+            <div type="commentary"> <!-- да опишем подробно какво се съдържа в коментара при нас -->
+            </div>
+            <div type="bibliography"> <!-- съдържанието тук защо е comment-out-нато? ДИ -->
+<!--                <p><listBibl>
+                    <biblStruct>
+                        <monogr>
+                            <author><ref target="GM">Georgi Mihailov</ref></author>
+                            <title>Inscriptones Grecae in Bulgaria repertae</title>
+                            <imprint>
+                                <biblScope unit="volume">3.2</biblScope>
+                                <pubPlace>
+                                    <settlement>Sofia</settlement>
+                                    <country>Bulgaria</country>
+                                </pubPlace>
+                                <date>1964</date>
+                            </imprint></monogr>
+                    </biblStruct>
+                </listBibl></p>-->
+            </div>
+        </body>
+    </text>
+</TEI>
