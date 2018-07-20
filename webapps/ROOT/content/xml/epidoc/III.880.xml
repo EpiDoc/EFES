@@ -107,7 +107,29 @@
             <div type="edition" xml:space="preserve" xml:lang="grc">
                 <ab>
                     <lb n="1"/> <w lemma="αὐτοκράτωρ"><supplied reason="lost">Αὐτοκράτορα</supplied></w>
-                    <lb n="2"/>
+                    <lb n="2"/> <persName ref="listemperors.xml#Traianus">
+                             <name>
+                                 <supplied reason="lost">Νέρου</supplied><unclear>αν</unclear>
+                             </name>
+                             <name>
+                                 <supplied reason="lost">Τραια</supplied>
+                     <lb n="3" break="no"/> νὸν <w lemma="καῖσαρ">Καίσαρα</w>  
+                             </name>
+                        <w lemma="σεβαστός">Σε
+                     <lb n="4" break="no"/> βαστὸν</w> <name>Γερμανι</name>
+                     <lb n="5" break="no"/> κὸν <name>Δακικὸν</name></persName> 
+                     <lb n="6"/> <persName>
+                             <name>
+                                 <expan>
+                                     <abbr>Τι</abbr>
+                                     <ex>βέριος</ex>
+                                 </expan>
+                             </name> 
+                             <name>Κλαύδιος</name> 
+                             <name>Πολέ
+                     <lb n="7" break="no"/> μαρχος </name> 
+                                       </persName> <w lemma="ἀρχιερεὺς">ἀρχιερεὺς</w>
+                     <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
             <div type="apparatus">
