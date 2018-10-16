@@ -34,6 +34,11 @@
                <persName xml:lang="en">Helios</persName>
                <persName xml:lang="bg">Хелиос</persName>
             </person>
+            <person xml:id="Hera">
+               <persName xml:lang="grc">Ἥρα</persName>
+               <persName xml:lang="en">Hera</persName>
+               <persName xml:lang="bg">Хера</persName>
+            </person>
             <person xml:id="Apollo">
                <persName xml:lang="grc">Απόλλων</persName>
                <persName xml:lang="en">Apollo</persName>
@@ -48,6 +53,11 @@
                <persName xml:lang="grc">Παιάν</persName>
                <persName xml:lang="en">Paean</persName>
                <persName xml:lang="bg">Пеан</persName>
+            </person>
+            <person sameAs="Apollo">
+               <persName xml:lang="grc">Κενδρεισος</persName>
+               <persName xml:lang="en">Kendrisus</persName>
+               <persName xml:lang="bg">Кендрисос</persName>
             </person>
             <person xml:id="Syria">
                <persName xml:lang="grc">Συρία θεᾶ</persName>

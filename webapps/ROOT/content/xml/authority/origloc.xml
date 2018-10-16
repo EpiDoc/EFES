@@ -61,6 +61,17 @@
                     <placeName xml:lang="en">Tugugerum</placeName>
                     <placeName xml:lang="bg">Тугугерум</placeName>
                 </place>
+                <place xml:id="Diocl">
+                    <placeName xml:lang="en">Diocletianopolis</placeName>
+                    <placeName xml:lang="bg">Диоклецианопол</placeName>
+                    <idno type="pleiades">https://pleiades.stoa.org/places/216792</idno>
+                </place>
+                <place xml:id="Voinitsite">
+                    <placeName xml:lang="en">Voinitsite</placeName>
+                    <placeName xml:lang="bg">Войниците</placeName>
+                    <idno type="pleiades"></idno>
+                    <idno type="geonames">http://www.geonames.org/725761/voynitsite.html</idno>
+                </place>
             </listPlace>
         </body>
         </text>

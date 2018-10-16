@@ -45,6 +45,13 @@
                <floruit>198-217</floruit>
                <idno type="wp">https://en.wikipedia.org/wiki/Caracalla</idno>
             </person>
+            <person xml:id="Severus">
+               <persName xml:lang="en">Lucius Septimius Severus</persName>
+               <persName xml:lang="grc">Λουκίος Σεπτιμίος Σεουήρος</persName>
+               <persName xml:lang="bg">Луций Септимий Север</persName>
+               <floruit>193-211</floruit>
+               <idno type="wp">https://en.wikipedia.org/wiki/Septimius_Severus</idno>
+            </person>
             <person xml:id="Thrax">
                <persName xml:lang="en">Gaius Julius Verus Maximinus</persName>
                <persName xml:lang="grc">Γάιος Ἰ̣ο̣ύλιος Οὐῆρος Μάξ̣ιμ̣ινο̣ς</persName>
@@ -154,12 +161,49 @@
                <occupation xml:lang="grc">ἡγεμονεύων ἐπαρχείας Θρᾳκῶν</occupation>
                <floruit>235 - 238</floruit>
             </person>
+            <person xml:id="Proculus">
+               <persName xml:lang="en">Quintus Egnatius Proculus</persName>
+               <persName xml:lang="grc">Κοΐντος Ἐγνατίος Πρόκυλος</persName>
+               <persName xml:lang="bg">Тит Клодий Сатурнин</persName>
+               <occupation xml:lang="en">provincial governor</occupation>
+               <occupation xml:lang="bg">управител на провинция</occupation>
+               <occupation xml:lang="grc">ἡγεμονεύων ἐπαρχείας Θρᾳκῶν</occupation>
+               <floruit>235 - 238</floruit>
+            </person>
             <person xml:id="Furnius"> 
                <persName xml:lang="en">Sextus Furnius Publianus</persName>
                <persName xml:lang="grc">Σέξτος Φούρνιος Πουβλιανός</persName>
                <persName xml:lang="bg">Секст Фурний Публиан</persName>
                <idno type="wp">https://bg.wikipedia.org/wiki/%D0%A1%D0%B5%D0%BA%D1%81%D1%82_%D0%A4%D1%83%D1%80%D0%BD%D0%B8%D0%B9_%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D0%B0%D0%BD</idno>
                <floruit>244 - 247 <!--check somehow-->`</floruit>
+               <occupation xml:lang="en">provincial governor</occupation>
+               <occupation xml:lang="bg">управител на провинция</occupation>
+               <occupation xml:lang="grc">ἡγεμονεύων ἐπαρχείας Θρᾳκῶν</occupation>
+            </person>
+            <person xml:id="AurApoll">
+               <persName xml:lang="grc">Αὐρήλιος Ἀπολλωνίδος Ἀπολλοδώρος</persName>
+               <persName xml:lang="en">Aurelius Apollonidus Apollodorus</persName>
+               <persName xml:lang="bg"></persName>
+               <occupation xml:lang="en">provincial governor</occupation>
+               <occupation xml:lang="bg">управител на провинция ; първи архонт? същото ли беше?</occupation>
+               <occupation xml:lang="grc">ἡγεμονεύων ἐπαρχείας Θρᾳκῶν</occupation>
+               <floruit>176 - 193</floruit>
+            </person>
+            <person xml:id="Eustochius">
+               <persName xml:lang="en">M. Aur. Eustochius Celer</persName>
+               <persName xml:lang="grc"></persName> 
+               <persName xml:lang="bg">М. Авр. Евстохий Целер</persName>
+               <occupation xml:lang="en">thraciarchus</occupation>
+               <occupation xml:lang="bg">тракиарх</occupation>
+               <occupation xml:lang="grc">θρᾳκάρχης </occupation>
+               <floruit>249 - 250</floruit> 
+            </person>
+            <person xml:id="Clonius"> 
+               <persName xml:lang="en">Quintus Atrius Clonius </persName>
+               <persName xml:lang="grc">Κοΐντος Ἄτριος Κλόνιος</persName>
+               <persName xml:lang="bg">Квинт Атрий Клоний</persName>
+               <idno type="wp">https://bg.wikipedia.org/wiki/%D0%9A%D0%B2%D0%B8%D0%BD%D1%82_%D0%90%D1%82%D1%80%D0%B8%D0%B9_%D0%9A%D0%BB%D0%BE%D0%BD%D0%B8%D0%B9</idno>
+               <floruit>210 - 213</floruit>
                <occupation xml:lang="en">provincial governor</occupation>
                <occupation xml:lang="bg">управител на провинция</occupation>
                <occupation xml:lang="grc">ἡγεμονεύων ἐπαρχείας Θρᾳκῶν</occupation>

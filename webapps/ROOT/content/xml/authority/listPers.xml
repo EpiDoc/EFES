@@ -34,11 +34,6 @@
                <persName xml:lang="en">Aurelia Chryseis</persName>
                <persName xml:lang="bg"></persName>
             </person>
-            <person xml:id="AT005">
-               <persName xml:lang="grc">Πρόκλος</persName>
-               <persName xml:lang="en">Proclus</persName>
-               <persName xml:lang="bg"></persName>
-            </person>
             <person xml:id="AT006">
                <persName xml:lang="grc">Αὐρήλιος Ποσειδώνιος</persName>
                <persName xml:lang="en">Aurelius Poseidonius</persName>
@@ -58,16 +53,6 @@
             <person xml:id="AT009">
                <persName xml:lang="grc">Λονγεῖνος Κότυος</persName>
                <persName xml:lang="en">Longinus son of Kotys</persName>
-               <persName xml:lang="bg"></persName>
-            </person>
-            <person xml:id="AT010">
-               <persName xml:lang="grc">Σαβείνη</persName>
-               <persName xml:lang="en">Sabina</persName>
-               <persName xml:lang="bg"></persName>
-            </person>
-            <person xml:id="AT011">
-               <persName xml:lang="grc">Αἰμιλίος</persName>
-               <persName xml:lang="en">Aemilianus</persName>
                <persName xml:lang="bg"></persName>
             </person>
             <person xml:id="AT012">
@@ -92,58 +77,40 @@
                <persName xml:lang="bg"></persName>
                <occupation>ἱερεὺς Συρίας θεᾶς</occupation>
             </person>
-            <person xml:id="AT016">
-               <persName xml:lang="grc">Βίκτωρ</persName>
-               <persName xml:lang="en">Victor</persName>
-               <persName xml:lang="bg"></persName>
-            </person>
-            <person xml:id="AT017">
-               <persName xml:lang="grc">Πιννας</persName>
-               <persName xml:lang="en"></persName>
-               <persName xml:lang="bg"></persName>
-            </person>
-            <person xml:id="AT018">
-               <persName xml:lang="grc">Πολυνείκης</persName>
-               <persName xml:lang="en"></persName>
-               <persName xml:lang="bg"></persName>
-            </person>
             <person xml:id="AT019">
                <persName xml:lang="grc">Κλαύδιος Θάλλος</persName>
                <persName xml:lang="en">Claudius Thallus</persName>
                <persName xml:lang="bg"></persName>
             </person>
             <person xml:id="AT020">
-               <persName xml:lang="grc">Ἡρώδης</persName>
-               <persName xml:lang="en"></persName>
+               <persName xml:lang="grc">Ζῆθος</persName>
+               <persName xml:lang="en">Zethos</persName>
                <persName xml:lang="bg"></persName>
+               <occupation xml:lang="en">business representative of the thraciarch</occupation>
+               <occupation xml:lang="grc">πραγματευτής</occupation>
             </person>
             <person xml:id="AT021">
-               <persName xml:lang="grc">Χρυσόγονος</persName>
+               <persName xml:lang="grc">Κλαυδίας Ἀντίας Ἀσκληπιοδότης</persName>
+               <persName xml:lang="en">Claudias Antius Asclepiodotes</persName>
+               <persName xml:lang="bg"></persName>
+            </person>
+            <person xml:id="AT028">
+               <persName xml:lang="grc">Αἰμιλίος Βειθυς</persName>
                <persName xml:lang="en"></persName>
                <persName xml:lang="bg"></persName>
             </person>
-            <person xml:id="AT022">
-               <persName xml:lang="grc">Ἀντίπατρος</persName>
+            <person xml:id="AT314">
+               <persName xml:lang="grc">Αθυς Σπαρτοκου</persName>
                <persName xml:lang="en"></persName>
                <persName xml:lang="bg"></persName>
             </person>
-            <person xml:id="AT023">
-               <persName xml:lang="grc">Ἀπολλώνιος</persName>
+            <person xml:id="AT308">
+               <persName xml:lang="grc">Ἡρακλείδης Γρανίου</persName>
                <persName xml:lang="en"></persName>
                <persName xml:lang="bg"></persName>
             </person>
-            <person xml:id="AT024">
-               <persName xml:lang="grc">Απφου</persName>
-               <persName xml:lang="en"></persName>
-               <persName xml:lang="bg"></persName>
-            </person>
-            <person xml:id="AT025">
-               <persName xml:lang="grc">Κοτυς</persName>
-               <persName xml:lang="en"></persName>
-               <persName xml:lang="bg"></persName>
-            </person>
-            <person xml:id="AT026">
-               <persName xml:lang="grc">Ἀθηνοδώρος</persName>
+            <person xml:id="AT309">
+               <persName xml:lang="grc">Διζα Βρινκαζενεος,ὁ καί Ἑρμοδώρος</persName>
                <persName xml:lang="en"></persName>
                <persName xml:lang="bg"></persName>
             </person>
