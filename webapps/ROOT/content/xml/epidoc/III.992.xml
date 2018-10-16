@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bg">Мраморна плоча с тракийски конник от Филипопол</title><!-- Заглавие -->
+                <title xml:lang="en">Funerary inscription from Philippopolis</title>
+                <editor>
+                    <persName xml:lang="bg">Георги Михайлов</persName>
+                    <persName xml:lang="en">Georgi Mihailov</persName>
+                </editor> 
+            </titleStmt>            
+            <publicationStmt>
+                <authority>Telamon Project</authority>
+                <date>2018</date>
+                <idno type="filename">III.992</idno><!-- номер на надписа -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><country/>
+                        <altIdentifier  xml:lang="bg">
+                            <repository>-</repository><!-- Институция -->
+                            <idno>-</idno><!-- Инвентарен номер -->
+                        </altIdentifier>
+                        <altIdentifier xml:lang="en">
+                            <repository>-</repository>
+                            <idno>-</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="document-type.xml#doc2"><!-- добави в @corresp след # съответното id от document-type.xml -->
+                            <seg xml:lang="bg">посветителен надпис</seg><!-- с думи -->
+                            <seg xml:lang="en">funerary inscription</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material xml:lang="bg" ref="material.xml#syen">мрамор</material><!-- добави в @ref след # съответното id от material.xml; съдържание на елемента - с думи -->  
+                                    <material xml:lang="en">syenite</material>
+                                    <objectType xml:lang="bg" ref="object.xml#sarc">плоча</objectType><!-- добави в @ref след # съответното id от object.xml; съдържание на елемента - с думи--> 
+                                    <objectType xml:lang="en">sarcophagus</objectType>
+                                    <dimensions><!-- само числова стойност като стойност на атрибута и като съдържание на елемента -->
+                                        <height quantity="100">100</height>
+                                        <width quantity="240">240</width>
+                                        <depth quantity="100">100</depth>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <seg xml:lang="en"></seg>
+                                    <seg xml:lang="bg"></seg>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote xml:lang="bg">
+                                <height quantity="5">5</height><!-- само числова стойност като стойност на атрибута и като съдържание на елемента -->
+                            </handNote>
+                            <handNote xml:lang="en">
+                               <height quantity="5">5</height>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote xml:lang="en"></decoNote>
+                            <decoNote xml:lang="bg"></decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="origloc.xml#Phil">
+                                <seg xml:lang="bg">Филипопол</seg>
+                                <seg xml:lang="en">Philippopolis</seg>
+                            </origPlace>
+                            <origDate notBefore="0100" notAfter="0300"><!-- приема @notBefore заедно с @notAfter, ако имаме датировка по години на управление на император или посочен век (виж бележки как се бележат вековете), както и @when във формат година-месец-дата -->
+                                <seg xml:lang="bg">II - III сл. Хр.</seg>
+                                <seg xml:lang="en">II - III AD</seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <seg xml:lang="bg">
+                                <placeName type="ancientFindspot" ref="findsp.xml#Pl">Пловдив</placeName><!-- добави в @ref след # съответното id от findsp.xml; съдържание на елемента - с думи -->
+                            </seg>
+                            <seg xml:lang="en">
+                                <placeName  type="ancientFindspot">Plovdiv</placeName>
+                            </seg>
+                        </provenance>
+                        <provenance type="observed">
+                            <seg xml:lang="bg">
+                                <placeName></placeName><!-- само с думи -->
+                            </seg>
+                            <seg xml:lang="en">Last seen in 1930 in Kurshumban in
+                                <placeName>Plovdiv</placeName>.
+                            </seg>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2018-10-03" who="EB">transferred from old xml, encoding mine</change><!-- сложи @when с година-месец-ден и @who с инициали; като съдържание сложи описание на свършената от теб работа по надписа -->
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="именаснимка.jpeg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                <ab>
+                    <lb n="1"/><gap reason="lost" quantity="1" unit="character" cert="low"/> 
+                    <persName type="attested" ref="listPers#AT007"><name ref="Onom.xml#Herennius" nymRef="Ἑρέννιος">Ἑρέννιος</name> <name ref="Onom.xml#Heraclianus" nymRef="Ἡρακλιανός">Ἡρακλιανὸς</name> </persName>
+                    <w lemma="γερουσιαστής">γερουσιαστὴς</w> <placeName type="ethnic">Φιλιπποπολεί<hi rend="ligature">της</hi></placeName>
+                    <lb n="2"/><w>ἐκ</w> <w>τῶν</w> <w lemma="ἴδιος">ἰδίων</w> <w lemma="ἑαυτοῦ">ἑαυτῷ</w> <w>καὶ</w> 
+                    <w>τῇ</w> <w lemma="σύμβιος">συνβίῳ</w> <w lemma="ἑαυτοῦ">ἑαυτοῦ</w> 
+                    <persName ref="listPers.xml#AT008" type="attested"><name ref="Onom.xml#Cleopatra" nymRef="Κλεοπάτρα">Κλεοπάτρᾳ</name> <name ref="Onom.xml#Athenodorus" nymRef="Ἀθηνοδώρος">Ἀθηνο
+                    <lb n="3" break="no"/>δώρου</name></persName> <w lemma="κατασκευάζω">κατεσκεύασε</w> 
+                    <w>τὴν</w> <w lemma="σορός">σορὸν</w> <w>σὺν</w> <w>τῷ</w> <w lemma="γράδος">γράδῳ</w>. 
+                    <w lemma="ἀνεξοδίαστος">ἀνεξοδίαστον·</w>
+                    <lb n="4"/><w lemma="ὅς">ὃς</w> <w>ἂν</w> <w>δὲ</w> <w lemma="πωλέω">πωλήσι</w>, 
+                    <w lemma="δίδωμι">δώσι</w> <w>τῷ</w> <w lemma="φίσκος">φίσκῳ</w> 
+                    <w lemma="δηνάριον">δηνάρια</w> <num value="5000">ε</num>. <g type="leaf"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app>
+                    <note xml:lang="en">
+                    </note><!-- бележки за лигатури и особености -->
+                    <rdg></rdg>
+                    <note xml:lang="bg">
+                    </note>
+                </app>
+            </listApp>
+            </div>
+            <div type="translation">
+                <p></p><!-- превод -->
+            </div>
+            <div type="commentary">
+            </div>
+            <div type="bibliography">
+                <p><listBibl>
+                    <biblStruct>
+                        <monogr>
+                            <author><ref target="GM">Georgi Mihailov</ref></author>
+                            <title>Inscriptones Grecae in Bulgaria repertae</title>
+                            <imprint>
+                                <biblScope unit="volume">3.1</biblScope>
+                                <pubPlace>
+                                    <settlement>Sofia</settlement>
+                                    <country>Bulgaria</country>
+                                </pubPlace>
+                                <date>1961</date>
+                            </imprint></monogr>
+                    </biblStruct>
+                </listBibl></p>
+            </div>
+        </body>
+    </text>
+</TEI>

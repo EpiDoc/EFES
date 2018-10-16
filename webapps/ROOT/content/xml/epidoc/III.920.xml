@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bg">Мраморна плоча от Филипопол</title><!-- Заглавие -->
+                <title xml:lang="en">Marble slab found in Philippopolis</title>
+                <editor>
+                    <persName xml:lang="bg">Георги Михайлов</persName>
+                    <persName xml:lang="en">Georgi Mihailov</persName>
+                </editor>
+                <editor>
+                    <persName xml:lang="bg">Николай Шаранков</persName>
+                    <persName xml:lang="en">Nikolay Sharankov</persName>
+                </editor> 
+            </titleStmt>            
+            <publicationStmt>
+                <authority>Telamon Project</authority>
+                <date>2018</date>
+                <idno type="filename">III.920</idno><!-- номер на надписа -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><country/>
+                        <altIdentifier  xml:lang="bg">
+                            <repository>Национален археологически институт с музей към БАН</repository><!-- Институция -->
+                            <idno>2645</idno><!-- Инвентарен номер -->
+                        </altIdentifier>
+                        <altIdentifier xml:lang="en">
+                            <repository>National Archeological Institute with Museum</repository>
+                            <idno>2645</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents><!-- Жанр на надписа -->
+                        <summary corresp="document-type.xml#doc5"><!-- добави в @corresp след # съответното id от document-type.xml -->
+                            <seg xml:lang="bg">посветителен надпис</seg><!-- с думи -->
+                            <seg xml:lang="en">dedicatory inscription</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material xml:lang="bg" ref="material.xml#m">мрамор</material><!-- добави в @ref след # съответното id от material.xml; съдържание на елемента - с думи -->  
+                                    <material xml:lang="en">marble</material>
+                                    <objectType xml:lang="bg" ref="object.xml#sl">плоча</objectType><!-- добави в @ref след # съответното id от object.xml; съдържание на елемента - с думи--> 
+                                    <objectType xml:lang="en">slab</objectType>
+                                    <dimensions><!-- само числова стойност като стойност на атрибута и като съдържание на елемента -->
+                                        <height quantity="50">50</height>
+                                        <width quantity="32">32</width>
+                                        <depth atLeast="12" atMost="15">12 - 15</depth>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <height atLeast="1" atMost="1.5">1 - 1.5</height><!-- само числова стойност като стойност на атрибута и като съдържание на елемента -->
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="origloc.xml#Phil"><!-- добави в @ref след # съответното id от origloc.xml; съдържание на елемента - с думи -->
+                                <seg xml:lang="bg">Филипопол</seg>
+                                <seg xml:lang="en">Philippopolis</seg>
+                            </origPlace>
+                            <origDate><!-- приема @notBefore заедно с @notAfter, ако имаме датировка по години на управление на император или посочен век (виж бележки как се бележат вековете), както и @when във формат година-месец-дата -->
+                                <seg xml:lang="bg"></seg>
+                                <seg xml:lang="en"></seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <seg xml:lang="bg">
+                                <placeName type="ancientFindspot" ref="findsp.xml#Pl">Пловдив</placeName><!-- добави в @ref след # съответното id от findsp.xml; съдържание на елемента - с думи -->
+                            </seg>
+                            <seg xml:lang="en">
+                                <placeName  type="ancientFindspot">Plovdiv</placeName>
+                            </seg>
+                        </provenance>
+                        <provenance type="observed">
+                            <seg xml:lang="bg">
+                                <placeName></placeName><!-- само с думи -->
+                            </seg>
+                            <seg xml:lang="en">
+                                <placeName></placeName>
+                            </seg>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2018-10-03" who="EB">transferred from old xml, encoding mine</change><!-- сложи @when с година-месец-ден и @who с инициали; като съдържание сложи описание на свършената от теб работа по надписа -->
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="именаснимка.jpeg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                <lg met="hexameter">
+                    <l><lb n="0"/><gap reason="lost" quantity="1" unit="line"/></l>
+                    <l><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" unit="character" quantity="1"/>ω
+                        <gap reason="illegible" unit="character" quantity="1"/>ο<gap reason="lost" extent="unknown" unit="character"/></l>
+                    <l><lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> 
+                            <persName type="divine" ref="listDivine.xml#Apollo">Φ̣οίβῳ</persName> μαν̣<supplied reason="lost">τ</supplied>
+                        <gap reason="lost" extent="unknown"/></l>
+                    <l><lb n="3"/><supplied reason="lost"><w>καὶ</w></supplied> <w>γά̣ρ</w> <w lemma="ἐγώ">μοι</w> 
+                                <w lemma="δῶρον">δῶρον</w> <w lemma="χαρίζομαι">ἐχαρείσα<unclear>το</unclear></w> <w lemma="μαντοσύνη">μαντοσυνάων</w>,</l>
+                    <l><lb n="4"/><w lemma="ὥσπερ">ὥσπερ</w> <persName type="divine" ref="listDivine.xml#Calchas">Θεστορίδῃ Κάλχᾳ</persName> 
+                            <w lemma="πόρω">πόρε</w> 
+                                <persName type="divine" ref="listDivine.xml#Apollo">Φοῖβο<supplied reason="lost">ς Ἀπόλλων</supplied></persName></l>
+                    <l><lb n="5"/><w lemma="ὄρνις">ὄρνειθας</w> <w lemma="καθοράω">καθορᾶν</w> <w>καὶ</w> <w lemma="ἀτρεκής">ἀτρεκέα</w> 
+                                <w lemma="μαντεύομαι">μαν<supplied reason="lost">τεύσασθαι</supplied></w>.</l>
+                    <l><lb n="6"/><w>καὶ</w> <w>γὰρ</w> <persName ref="listDivine.xm#Polydamas" type="divine">Πουλυδάμας</persName> 
+                            <w lemma="Φρύγιος">Φρύγιος</w> <w>καὶ</w>
+                                <w lemma="μάντις">μάντις</w> <w lemma="ἀμύμων"><unclear>ἀ</unclear><supplied reason="lost">μύμων</supplied></w></l>
+                    <l><lb n="7"/><w lemma="ἀετός">αἰετὸν</w> <w lemma="εἰσοράω">εἰσορόων</w> <w lemma="ὄφις">ὄφεως</w> 
+                                <w lemma="σπεῖρα">σπείραισι</w> <w lemma="δέω">δεθέντ<supplied reason="lost">α</supplied></w></l>
+                    <l><lb n="8"/><w lemma="μνηστήρ">μνηστῆρσιν</w> <w lemma="ὄλεθρος">ὄλεθρον</w> 
+                                <persName ref="listDivine.xml#Halitherses" type="divine">Ἁλιθέρσης</persName> <w lemma="ἔπος">ἔπε</w> 
+                                <w lemma="πάρειμι">παρό<supplied reason="lost">ντα</supplied></w>·</l>
+                    <l><lb n="9"/><w lemma="τοὔνεκα"><unclear>τ</unclear>οὔνεκα</w> 
+                                <w lemma="σύ">σοί</w>, <persName ref="listDivine.xml#Apollo" type="divine">Παιάν</persName>, 
+                                <w lemma="χαρίεις">χαριέστατα</w> <w lemma="δῶρον">δῶρ’</w> <w lemma="ἀνατίθημι">ἀνέθηκα</w>,</l>
+                    <l><lb n="10"/><w lemma="ὄφρα">ὄφρα</w> <w lemma="τις">τις</w> 
+                                <w lemma="ὀψίγονος">ὀψ<supplied reason="omitted">ι</supplied>γόνων</w> <w><unclear>ἐ</unclear><supplied reason="lost">κ</supplied></w> 
+                                    <supplied reason="lost"><w lemma="γῆ">γῆς</w></supplied> 
+                                <w lemma="ἄπιος"><unclear>ἀ</unclear>πίης</w> <w lemma="εἰσαθρέω">ἐσαθρήσα<unclear>ς</unclear></w></l>
+                    <l><lb n="11"/><w lemma="γνῶσις">γνώσῃ</w> Τε<seg met="- - + -"><gap reason="lost" quantity="8" unit="character" precision="low"/></seg> 
+                                <w lemma="οἰωνοπόλος"><supplied reason="lost">οἰωνοπ</supplied>όλων</w> 
+                                    <w lemma="ὄχα">ὄχ’</w> <w lemma="ἄριστος">ἄριστο<unclear>ν</unclear></w>.</l>
+                    <l><lb n="12"/><w lemma="οὗτος">ταῦτα</w> <seg met="- + - - + - - +"><gap reason="lost" precision="low" unit="character" quantity="15"/></seg> 
+                                    <w lemma="σύ"><supplied reason="lost">σ</supplied>οι</w> <w lemma="δῶρον">δῶρ’</w> 
+                                <w lemma="ἀνατίθημι">ἀνέθηκ<supplied reason="lost">α</supplied></w></l>
+                    <l><lb n="13"/><w lemma="σός">σὸς</w> <w lemma="πρόπολος">πρόπ̣<supplied reason="lost">ολος</supplied></w>
+                                    <seg met="- - + - - +"><gap reason="lost" quantity="12" unit="character" precision="low"/></seg> 
+                        <persName ref="listDivine.xml#Apollo" type="divine"><supplied reason="lost">Φοί</supplied>βοιο</persName> 
+                                    <w lemma="προφήτης">προφήτ<unclear>η</unclear><supplied reason="lost">ς</supplied></w></l>
+                    <l><lb n="14"/><app type="editorial"><lem source="IGB III.1, p. 47"><w lemma="εὐσεβής">εὐ<unclear>σ</unclear><supplied reason="lost">εβέος</supplied></w> 
+                                    <supplied reason="lost"><w lemma="πόλις">πόλεως</w> <w lemma="ἔντροφος">ἔντροφος</w></supplied> 
+                                <w lemma="οἰνοπόλος">οἰνοπόλο<unclear>υ</unclear></w></lem>
+                        <rdg><w lemma="">εὐτε<supplied reason="lost">χνίῃ</supplied></w> <supplied reason="lost"><w lemma="κλεινός">κλεινὸς</w> 
+                            <w lemma="πᾶς">πᾶσιν</w><w>ἐν</w></supplied> <w lemma="οἰνοπόλος">οἰνοπόλοις</w></rdg></app>.
+                        </l></lg>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app>
+                    <note xml:lang="en">
+                        Letters in ligature:
+                        3. ωρ, νε
+                        4. ως, ηκ
+                        5. νε, νκ
+                        7. ων, ως, πε
+                        8. μνη, ηρ, νς, πε
+                        9. νε, ωρ, νε, ηκ
+                        10. νωνε, ησ, ησ
+                        11. νως, λων
+                        12. ωρ, νε, ηκ
+                        13. πρ
+                    </note><!-- бележки за лигатури и особености -->
+                    <rdg></rdg>
+                    <note xml:lang="bg">
+                        Букви в лигатура:
+                        3. ωρ, νε
+                        4. ως, ηκ
+                        5. νε, νκ
+                        7. ων, ως, πε
+                        8. μνη, ηρ, νς, πε
+                        9. νε, ωρ, νε, ηκ
+                        10. νωνε, ησ, ησ
+                        11. νως, λων
+                        12. ωρ, νε, ηκ
+                        13. πρ
+                    </note>
+                </app>
+            </listApp>
+            </div>
+            <div type="translation">
+                <p></p><!-- превод -->
+            </div>
+            <div type="commentary">
+            </div>
+            <div type="bibliography">
+                <p><listBibl>
+                    <biblStruct>
+                        <monogr>
+                            <author><ref target="GM">Georgi Mihailov</ref></author>
+                            <title>Inscriptones Grecae in Bulgaria repertae</title>
+                            <imprint>
+                                <biblScope unit="volume">3.1</biblScope>
+                                <pubPlace>
+                                    <settlement>Sofia</settlement>
+                                    <country>Bulgaria</country>
+                                </pubPlace>
+                                <date>1961</date>
+                            </imprint></monogr>
+                    </biblStruct>
+                </listBibl></p>
+            </div>
+        </body>
+    </text>
+</TEI>

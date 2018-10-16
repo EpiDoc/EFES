@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bg">погребален надпис от Филипополис</title>
+                <title xml:lang="en">funerary inscription from Philippopolis</title>
+                <editor>
+                    <persName xml:lang="bg">Георги Михайлов</persName>
+                    <persName xml:lang="en">Georgi Mihailov</persName>
+                </editor>
+            </titleStmt>            
+            <publicationStmt>
+                <authority>Telamon Project</authority>
+                <date>2018</date>
+                <idno type="filename">III.1007</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc> 
+                    <msIdentifier><country/>
+                        <altIdentifier  xml:lang="bg">
+                            <repository>Регионален Археологически музей Пловдив</repository><!-- Институция -->
+                            <idno>2494</idno><!-- Инвентарен номер -->
+                        </altIdentifier>
+                        <altIdentifier xml:lang="en">
+                            <repository>Regional Archeological Museum Plovdiv</repository>
+                            <idno>2494</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="document-type.xml#"><!-- добави в @corresp след # съответното id от document-type.xml -->
+                            <seg xml:lang="bg">погребален надпис</seg><!-- с думи -->
+                            <seg xml:lang="en">funerary inscription</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material xml:lang="bg" ref="material.xml#m">мраморна</material><!-- добави в @ref след # съответното id от material.xml; съдържание на елемента - с думи -->  
+                                    <material xml:lang="en">marble</material>
+                                    <objectType xml:lang="bg" ref="object.xml#sl">плоча</objectType><!-- добави в @ref след # съответното id от object.xml; съдържание на елемента - с думи--> 
+                                    <objectType xml:lang="en">slab</objectType>
+                                    <dimensions><!-- само числова стойност като стойност на атрибута и като съдържание на елемента -->
+                                        <height quantity="42">42</height>
+                                        <width quantity="47">47</width>
+                                        <depth quantity="6.5">6.5</depth>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <height atLeast="1.0" atMost="2.0">1-2</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="origloc.xml#Phil"><!-- добави в @ref след # съответното id от origloc.xml; съдържание на елемента - с думи -->
+                                <seg xml:lang="bg">Филипопол</seg>
+                                <seg xml:lang="en">Philippopolis</seg>
+                            </origPlace>
+                            <origDate notBefore="0200" notAfter="0300">
+                                <seg xml:lang="bg">III век сл. Хр.</seg>
+                                <seg xml:lang="en">III century AD</seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <seg xml:lang="bg">
+                                Намерена в <placeName type="ancientFindspot" ref="findsp.xml#Pl">Пловдив</placeName> на улица Бъкстон, срещу ул. Шар планина,  в гроб с дълбочина 5м.
+                            </seg>
+                            <seg xml:lang="en">
+                                Found in <placeName  type="ancientFindspot">Plovdiv</placeName>, on Bakston street, opposite to Shar planina street, in a grave 5m. deep.
+                            </seg>
+                        </provenance>
+                        <provenance type="observed">
+                            <seg xml:lang="bg">
+                                <placeName></placeName><!-- само с думи -->
+                            </seg>
+                            <seg xml:lang="en">
+                                <placeName></placeName>
+                            </seg>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2018-09-19" who="EB">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="именаснимка.jpeg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                <ab>
+                     <lb n="1"/><persName ref="listPers.xml#AT003" type="attested">
+                        <name ref="Onom.xml#Aurelius" nymRef="Αὐρήλιος"><expan><abbr><hi rend="supraline">Αὐρ</hi></abbr><ex>ήλιος</ex></expan></name>
+                        <g type="dot"/> <name nymRef="Πύρρος" ref="Onom.xml#Pyrrus">Πύρρος</name> <w>ὁ</w> <w>καὶ</w> 
+                         <name nymRef="Ταῦρος" ref="Onom.xml#Taurus">Ταῦρος</name> </persName>
+                    <lb n="2"/><add><hi rend="small"><w>ἡ</w> <w lemma="σύνβιος">σύνβιος</w> <w lemma="αὐτός">αὐτοῦ</w></hi></add>
+                    <lb n="3"/>καὶ <persName ref="listPers.xml#AT004" type="attested">
+                        <name ref="Onom.xml#Aurelia" nymRef="Αὐρηλία"><expan><abbr>Αὐρ</abbr><ex>ηλία</ex></expan></name>
+                        <g type="dot"/> 
+                        <name nymRef="Χρυσηῒς" ref="Onom.xml#Chriseis">Χρυσηῒς</name> 
+                        <persName ref="Onom.xml#Proclus" nymRef="Πρόκλος">Πρόκλου</persName></persName> 
+                    <g type="dot"/> <persName ref="listPers.xml#AT006" type="attested">
+                        <name ref="Onom.xml#Aurelius" nymRef="Αὐρήλιος"><expan><abbr>Αὐρ</abbr><ex>ηλίῳ</ex></expan></name>
+                        <g type="dot"/> <name nymRef="Ποσειδώνιος" ref="Onom.xml#Poseidonius">Ποσειδωνίῳ</name></persName>
+                    <lb n="4"/><w lemma="παλαιστρατιώτης">παλαιστρατιώτῃ</w> <w>ἐν</w> <w>τῷ</w> <w lemma="κοιμητήριον">κοιμητηρίῳ</w> 
+                        <w lemma="κατασκευάζω">κατε                    
+                    <lb n="5" break="no"/>σκεύασαν</w> <w lemma="θήκη">θήκην</w> <w>ἐκ</w> <w>τῶν</w> <w lemma="ἴδιος">ἰδίων</w>                                                                        
+                    <lb n="6"/><w lemma="μνεία">μνείας</w> <w lemma="χάρις">χάριν</w>. <w lemma="ἀνεξοδίαστος">ἀνεξοδίαστόν</w> 
+                        <w>τε</w> <w lemma="εἰμί">εἶναι</w> <w lemma="οὗτος">τούτου</w>,
+                    <lb n="7"/><w>μὴ</w> <w lemma="ἕτερος">ἕτερον</w> <w lemma="κατατίθημι">καταθέσθαι</w>· 
+                        <w lemma="ἐάν">ἐὰν</w> <w>δέ</w> <w lemma="τις">τις</w> <w lemma="τολμάω">τολμήσει</w>,
+                    <lb n="8"/><w lemma="δίδωμι">δώσει</w> <w>τῷ</w> <w lemma="ἱερός">ἱερῷ</w> <w lemma="ταμεῖον">ταμείῳ</w> 
+                    <expan><abbr><am><g type="denarius">*</g></am></abbr><ex>δηνάρια</ex></expan> <num value="3000">γ</num> 
+                   <w> καὶ</w> <w>τ̣<supplied reason="lost">ῇ</supplied></w> <supplied reason="lost"><w lemma="πόλις">πόλει</w></supplied>                    
+                    <lb n="9"/>  <w lemma="ἄλλος">ἄλλο</w> <w lemma="">τοσοῦτ<supplied reason="lost">ον</supplied></w>.  
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app>
+                    <note xml:lang="en">
+                        Letters in ligature:
+                        l.3 - ου
+                        l.6 - ου
+                        l.7 - νκ, ησ
+                        l.9 - ου</note>
+                    <note xml:lang="bg">
+                        Букви в лигатура
+                        l.3 - ου
+                        l.6 - ου
+                        l.7 - νκ, ησ
+                        l.9 - ου
+                    </note><!-- бележки за лигатури и особености -->
+                    <rdg></rdg>
+                </app>
+            </listApp>
+            </div>
+            <div type="translation">
+                <p></p><!-- превод -->
+            </div>
+            <div type="commentary">
+            </div>
+            <div type="bibliography">
+                    <p>
+                              <bibl><author>Georgi Mihailov</author>
+                    <title>Inscriptones Grecae in Bulgaria repertae</title>
+                    <biblScope unit="volume">3.1</biblScope>
+                    <date>1961</date>
+                </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

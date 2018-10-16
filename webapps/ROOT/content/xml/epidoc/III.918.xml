@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bg">Посветителен надпис върху олтар за Аполон Кендрисос</title>
+                <title xml:lang="en">Dedicatory inscription on altar to Apollo Kendrisus</title>
+                <editor>
+                    <persName xml:lang="bg">Георги Михайлов</persName>
+                    <persName xml:lang="en">Georgi Mihailov</persName>
+                </editor>
+            </titleStmt>            
+            <publicationStmt>
+                <authority>Telamon Project</authority>
+                <date>2018</date>
+                <idno type="filename">III.918</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><country/>
+                        <altIdentifier  xml:lang="bg">
+                            <repository>Национален археологически институт с музей към БАН</repository>
+                            <idno>2617</idno>
+                        </altIdentifier>
+                        <altIdentifier xml:lang="en">
+                            <repository>National Archeological Institute with Musem</repository>
+                            <idno>2617</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="document-type.xml#doc5">
+                            <seg xml:lang="bg">посветителен надпис</seg>
+                            <seg xml:lang="en">dedicatory inscription</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material xml:lang="bg" ref="material.xml#l">варовик</material>
+                                    <material xml:lang="en">limestone</material>
+                                    <objectType xml:lang="bg" ref="object.xml#altar">олтар</objectType>
+                                    <objectType xml:lang="en">altar</objectType>
+                                    <dimensions>
+                                        <height quantity="32">32</height>
+                                        <width quantity="18">18</width>
+                                        <depth quantity="18">18</depth>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <height quantity="0"></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="origloc.xml#Phil">
+                                <seg xml:lang="bg">Храмът на Аполон Кендрисос в Пловдив</seg>
+                                <seg xml:lang="en">the temple of Apollo Kendrisus in Philippopolis</seg>
+                            </origPlace>
+                            <origDate>
+                                <seg xml:lang="bg"></seg>
+                                <seg xml:lang="en"></seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <seg xml:lang="bg">
+                                Намерен на Сахат тепе (Данов хълм) в <placeName type="ancientFindspot" ref="findsp.xml#Pl">Plovdiv</placeName>
+                            </seg>
+                            <seg xml:lang="en">
+                                Found on Sahat tepe (Danov halm) in <placeName  type="ancientFindspot">Plovdiv</placeName>
+                            </seg>
+                        </provenance>
+                        <provenance type="observed">
+                            <seg xml:lang="bg">
+                                <placeName></placeName>
+                            </seg>
+                            <seg xml:lang="en">
+                                <placeName></placeName>
+                            </seg>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2018-10-03" who="EB">filled the Telamon template with data from old xml, my encoding</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="именаснимка.jpeg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                    <ab>
+                    <lb n="1"/><persName type="divine" ref="listDivine.xml#Apollo"><name>Ἀπόλλωνι</name>
+                    <lb n="2"/><name>Κενδρισῳ</name></persName> <persName><name ref="Onom.xml#Beithus" nymRef="Βειθυς">Βειθυς</name>
+                    <lb n="3"/><name ref="Onom.xml#Kotys" nymRef="Κοτυς">Κοτυος</name></persName> <w lemma="ἱερεύς">ἱερεὺς</w>
+                    <lb n="4"/><persName type="divine" ref="listDivine.xml#Syria">Συρίας θεᾶς</persName>
+	     <lb n="5"/><w lemma="δῶρον">δῶρον</w> <w lemma="ἀνατίθημι">ἀνέ                
+	     <lb n="6" break="no"/>θηκεν</w>.
+                </ab>    
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app>
+                    <note></note>
+                    <rdg></rdg>
+                </app>
+            </listApp>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+            </div>
+            <div type="bibliography">
+             <p><listBibl>
+                    <bibl>
+                            <author><ref target="GM">Georgi Mihailov</ref></author>
+                            <title>Inscriptones Grecae in Bulgaria repertae</title>
+                                <biblScope unit="volume">3.1</biblScope>
+                                <pubPlace>
+                                    <settlement>Sofia</settlement>
+                                    <country>Bulgaria</country>
+                                </pubPlace>
+                                <date>1961</date>    
+                    </bibl>
+                </listBibl></p>
+            </div>
+        </body>
+    </text>
+</TEI>
