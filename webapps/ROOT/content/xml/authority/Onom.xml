@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+<listPerson><person xml:id="Herodes">
+    <persName xml:lang="grc">Ἡρώδης</persName>
+    <persName xml:lang="en"></persName>
+    <persName xml:lang="bg"></persName>
+</person>
+<person xml:id="Chrisogonus">
+    <persName xml:lang="grc">Χρυσόγονος</persName>
+    <persName xml:lang="en"></persName>
+    <persName xml:lang="bg"></persName>
+</person>
+<person xml:id="Antipatrus">
+    <persName xml:lang="grc">Ἀντίπατρος</persName>
+    <persName xml:lang="en"></persName>
+    <persName xml:lang="bg"></persName>
+</person>
+<person xml:id="Apollonius">
+    <persName xml:lang="grc">Ἀπολλώνιος</persName>
+    <persName xml:lang="en"></persName>
+    <persName xml:lang="bg"></persName>
+</person>
+<person xml:id="Apfou">
+    <persName xml:lang="grc">Απφου</persName>
+    <persName xml:lang="en"></persName>
+    <persName xml:lang="bg"></persName>
+</person>
+<person xml:id="Kotys">
+    <persName xml:lang="grc">Κοτυς</persName>
+    <persName xml:lang="en"></persName>
+    <persName xml:lang="bg"></persName>
+</person>
+    <person xml:id="Longinus">
+        <persName xml:lang="grc">Λονγεῖνος</persName>
+        <persName xml:lang="en"></persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Herennius">
+        <persName xml:lang="grc">Ἑρέννιος</persName>
+        <persName xml:lang="en">Herennius</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Heraclianus">
+        <persName xml:lang="grc">Ἡρακλιανός</persName>
+        <persName xml:lang="en">Heraclianus</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+<person xml:id="Athenodorus">
+    <persName xml:lang="grc">Ἀθηνοδώρος</persName>
+    <persName xml:lang="en"></persName>
+    <persName xml:lang="bg"></persName>
+</person>
+    <person xml:id="Cleopatra">
+        <persName xml:lang="grc">Κλεοπάτρα</persName>
+        <persName xml:lang="en"></persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+<person xml:id="Beithus">
+    <persName xml:lang="grc">Βειθυς</persName>
+    <persName xml:lang="en"></persName>
+    <persName xml:lang="bg"></persName>
+</person>
+    <person xml:id="Proclus">
+        <persName xml:lang="grc">Πρόκλος</persName>
+        <persName xml:lang="en">Proclus</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Sabina">
+        <persName xml:lang="grc">Σαβείνη</persName>
+        <persName xml:lang="en">Sabina</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Aemilius">
+        <persName xml:lang="grc">Αἰμιλίος</persName>
+        <persName xml:lang="en">Aemilius</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Lucius">
+        <persName xml:lang="grc">Λουκίος</persName>
+        <persName xml:lang="en">Lucius</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Septimius">
+        <persName xml:lang="grc">Σεπτιμίος</persName>
+        <persName xml:lang="en">Septimius</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Severus">
+        <persName xml:lang="grc">Σεουήρος</persName>
+        <persName xml:lang="en">Severus</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Pertinax">
+        <persName xml:lang="grc">Πέρτιναξ</persName>
+        <persName xml:lang="en">Pertinax</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Victor">
+        <persName xml:lang="grc">Βίκτωρ</persName>
+        <persName xml:lang="en">Victor</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Pinnas">
+        <persName xml:lang="grc">Πιννας</persName>
+        <persName xml:lang="en"></persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Polineikes">
+        <persName xml:lang="grc">Πολυνείκης</persName>
+        <persName xml:lang="en"></persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Quintus">
+        <persName xml:lang="grc">Κοΐντος</persName>
+        <persName xml:lang="en">Quintus</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Egnatius">
+        <persName xml:lang="grc">Ἐγνατίος</persName>
+        <persName xml:lang="en">Egnatius</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Proculus">
+        <persName xml:lang="grc">Πρόκουλος</persName>
+        <persName xml:lang="en">Proculus</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Atrius">
+        <persName xml:lang="grc">Ἄτριος</persName>
+        <persName xml:lang="en">Atrius</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Clonius">
+        <persName xml:lang="grc">Κλόνιος</persName>
+        <persName xml:lang="en">Clonius</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Nerva">
+        <persName xml:lang="grc"> Νέρουα</persName>
+        <persName xml:lang="en">Nerva</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Traianus">
+        <persName xml:lang="grc">Τραϊανός</persName>
+        <persName xml:lang="en">Traianus</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Tiberius">
+        <persName xml:lang="grc"> Τιβέριος</persName>
+        <persName xml:lang="en">Tiberius</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Claudius">
+        <persName xml:lang="grc">Κλαύδιος</persName>
+        <persName xml:lang="en">Claudius</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Marcus">
+        <persName xml:lang="grc">Μάρκος</persName>
+        <persName xml:lang="en">Marcus</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Aurelius">
+        <persName xml:lang="grc">Αὐρήλιος</persName>
+        <persName xml:lang="en">Aurelius</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Theodorus">
+        <persName xml:lang="grc">Θεόδωρος</persName>
+        <persName xml:lang="en">Theodorus</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Commodus">
+        <persName xml:lang="grc">Κόμμοδος</persName>
+        <persName xml:lang="en">Commodus</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Apollonidus">
+        <persName xml:lang="grc">Ἀπολλωνίδος</persName>
+        <persName xml:lang="en">Apollonidus</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Apolldorus">
+        <persName xml:lang="grc">Ἀπολλοδώρος</persName>
+        <persName xml:lang="en">Apollodorus</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Antoninus">
+        <persName xml:lang="grc"> </persName>
+        <persName xml:lang="en">Antoninus</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Aphou">
+        <persName xml:lang="grc">Ἄπφου</persName>
+        <persName xml:lang="en">Aphou</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Aspar"> 
+        <persName xml:lang="grc">Ἄσπαρ</persName>
+        <persName xml:lang="en">Aspar</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Demetrius">
+        <persName xml:lang="grc">Δημήτριος</persName>
+        <persName xml:lang="en">Demetrius</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Asellius">
+        <persName xml:lang="grc">Ἀσέλλιος</persName>
+        <persName xml:lang="en">Asellius</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Caecilius">
+        <persName xml:lang="grc">Καικίλιος</persName>
+        <persName xml:lang="en">Caecilius</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Maternus">
+        <persName xml:lang="grc">Ματέρνος</persName>
+        <persName xml:lang="en">Maternus</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Aemilianus">
+        <persName xml:lang="grc">Αἰμιλιανός</persName>
+        <persName xml:lang="en">Aemilianus</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Pyrrus">
+        <persName xml:lang="grc">Πύρρος</persName>
+        <persName xml:lang="en">Pyrrus</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Taurus">
+        <persName xml:lang="grc">Ταῦρος</persName>
+        <persName xml:lang="en">Taurus</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Aurelia">
+        <persName xml:lang="grc">Αὐρηλία</persName>
+        <persName xml:lang="en">Aurelia</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Chriseis">
+        <persName xml:lang="grc">Χρυσηῒς</persName>
+        <persName xml:lang="en">Chriseis</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Poseidonius">
+        <persName xml:lang="grc">Ποσειδώνιος</persName>
+        <persName xml:lang="en">Poseidonius</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Thallus">
+        <persName xml:lang="grc">Θάλλος</persName>
+        <persName xml:lang="en">Thallus</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Athys">
+        <persName xml:lang="grc">Αθυς</persName>
+        <persName xml:lang="en">Athys</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Heraclides">
+        <persName xml:lang="grc">Ἡρακλείδης</persName>
+        <persName xml:lang="en">Heraclides</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Diza">
+        <persName xml:lang="grc">Διζα</persName>
+        <persName xml:lang="en">Diza</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Brincasenus">
+        <persName xml:lang="grc">Βρινκαζενος</persName>
+        <persName xml:lang="en">Brincasenus</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Hermodorus">
+        <persName xml:lang="grc">Ἑρμοδώρος</persName>
+        <persName xml:lang="en">Hermodorus</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Granius">
+        <persName xml:lang="grc">Γρανίος</persName>
+        <persName xml:lang="en">Granius</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Spartocus">
+        <persName xml:lang="grc">Σπαρτοκος</persName>
+        <persName xml:lang="en">Spartocus</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Gaius">
+        <persName xml:lang="grc">Γάιος</persName>
+        <persName xml:lang="en">Gaius</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Iulius">
+        <persName xml:lang="grc">Ἰούλιος</persName>
+        <persName xml:lang="en">Iulius</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Verus">
+        <persName xml:lang="grc">Οὐῆρος</persName>
+        <persName xml:lang="en">Verus</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Maximus">
+        <persName xml:lang="grc">Μάξιμος</persName>
+        <persName xml:lang="en">Maximus</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Maximinus">
+        <persName xml:lang="grc">Μαξιμείνος</persName>
+        <persName xml:lang="en">Maximinus</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Titus">
+        <persName xml:lang="grc">Τίτος</persName>
+        <persName xml:lang="en">Titus</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Clodius">
+        <persName xml:lang="grc">Κλωδίος</persName>
+        <persName xml:lang="en">Clodius</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Saturninus">
+        <persName xml:lang="grc">Σατορνείνος</persName>
+        <persName xml:lang="en">Saturninus</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Zethus">
+        <persName xml:lang="grc">Ζῆθος</persName>
+        <persName xml:lang="en">Zethos</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Eustochius">
+        <persName xml:lang="grc"> Εὐστοχίος</persName>
+        <persName xml:lang="en">Eustochius</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Celer">
+        <persName xml:lang="grc">Κέλερ</persName>
+        <persName xml:lang="en">Celer</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Claudias">
+        <persName xml:lang="grc">Κλαυδίας</persName>
+        <persName xml:lang="en">Claudias</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Antias">
+        <persName xml:lang="grc">Ἀντίας</persName>
+        <persName xml:lang="en">Antias</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Asclepiodotes">
+        <persName xml:lang="grc">Ἀσκληπιοδότης</persName>
+        <persName xml:lang="en">Asclepiodotes</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+     
+</listPerson>
+        </body>
+    </text>
+</TEI>
