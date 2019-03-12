@@ -49,6 +49,7 @@
                     <idno type="geonames">http://www.geonames.org/732579/cherna-gora.html</idno>
                     <idno type="pleiades"></idno>
                 </place>
+                
                 <place xml:id="ByalIzvor">
                     <placeName xml:lang="en">Byal Izvor</placeName>
                     <placeName xml:lang="bg">Бял извор</placeName>

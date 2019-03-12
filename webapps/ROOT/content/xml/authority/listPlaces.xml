@@ -46,6 +46,11 @@
                     <placeName xml:lang="en">Eitrizene</placeName>
                     <placeName xml:lang="bg"></placeName>
                 </place>
+                <place xml:id="Cillae">
+                    <placeName xml:lang="grc">Κελλαι</placeName>
+                    <placeName xml:lang="en">Cillae</placeName>
+                    <placeName xml:lang="bg"></placeName>
+                </place>
             </listPlace>
         </body>
     </text>
