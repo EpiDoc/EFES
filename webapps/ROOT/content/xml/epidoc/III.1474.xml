@@ -5,52 +5,48 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="bg"></title><!-- Заглавие -->
-                <title xml:lang="en"></title>
+                <title xml:lang="bg">Почетен надпис за Емилий Битюс от Хисаря</title><!-- Заглавие -->
+                <title xml:lang="en">Honorary inscription from Hissar for Aemilius Beithus</title>
                 <editor>
                     <persName xml:lang="bg">Георги Михайлов</persName>
                     <persName xml:lang="en">Georgi Mihailov</persName>
                 </editor>
-                <editor>
-                    <persName xml:lang="bg">Николай Шаранков</persName>
-                    <persName xml:lang="en">Nikolay Sharankov</persName>
-                </editor> 
             </titleStmt>            
             <publicationStmt>
                 <authority>Telamon Project</authority>
                 <date>2018</date>
-                <idno type="filename"></idno><!-- номер на надписа -->
+                <idno type="filename">III.1474</idno><!-- номер на надписа -->
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier><country/> <!-- какво слагаме в първия идентификатор и в алт идентификатора? на едното място може би да отиде инв. номер от музея, но на кое? ДИ -->
                         <altIdentifier  xml:lang="bg">
-                            <repository></repository><!-- Институция -->
-                            <idno></idno><!-- Инвентарен номер -->
+                            <repository>Национален археологически институт с музей</repository><!-- Институция -->
+                            <idno>1150</idno><!-- Инвентарен номер -->
                         </altIdentifier>
                         <altIdentifier xml:lang="en">
-                            <repository></repository>
-                            <idno>3577</idno>
+                            <repository>National Archaeological Institute with Museum</repository>
+                            <idno>1150</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents><!-- Жанр на надписа -->
-                        <summary corresp="document-type.xml#"><!-- добави в @corresp след # съответното id от document-type.xml -->
-                            <seg xml:lang="bg"></seg><!-- с думи -->
-                            <seg xml:lang="en"></seg>
+                        <summary corresp="document-type.xml#doc21"><!-- добави в @corresp след # съответното id от document-type.xml -->
+                            <seg xml:lang="bg">почетен надпис</seg><!-- с думи -->
+                            <seg xml:lang="en">honorary inscription</seg>
                         </summary>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material xml:lang="bg" ref="material.xml#"></material><!-- добави в @ref след # съответното id от material.xml; съдържание на елемента - с думи -->  
-                                    <material xml:lang="en"></material>
-                                    <objectType xml:lang="bg" ref="object.xml#b"></objectType><!-- добави в @ref след # съответното id от object.xml; съдържание на елемента - с думи--> 
-                                    <objectType xml:lang="en"></objectType>
+                                    <material xml:lang="bg" ref="material.xml#l">варовик</material><!-- добави в @ref след # съответното id от material.xml; съдържание на елемента - с думи -->  
+                                    <material xml:lang="en">limestone</material>
+                                    <objectType xml:lang="bg" ref="object.xml#sl">плоча</objectType><!-- добави в @ref след # съответното id от object.xml; съдържание на елемента - с думи--> 
+                                    <objectType xml:lang="en">slab</objectType>
                                     <dimensions><!-- само числова стойност като стойност на атрибута и като съдържание на елемента -->
-                                        <height quantity="0"></height>
-                                        <width quantity="0"></width>
-                                        <depth quantity="0"></depth>
+                                        <height quantity="97">97</height>
+                                        <width quantity="60">60</width>
+                                        <depth quantity="29">29</depth>
                                     </dimensions>
                                 </support>
                             </supportDesc>
@@ -60,15 +56,19 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <height quantity="0"></height><!-- само числова стойност като стойност на атрибута и като съдържание на елемента -->
+                                <height atLeast="3" atMost="4">3-4</height><!-- само числова стойност като стойност на атрибута и като съдържание на елемента -->
                             </handNote>
-                        </handDesc> <!-- и decoDesc, също незадължително за пълнене всеки път? ДИ -->
+                        </handDesc> 
+                        <decoDesc>
+                            <decoNote xml:lang="bg">с акротерии</decoNote>
+                            <decoNote xml:lang="en">with acroteria</decoNote>
+                        </decoDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace ref="origloc.xml#"><!-- добави в @ref след # съответното id от origloc.xml; съдържание на елемента - с думи -->
-                                <seg xml:lang="bg"></seg>
-                                <seg xml:lang="en"></seg>
+                            <origPlace ref="origloc.xml#Hiss"><!-- добави в @ref след # съответното id от origloc.xml; съдържание на елемента - с думи -->
+                                <seg xml:lang="bg">Диоклециан</seg>
+                                <seg xml:lang="en">Diocletianopolis</seg>
                             </origPlace>
                             <origDate><!-- приема @notBefore заедно с @notAfter, ако имаме датировка по години на управление на император или посочен век (виж бележки как се бележат вековете), както и @when във формат година-месец-дата -->
                                 <seg xml:lang="bg"></seg>
@@ -77,10 +77,10 @@
                         </origin>
                         <provenance type="found">
                             <seg xml:lang="bg">
-                                <placeName type="ancientFindspot" ref="findsp.xml#"></placeName><!-- добави в @ref след # съответното id от findsp.xml; съдържание на елемента - с думи -->
+                                <placeName type="ancientFindspot" ref="findsp.xml#Hissar">Хисаря</placeName><!-- добави в @ref след # съответното id от findsp.xml; съдържание на елемента - с думи -->
                             </seg>
                             <seg xml:lang="en">
-                                <placeName  type="ancientFindspot"></placeName>
+                                <placeName  type="ancientFindspot">Hissar</placeName>
                             </seg>
                         </provenance>
                         <provenance type="observed">
@@ -96,7 +96,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change></change><!-- сложи @when с година-месец-ден и @who с инициали; като съдържание сложи описание на свършената от теб работа по надписа -->
+            <change when="2019-03-12" who="E.B.">added authority links etc.</change><!-- сложи @when с година-месец-ден и @who с инициали; като съдържание сложи описание на свършената от теб работа по надписа -->
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -111,17 +111,17 @@
                     <lb n="2"/> <w lemma="κωμαρχία">κωμαρχίας</w>  <placeName> Ει
                     <lb n="3" break="no"/>τριζηνης.</placeName>
                     <lb n="4"/> <w lemma="κωμήτης ">κωμῆται</w> 
-                                      <placeName type="ethnic">Ε<supplied reason="omitted">ιτ</supplied>ρι
-                    <lb n="5" break="no"/>ζηνοι</placeName> <w>καὶ</w> <w lemma="κωμήτης ">κω
+                                      <placeName type="ethnic"><expan><abbr>Ε</abbr><ex>ιτ</ex><abbr>ρι
+                    <lb n="5" break="no"/>ζηνοι</abbr></expan></placeName> <w>καὶ</w> <w lemma="κωμήτης ">κω
                     <lb n="6" break="no"/>μῆται</w> <placeName type="ethnic">Γειζαγη
                     <lb n="7" break="no"/>ρηνοι</placeName> <w>καὶ</w> <w lemma="κωμήτης ">κω
                     <lb n="8" break="no"/>μῆται</w> <placeName type="ethnic">Βδεκυ
                     <lb n="9" break="no"/>ρηνοι</placeName> <w lemma="εὐχαριστέω">εὐχαρι
                     <lb n="10" break="no"/>στοῦσιν</w>
-                                                      <persName>
-                                                      <name>Αἰμιλί
-                    <lb n="11" break="no"/>ῳ</name> <name> Βειθυι</name> </persName>
-                                                        <w lemma="φυλαρχήσαντος">φυλαρ
+                                                      <persName ref="listPers.xml#AT028">
+                                                      <name ref="Onom.xml#Aemilius" nymRef="Αἰμιλίος">Αἰμιλί
+                    <lb n="11" break="no"/>ῳ</name> <name nymRef="Βειθυς" ref="Onom.xml#Beithus">Βειθυι</name> </persName>
+                                                        <w lemma="φυλαρχέω">φυλαρ
                     <lb n="12" break="no"/>χήσαντι</w> <w>κατὰ</w>
                     <lb n="13"/> <w>τοὺς</w> <w lemma="νόμος">νόμους</w>
                     <lb n="14"/> <w lemma="ἁγνῶς">ἁγνῶς</w> <w>καὶ</w> <w lemma="δικαίως">δ 

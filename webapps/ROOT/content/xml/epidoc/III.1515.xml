@@ -5,8 +5,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="bg">Посветителен надпис с името на Филипопол</title><!-- Заглавие -->
-                <title xml:lang="en">Dedicatory description with the name of Philipopolis</title>
+                <title xml:lang="bg">Посветителен надпис от Циле</title><!-- Заглавие -->
+                <title xml:lang="en">Dedicatory description from Cillae</title>
                 <editor>
                     <persName xml:lang="bg">Георги Михайлов</persName>
                     <persName xml:lang="en">Georgi Mihailov</persName>
@@ -26,31 +26,31 @@
                     <msIdentifier><country/> <!-- какво слагаме в първия идентификатор и в алт идентификатора? на едното място може би да отиде инв. номер от музея, но на кое? ДИ -->
                         <altIdentifier  xml:lang="bg">
                             <repository></repository><!-- Институция -->
-                            <idno>1</idno><!-- Инвентарен номер -->
+                            <idno>N/A</idno><!-- Инвентарен номер -->
                         </altIdentifier>
                         <altIdentifier xml:lang="en">
                             <repository></repository>
-                            <idno></idno>
+                            <idno>N/A</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents><!-- Жанр на надписа -->
-                        <summary corresp="document-type.xml#"><!-- добави в @corresp след # съответното id от document-type.xml -->
-                            <seg xml:lang="bg"></seg><!-- с думи -->
-                            <seg xml:lang="en"></seg>
+                        <summary corresp="document-type.xml#doc21"><!-- добави в @corresp след # съответното id от document-type.xml -->
+                            <seg xml:lang="bg">почетен надпис</seg><!-- с думи -->
+                            <seg xml:lang="en">honorary inscription</seg>
                         </summary>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material xml:lang="bg" ref="material.xml#">мрамор</material><!-- добави в @ref след # съответното id от material.xml; съдържание на елемента - с думи -->  
+                                    <material xml:lang="bg" ref="material.xml#m">мрамор</material><!-- добави в @ref след # съответното id от material.xml; съдържание на елемента - с думи -->  
                                     <material xml:lang="en">marble</material>
-                                    <objectType xml:lang="bg" ref="object.xml#b">база</objectType><!-- добави в @ref след # съответното id от object.xml; съдържание на елемента - с думи--> 
-                                    <objectType xml:lang="en">basis</objectType>
+                                    <objectType xml:lang="bg" ref="object.xml#b">постамент</objectType><!-- добави в @ref след # съответното id от object.xml; съдържание на елемента - с думи--> 
+                                    <objectType xml:lang="en">base</objectType>
                                     <dimensions><!-- само числова стойност като стойност на атрибута и като съдържание на елемента -->
-                                        <height quantity="60" unit="cm">60 cm</height>
-                                        <width quantity="80" unit="cm">80 cm</width>
-                                        <depth quantity="60" unit="cm"> 60 cm></depth>
+                                        <height quantity="60">60</height>
+                                        <width quantity="80">80</width>
+                                        <depth quantity="60"> 60></depth>
                                     </dimensions>
                                 </support>
                             </supportDesc>
@@ -60,35 +60,35 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <height quantity="0"></height><!-- само числова стойност като стойност на атрибута и като съдържание на елемента -->
+                                <height atLeast="2.5" atMost="5">2.5-5</height><!-- само числова стойност като стойност на атрибута и като съдържание на елемента -->
                             </handNote>
                         </handDesc> <!-- и decoDesc, също незадължително за пълнене всеки път? ДИ -->
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace ref="origloc.xml#"><!-- добави в @ref след # съответното id от origloc.xml; съдържание на елемента - с думи -->
-                                <seg xml:lang="bg"></seg>
-                                <seg xml:lang="en"></seg>
+                            <origPlace ref="origloc.xml#Cillae"><!-- добави в @ref след # съответното id от origloc.xml; съдържание на елемента - с думи -->
+                                <seg xml:lang="bg">Циле</seg>
+                                <seg xml:lang="en">Cillae</seg>
                             </origPlace>
-                            <origDate><!-- приема @notBefore заедно с @notAfter, ако имаме датировка по години на управление на император или посочен век (виж бележки как се бележат вековете), както и @when във формат година-месец-дата -->
-                                <seg xml:lang="bg"></seg>
-                                <seg xml:lang="en"></seg>
+                            <origDate notBefore="0235" notAfter="0238"><!-- приема @notBefore заедно с @notAfter, ако имаме датировка по години на управление на император или посочен век (виж бележки как се бележат вековете), както и @when във формат година-месец-дата -->
+                                <seg xml:lang="bg">235 - 238 г. сл. Хр.</seg>
+                                <seg xml:lang="en">235 - 238 AD</seg>
                             </origDate>
                         </origin>
                         <provenance type="found">
                             <seg xml:lang="bg">
-                                <placeName type="ancientFindspot" ref="findsp.xml#"></placeName><!-- добави в @ref след # съответното id от findsp.xml; съдържание на елемента - с думи -->
+                                <placeName type="ancientFindspot" ref="findsp.xml#ChG">Черна Гора</placeName><!-- добави в @ref след # съответното id от findsp.xml; съдържание на елемента - с думи -->
                             </seg>
                             <seg xml:lang="en">
-                                <placeName  type="ancientFindspot"></placeName>
+                                <placeName  type="ancientFindspot">Cherna Gora</placeName>
                             </seg>
                         </provenance>
                         <provenance type="observed">
                             <seg xml:lang="bg">
-                                <placeName></placeName><!-- само с думи --> <!-- само с думи ли да остане наистина или да имаме референтен списък на места и тук? ДИ -->
+                                <placeName>Черна Гора</placeName><!-- само с думи --> <!-- само с думи ли да остане наистина или да имаме референтен списък на места и тук? ДИ -->
                             </seg>
                             <seg xml:lang="en">
-                                <placeName></placeName>
+                                <placeName>Cherna Gora</placeName>
                             </seg>
                         </provenance>
                     </history>
@@ -96,7 +96,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change></change><!-- сложи @when с година-месец-ден и @who с инициали; като съдържание сложи описание на свършената от теб работа по надписа -->
+            <change when="2019-03-12" who="E.B.">revised</change><!-- сложи @when с година-месец-ден и @who с инициали; като съдържание сложи описание на свършената от теб работа по надписа -->
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -112,74 +112,102 @@
                       <w>τὸν</w>  <w lemma="μέγιστος">μέγιστον</w> 
                       <w>καὶ</w>  <w lemma="θειότατος">θειότατον</w>θειότατον
                     <lb n="3"/>
-                      <w lemma="καίσαρ">Καίσαρα</w> 
-                         <persName nymRef="Γάιος Ἰούλιος Οὐῆρος Μάξιμος" ref="listpersons.xml#AT310">
-                        <expan> <abbr>Γ</abbr>
-                                      <ex>αίου</ex>
-                                      </expan> Ἰουλίον Οὐήρου
+                      <w lemma="καίσαρ">Καίσαρα</w> <g type="dot"/>
+                         <persName nymRef="   Μάξιμος" ref="listemperors.xml#Thraxson">
+                        <name ref="Onom.xml#Gaius" nymRef="Γάιος"><expan><abbr>Γ</abbr><ex>αίον</ex></expan></name> <g type="dot"/>
+                            <name nymRef="Ἰούλιος" ref="Onom.xml#Iulius">Ἰουλίον</name> 
+                             <name ref="Onom.xml#Verus" nymRef="Οὐῆρος">Οὐήρου</name>
                     <lb n="4" break="no"/>
-                    <supplied reason="lost">Μ</supplied>άξιμο<supplied reason="lost">ν</supplied>
+                    <name nymRef="Μάξιμος" ref="Onom.xml#Maximus"><del rend="erasure">
+                        <supplied reason="lost">Μ</supplied>ά<unclear>ξιμο</unclear><supplied reason="lost">ν</supplied></del></name>
                          </persName>
                     <w lemma="εὐτυχής">Εὐτυχῆ</w>
                     <w lemma="εὐσεβής">Εὐσεβῆ</w>
-                    <w lemma="σεβαστός"><expan> <abbr>Σεβ</abbr>
-                                      <ex>αστὸν</ex>
-                                      </expan></w>
+                    <w lemma="σεβαστός"><expan> <abbr>Σεβ</abbr><ex>αστὸν</ex>
+                                      </expan></w> <g type="dot"/>
                     <lb n="5"/>
-                    <w lemma="υἱὸς">υἱὸν</w> <w>τοῦ</w> <w lemma="μέγιστος">μεγίστου</w> <w>καὶ</w> 
+                    <w lemma="υἱός">υἱὸν</w> <w>τοῦ</w> <w lemma="μέγιστος">μεγίστου</w> <w>καὶ</w> 
                     <w lemma="θειότατος">θειοτάτου</w>
                     <lb n="6"/>
-                    <w lemma="αὐτοκράτορ">Αὐτοκράτορος</w>
-                    <persName nymRef="Γάιος Ἰούλιος Οὐῆρος Μαξιμείνος" ref="listpersons.xml#AT311">
-                        <expan> <abbr>Γ</abbr>
-                                      <ex>αίου</ex>
-                                      </expan> Ἰουλίου Οὐήρου
+                    <w lemma="αὐτοκράτορ">Αὐτοκράτορος</w> <g type="dot"/>
+                    <persName nymRef="Γάιος Ἰούλιος Οὐῆρος Μαξιμείνος" ref="listemperors.xml#Thrax">
+                        <del rend="erasure"><name ref="Onom.xml#Gaius" nymRef="Γάιος"><expan> <abbr>Γ</abbr><ex>αίου</ex>
+                                      </expan></name> <g type="dot"/> <name nymRef="Ἰούλιος" ref="Onom.xml#Iulius">Ἰουλίου</name> 
+                        <name ref="Onom.xml#Verus" nymRef="Οὐῆρος">Οὐήρου</name></del>
                     <lb n="7"/>
-                    Μάξι<supplied reason="lost">μ</supplied>είνου
+                   <del rend="erasure"><name ref="Onom.xml#Maximinus"><unclear>Μάξι</unclear><supplied reason="lost">μ</supplied><unclear>είνο</unclear>υ</name></del>
                          </persName>
                     <w lemma="εὐτυχής">εὐτυχοῦς</w>
                     <w lemma="εὐσεβής">εὐσεβοῦς</w>
                     <lb n="8"/>
-                    <w lemma="σεβαστός"><expan> <abbr>σεβ</abbr>
-                                      <ex>αστοῦ</ex>
-                                      </expan></w>
+                    <w lemma="σεβαστός"><expan> <abbr>σεβ</abbr><ex>αστοῦ</ex>
+                                      </expan></w> <g type="dot"/>
                     <w>ἡ</w> <w lemma="λαμπρός">λαμπροτάτη</w> 
                     <w lemma="μητρόπολις">μητρόπολις</w> <w>τῆς</w>
                     <lb n="9"/>
-                    <placeName key="http://pleiades.stoa.org/places/501638" type="ethnic"><w>Θρᾳκῶν</w> </placeName>
+                    <placeName type="ethnic"><w>Θρᾳκῶν</w> </placeName>
                     <w lemma="ἐπαρχεία">ἐπαρχείας</w> 
-                    <placeName key="https://pleiades.stoa.org/places/216927" type="city"><w>Φιλιππόπολις</w> </placeName>
+                    <placeName type="city" ref="listPlaces.xml#Phil">Φιλιππόπολις</placeName>
                      <w>τὸν</w>
                     <lb n="10"/>
                     <w>τῆς</w>
-                    <w lemma="οἰκουμένη">οἰκουμένης</w> <w lemma="δεσπότη">δεσπότην</w>,
+                    <w lemma="οἰκουμένη">οἰκουμένης</w> <w lemma="δεσπότης">δεσπότην</w>,
                     <w lemma="ὑπατεύω">ὑπατεύοντος</w>
                     <lb n="11"/>
                     <w>τῆς</w>
-                    <w lemma="ἐπαρχεία">ἐπαρχείας</w>
-                    <persName nymRef="Τίτος Κλωδίος Σατορνείνος" ref="listpersons.xml#AT312">
-                        <expan> <abbr>Τ</abbr>
-                                      <ex>ίτου</ex>
-                                      </expan> Κλωδίου Σατορνείνου</persName>,
+                    <w lemma="ἐπαρχεία">ἐπαρχείας</w> <g type="dot"/>
+                    <persName ref="listemperors.xml#Saturninus">
+                        <name ref="Onom#Titus" nymRef="Τίτος"><expan> <abbr>Τ</abbr><ex>ίτου</ex>
+                                      </expan></name> <g type="dot"/> <name ref="Onom.xml#Clodius" nymRef="Κλωδίος">Κλωδίου</name> 
+                        <name ref="Onom.xml#Saturninus" nymRef="Σατορνείνος">Σατορνείνου</name></persName>,
                     <lb n="12"/>
-                    <w lemma="πρωταρϰέω">πρωταρχοῦντος</w>
-                         <persName nymRef="Αὐρήλιος Ἀπολλωνίδος Ἀπολλοδώρος" ref="listpersons.xml#AT313">
-                        <expan> <abbr>Αὐρ</abbr>
-                                      <ex>ηλίου</ex>
-                                      </expan> Ἀπολλωνίδου Ἀπολλοδώρο<supplied reason="lost">υ</supplied> </persName>,
-                     <lb n="13"/>
+                    <w lemma="πρωταρχέω">πρωταρχοῦντος</w> <g type="dot"/>
+                         <persName ref="listemperors.xml#AurApoll">
+                        <name nymRef="Αὐρήλιος" ref="Onom.xml#Aurelius"><expan> <abbr>Αὐρ</abbr><ex>ηλίου</ex></expan></name> <g type="dot"/>
+                             <name ref="Onom.xml#Apollonidus" nymRef="Ἀπολλωνίδος">Ἀπολλωνίδου</name> 
+                             <name nymRef="Ἀπολλοδώρος" ref="Onom.xml#Apollodorus">Ἀπολλοδώ<unclear>ρο</unclear><supplied reason="lost">υ</supplied></name> </persName>,
+                     <lb n="13" break="no"/>
                      <w>τοῦ</w> 
                     <w lemma="αὐτός">αὐτοῦ</w>
-                    <w>καὶ</w> <w lemma="ἐπιμελουμένος">ἐπιμελουμένου</w>, <w>ἐκ</w> <w>τῶν</w> 
+                    <w>κα<supplied reason="omitted">ὶ</supplied></w> <w lemma="ἐπιμελουμένος">ἐπιμελουμένου</w>, <w>ἐκ</w> <w>τῶν</w> 
                     <w lemma="ὑπερπαίω">ὑπερπαιόντων</w>
                     <lb n="14"/>   
-                    <w lemma="χρήμα ">χρημάτων</w>.  <w lemma="χρήμα ">εὐτυχῶς</w>εὐτυχῶς.
+                    <w lemma="χρήμα">χρημάτων</w>.  <w lemma="εὐτυχῶς">εὐτυχῶς</w>.
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app>
-                    <note></note><!-- бележки за лигатури и особености -->
+                    <note xml:lang="bg">
+                        Букви в лигатура:
+                        2. μν, κ
+                        3. ηρ
+                        4. ηε
+                        5. με
+                        7. [μ]ε, ου (βοῦς)
+                        8. μπρ, τημη, τη
+                        9. ωνε
+                        10. τησ, νησ, την, τε, ντ
+                        11. τησ
+                        12. ωρ, ο[υ]
+                        13. με, με, των, ντων
+                        14. ημ, ωσ
+                    </note>
+                    <note xml:lang="en">
+                        Letters in ligature:
+                        2. μν, κ
+                        3. ηρ
+                        4. ηε
+                        5. με
+                        7. [μ]ε, ου (βοῦς)
+                        8. μπρ, τημη, τη
+                        9. ωνε
+                        10. τησ, νησ, την, τε, ντ
+                        11. τησ
+                        12. ωρ, ο[υ]
+                        13. με, με, των, ντων
+                        14. ημ, ωσ
+                    </note><!-- бележки за лигатури и особености -->
                     <rdg></rdg>
                 </app>
             </listApp>
