@@ -60,6 +60,11 @@
                     <placeName xml:lang="bg">Златовръх</placeName>
                     <idno type="geonames">http://www.geonames.org/725263/zlatovrah.html</idno>
                 </place>
+                <place xml:id="Zltr">
+                    <placeName xml:lang="en">Zlatitrap</placeName>
+                    <placeName xml:lang="bg">Златитрап</placeName>
+                    <idno type="geonames">https://www.geonames.org/725284/zlatitrap.html</idno>
+                </place>
                 <place xml:id="As">
                     <placeName xml:lang="en">Asenovgrad</placeName>
                     <placeName xml:lang="bg">Асеновград</placeName>
@@ -80,7 +85,7 @@
                 </place>
                 <place xml:id="Batkun">
                     <placeName xml:lang="en">Batkun</placeName>
-                    <placeName xml:lang="bg"></placeName>
+                    <placeName xml:lang="bg">Баткун</placeName>
                     <idno type="pleiades"></idno>
                     <idno type="geonames">http://www.geonames.org/733420/batkun.html</idno>
                 </place>

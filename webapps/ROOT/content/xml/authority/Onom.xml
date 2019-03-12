@@ -204,7 +204,7 @@
         <persName xml:lang="bg"></persName>
     </person>
     <person xml:id="Antoninus">
-        <persName xml:lang="grc"> </persName>
+        <persName xml:lang="grc">Ἀντονείνος</persName>
         <persName xml:lang="en">Antoninus</persName>
         <persName xml:lang="bg"></persName>
     </person>
@@ -311,6 +311,16 @@
     <person xml:id="Gaius">
         <persName xml:lang="grc">Γάιος</persName>
         <persName xml:lang="en">Gaius</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Ulpius">
+        <persName xml:lang="grc">Οὔλπιος</persName>
+        <persName xml:lang="en">Ulpius</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Trophimus">
+        <persName xml:lang="grc">Τρόφιμος</persName>
+        <persName xml:lang="en">Trophimus</persName>
         <persName xml:lang="bg"></persName>
     </person>
     <person xml:id="Iulius">

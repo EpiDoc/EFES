@@ -99,11 +99,6 @@
                <persName xml:lang="en"></persName>
                <persName xml:lang="bg"></persName>
             </person>
-            <person xml:id="AT314">
-               <persName xml:lang="grc">Αθυς Σπαρτοκου</persName>
-               <persName xml:lang="en"></persName>
-               <persName xml:lang="bg"></persName>
-            </person>
             <person xml:id="AT308">
                <persName xml:lang="grc">Ἡρακλείδης Γρανίου</persName>
                <persName xml:lang="en"></persName>
@@ -111,6 +106,16 @@
             </person>
             <person xml:id="AT309">
                <persName xml:lang="grc">Διζα Βρινκαζενεος,ὁ καί Ἑρμοδώρος</persName>
+               <persName xml:lang="en"></persName>
+               <persName xml:lang="bg"></persName>
+            </person>
+            <person xml:id="AT314">
+               <persName xml:lang="grc">Αθυς Σπαρτοκος</persName>
+               <persName xml:lang="en"></persName>
+               <persName xml:lang="bg"></persName>
+            </person>
+            <person xml:id="AT315">
+               <persName xml:lang="grc">Μᾶρκος Οὔλπιος Τρόφιμος</persName>
                <persName xml:lang="en"></persName>
                <persName xml:lang="bg"></persName>
             </person>

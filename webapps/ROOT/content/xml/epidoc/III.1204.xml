@@ -29,44 +29,50 @@
                             <idno>2356</idno><!-- Инвентарен номер -->
                         </altIdentifier>
                         <altIdentifier xml:lang="en">
-                            <repository>Reginal Historic Museum Plovdiv</repository>
+                            <repository>Regional History Museum Plovdiv</repository>
                             <idno>2356</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents><!-- Жанр на надписа -->
-                        <summary corresp="document-type.xml#"><!-- добави в @corresp след # съответното id от document-type.xml -->
-                            <seg xml:lang="bg"></seg><!-- с думи -->
-                            <seg xml:lang="en"></seg>
+                        <summary corresp="document-type.xml#doc5"><!-- добави в @corresp след # съответното id от document-type.xml -->
+                            <seg xml:lang="bg">посветителен надпис</seg><!-- с думи -->
+                            <seg xml:lang="en">dedicatory inscription</seg>
                         </summary>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material xml:lang="bg" ref="material.xml#">мрамор</material><!-- добави в @ref след # съответното id от material.xml; съдържание на елемента - с думи -->  
+                                    <material xml:lang="bg" ref="material.xml#m">мрамор</material><!-- добави в @ref след # съответното id от material.xml; съдържание на елемента - с думи -->  
                                     <material xml:lang="en">marble</material>
-                                    <objectType xml:lang="bg" ref="object.xml#b">плоча</objectType><!-- добави в @ref след # съответното id от object.xml; съдържание на елемента - с думи--> 
+                                    <objectType xml:lang="bg" ref="object.xml#sl">плоча</objectType>
                                     <objectType xml:lang="en">panel</objectType>
                                     <dimensions><!-- само числова стойност като стойност на атрибута и като съдържание на елемента -->
-                                        <height quantity="10" unit="cm">10 cm</height>
-                                        <width quantity="22" unit="cm">22 cm</width>
-                                        <depth quantity="4" unit="cm"> 4 cm></depth>
+                                        <height quantity="10" unit="cm">10</height>
+                                        <width quantity="22" unit="cm">22</width>
+                                        <depth quantity="4" unit="cm">4</depth>
                                     </dimensions>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
-                                <layout></layout> <!-- трябва да добавим и специален таг за място на надписа върху обекта, който може и да не се пълни винаги ДИ -->
+                                <layout xml:lang="en">Below the anaglyph
+                                </layout> 
+                                <layout xml:lang="bg">Под анаглифа</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <height quantity="0"></height><!-- само числова стойност като стойност на атрибута и като съдържание на елемента -->
+                                <height atLeast="1" atMost="1.2">1 - 1.2</height>
                             </handNote>
-                        </handDesc> <!-- и decoDesc, също незадължително за пълнене всеки път? ДИ -->
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote xml:lang="en">Anaglyph of a Tracian horseman</decoNote>
+                            <decoNote xml:lang="bg">Анаглиф на тракийски конник</decoNote>
+                        </decoDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace ref="origloc.xml#"><!-- добави в @ref след # съответното id от origloc.xml; съдържание на елемента - с думи -->
+                            <origPlace ref="origloc.xml#">
                                 <seg xml:lang="bg"></seg>
                                 <seg xml:lang="en"></seg>
                             </origPlace>
@@ -76,12 +82,12 @@
                             </origDate>
                         </origin>
                         <provenance type="found">
-                            <seg xml:lang="bg">
-                                <placeName type="ancientFindspot" ref="findsp.xml#"></placeName><!-- добави в @ref след # съответното id от findsp.xml; съдържание на елемента - с думи -->
-                            </seg>
-                            <seg xml:lang="en">
-                                <placeName  type="ancientFindspot"></placeName>
-                            </seg>
+                            <seg xml:lang="en">Found in the Asclepion near the village of
+                                <placeName type="ancientFindspot" ref="findsp.xml#Batkun">
+                                    Batkun</placeName></seg>
+                                    <seg xml:lang="bg">Намерена в Асклепиона близо до село
+                                        <placeName ref="findsp.xml#Batkun">Баткун</placeName>
+                                    </seg>
                         </provenance>
                         <provenance type="observed">
                             <seg xml:lang="bg">
@@ -96,7 +102,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change></change><!-- сложи @when с година-месец-ден и @who с инициали; като съдържание сложи описание на свършената от теб работа по надписа -->
+            <change when="2019-03-11" who="E.B">corrected according to Sharankov, added links to authority</change><!-- сложи @when с година-месец-ден и @who с инициали; като съдържание сложи описание на свършената от теб работа по надписа -->
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -107,14 +113,12 @@
             <div type="edition" xml:space="preserve" xml:lang="grc">
                 <ab>
                     <lb n="1"/>
-                    <persName nymRef="Αθυς Σπαρτοκος" ref="listpersons.xml#AT314">
-                        Αθυς Σπαρ<unclear>τ</unclear><supplied reason="lost">ο</supplied><unclear>κου</unclear> </persName>
-                    <w lemma="ἰατρός">ἰα                    
-                    <lb n="2" break="no"/>
-                    τροῦ</w>
-                    <persName type="divine">Δειζηνος</persName>
-                    <lb n="3"/>
-         <w lemma="δῶρον">δῶρον</w>.
+                    <persName ref="listPers.xml#AT314">
+                        <name ref="Onom.xml#Athys" nymRef="Αθυς">Αθυς</name> 
+                        <name nymRef="Σπαρτοκος" ref="Onom.xml#Spartocus">Σπαρ<unclear>τοκ</unclear>ου</name> 
+                    </persName> <placeName type="ethnic">Α
+                    <lb n="2" break="no"/>τρουδειζηνος</placeName>
+                    <lb n="3"/><w lemma="δῶρον">δῶρον</w>.
                 </ab>
             </div>
             <div type="apparatus">

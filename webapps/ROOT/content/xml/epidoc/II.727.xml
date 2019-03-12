@@ -107,8 +107,8 @@
             <div type="edition" xml:space="preserve" xml:lang="grc">
                 <ab>
                     <lb n="1"/><w lemma="ἀγαθός">Ἀγαθῇ</w> <w lemma="τύχη">τύχῃ.</w>
-                    <lb n="2"/><persName type="emperor" ref="listemperors.xml#MarcusAurelius"><name>Μᾶρκον</name> 
-                            <name>Αὐρήλιον</name> <name>Ἀν 
+                    <lb n="2"/><persName type="emperor" ref="listemperors.xml#MarcusAurelius"><name nymRef="Μάρκος" ref="Onom.xml#Marcus">Μᾶρκον</name> 
+                            <name nymRef="Αὐρήλιος" ref="Onom.xml#Aurelius">Αὐρήλιον</name> <name nymRef="Ἀντονείνος" ref="Onom.xml#Antoninus">Ἀν 
                     <lb n="3" break="no"/>τωνεῖνον</name> </persName> <w lemma="αὐτοκράτωρ">αὐτοκράτο 
                     <lb n="4" break="no"/>ρα</w> <w lemma="Γερμανικός">Γερμανικὸν</w> <w lemma="Σαρματικός">Σαρματι 
                     <lb n="5" break="no"/> κὸν</w> <w lemma="Μηδικός">Μηδικὸν</w> <w lemma="Παρθικός">Παρθι	
@@ -121,7 +121,7 @@
                     <lb n="9" break="no"/>κοδουρατέραις</placeName>, <w lemma="ἡγεμονεύω">ἡγεμο 
                     <lb n="10" break="no"/>νεύοντος</w> <w>τῆς</w> <w lemma="ἐπαρχία">ἐπαρχίας</w> 
                     <lb n="11"/><del rend="erasure"><persName type="official" ref="listemperors.xml#Asellius"> 
-                                    <name><unclear>Ἀ</unclear>σε<unclear>λλίου</unclear></name>
+                                    <name nymRef="Ἀσέλλιος" ref="Onom.xml#Asellius"><unclear>Ἀ</unclear>σε<unclear>λλίου</unclear></name>
                                             <name><unclear>Αἰμ</unclear><gap reason="lost" extent="unknown" unit="character"/>
                             <unclear>αν</unclear><gap reason="lost" extent="2" unit="character"/></name></persName></del>. 
                 </ab>
