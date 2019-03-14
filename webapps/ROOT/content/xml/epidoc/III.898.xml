@@ -72,10 +72,10 @@
                         </origin>
                         <provenance type="found">
                             <seg xml:lang="bg">
-                                <placeName ref="findsp.xml#Phil">Пловдив</placeName><!-- добави в @ref след # съответното id от findsp.xml; съдържание на елемента - с думи -->
+                                <placeName ref="findsp.xml#Phil" type="ancientFindspot">Пловдив</placeName><!-- добави в @ref след # съответното id от findsp.xml; съдържание на елемента - с думи -->
                             </seg>
                             <seg xml:lang="en">
-                                <placeName>Plovdiv</placeName>
+                                <placeName type="ancientFindspot">Plovdiv</placeName>
                             </seg>
                         </provenance>
                         <provenance type="observed">

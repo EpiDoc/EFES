@@ -73,10 +73,10 @@
                         </origin>
                         <provenance  type="found">
                             <seg xml:lang="bg">
-                                <placeName ref="findsp.xml#Pl">Пловдив</placeName><!-- добави в @ref след # съответното id от findsp.xml; съдържание на елемента - с думи -->
+                                <placeName ref="findsp.xml#Pl" type="ancientFindspot">Пловдив</placeName><!-- добави в @ref след # съответното id от findsp.xml; съдържание на елемента - с думи -->
                             </seg>
                             <seg xml:lang="en">
-                                <placeName>Plovdiv</placeName>
+                                <placeName type="ancientFindspot">Plovdiv</placeName>
                             </seg>
                         </provenance>
                         <provenance type="observed">
@@ -134,8 +134,8 @@
             </listApp>
             </div>
             <div type="translation">
-                <ab xml:lang="bg"> На добър час за.... на императорите Луции Семптимий Север Пертинакс и Марк Аврелий Антонин и .... </ab> <!-- превод -->
-                <ab xml:lang="en"> Good luck for  the..... of the emperors Lucius Septimius Severus Pertinax and Marcus Avrelius Antoninus and..</ab>
+                <p xml:lang="bg"> На добър час за.... на императорите Луции Семптимий Север Пертинакс и Марк Аврелий Антонин и .... </p> <!-- превод -->
+                <p xml:lang="en"> Good luck for  the..... of the emperors Lucius Septimius Severus Pertinax and Marcus Avrelius Antoninus and..</p>
             </div>
             <div type="commentary" xml:lang="bg">  
 
