@@ -96,6 +96,16 @@
                     <idno type="pleiades">https://pleiades.stoa.org/places/216792</idno>
                     <idno type="geonames">http://www.geonames.org/730419/hisarya.html</idno>
                 </place>
+                <place xml:id="Perushtitsa">
+                    <placeName xml:lang="en">Perushtitsa</placeName>
+                    <placeName xml:lang="bg">Перущица</placeName>
+                    <idno type="geonames">https://www.geonames.org/728321/perushtitsa.html</idno>
+                </place>
+                <place xml:id="GKrichim">
+                    <placeName xml:lang="en">Stamboliyski</placeName>
+                    <placeName xml:lang="bg">Стамболийски</placeName>
+                    <idno type="geonames">https://www.geonames.org/726890/stamboliyski.html</idno>
+                </place>
                 <place xml:id="Voinitsite">
                     <placeName xml:lang="en">Voinitsite</placeName>
                     <placeName xml:lang="bg">Хисаря</placeName>

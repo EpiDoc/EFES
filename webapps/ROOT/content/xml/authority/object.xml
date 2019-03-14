@@ -47,6 +47,10 @@
                     <term xml:lang="en">slab</term>
                     <gloss xml:lang="bg">плоча</gloss>
                 </item>
+                <item xml:id="st">
+                    <term xml:lang="bg">статуя</term>
+                    <term xml:lang="en">statue</term>
+                </item>
                 <item xml:id="epi">
                     <gloss xml:lang="bg"> епистил</gloss>
                     <term xml:lang="en">epistyle</term>

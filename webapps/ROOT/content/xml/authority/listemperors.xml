@@ -101,6 +101,13 @@
                <floruit>247 - 249</floruit>
                <idno type="wp">https://en.wikipedia.org/wiki/Philip_II_(emperor)</idno>
             </person>
+            <person xml:id="AlexSev">
+               <persName xml:lang="grc">Μᾶρκος Αὐρήλιος Σευέρος Ἀλέξανδρος</persName>
+               <persName xml:lang="en">Marcus Aurelius Severus Alexander</persName>
+               <persName xml:lang="bg">Марк Юлий Филип Север II</persName>
+               <floruit>222 - 235</floruit>
+               <idno type="wp">https://en.wikipedia.org/wiki/Severus_Alexander</idno>
+            </person>
             <person xml:id="Caecilius">
                <persName xml:lang="grc">Καικίλιος Ματέρνος</persName>
                <persName xml:lang="en">Caecilius Maternus</persName>
@@ -131,6 +138,17 @@
                <!-- как се превежда на английски и на български архиерей? -->
                <!--could be this guy?https://bg.wikipedia.org/wiki/%D0%A2%D0%B8%D0%B1%D0%B5%D1%80%D0%B8%D0%B9_%D0%9A%D0%BB%D0%B0%D0%B2%D0%B4%D0%B8%D0%B9_%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC-->
             </person>
+            <person xml:id="RutCrisp">
+               <persName xml:lang="grc">Ῥουτίλιος Πούδηνς Κρισπῖνος</persName>
+               <persName xml:lang="en">Rutilius Pudens Crispinus</persName>
+               <persName xml:lang="bg">Рутилий Пудент Криспин</persName>
+               <floruit>238 - 241</floruit>
+               <occupation xml:lang="grc">ἡγεμονεύων ἐπαρχείας Θρᾳκῶν</occupation>
+               <occupation xml:lang="en">provincial governor</occupation>
+               <occupation xml:lang="bg">управител на провинция</occupation>
+               <idno type="wp">https://en.wikipedia.org/wiki/Rutilius_Pudens_Crispinus</idno>
+            </person>
+            
             <person xml:id="Asellius">
                <persName xml:lang="grc">Ἀσέλλιος Αἰμιλιανός</persName>
                <persName xml:lang="en">Asellius Aemilianus</persName>

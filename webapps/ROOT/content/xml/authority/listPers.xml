@@ -65,8 +65,13 @@
                <persName xml:lang="en">Aurelius Demetrius Apphus</persName>
                <persName xml:lang="bg"></persName>
                <occupation>πρ. ἄρχων</occupation></person>
+            <person xml:id="AT214">
+               <persName xml:lang="grc">Δομετιανός Κοτυς</persName>
+               <persName xml:lang="en">Domitianus Kotys</persName>
+               <persName xml:lang="bg"></persName>
+               <occupation>πρ. ἄρχων</occupation></person>
             <person xml:id="AT014">
-               <persName xml:lang="grc">Αὐρήλιος Ἀπολλωνίδης Ἀπολλοδώρ̣ο̣υ</persName>
+               <persName xml:lang="grc">Αὐρήλιος Ἀπολλωνίδης Ἀπολλοδώρου</persName>
                <persName xml:lang="en"></persName>
                <persName xml:lang="bg"></persName>
                <occupation>πρ. ἄρχων</occupation>
@@ -99,6 +104,54 @@
                <persName xml:lang="en"></persName>
                <persName xml:lang="bg"></persName>
                <occupation>φυλάρχης</occupation>
+            </person>
+            <person xml:id="AT029">
+               <persName xml:lang="grc">Μᾶρκος Αὐφείδιος Φρόντων</persName>
+               <persName xml:lang="en"></persName>
+               <persName xml:lang="bg"></persName>
+               <occupation>ὕπατος</occupation>
+            </person>
+            <person xml:id="AT119">
+               <persName xml:lang="grc">Πόπλιος Αἴλιος Διοσκουρίδης</persName>
+               <persName xml:lang="en">Publius Aelius Dioscurides</persName>
+               <persName xml:lang="bg"></persName>
+               <occupation>ἱερονίκης, ξυστάρχης</occupation>
+            </person>
+            <person xml:id="AT125">
+               <persName xml:lang="grc">Σεβαστιανός Μουκατραλεος</persName>
+               <persName xml:lang="en">Publius Aelius Dioscurides</persName>
+               <persName xml:lang="bg"></persName>
+               <occupation>βουλευτής</occupation>
+            </person>
+            <person xml:id="AT126">
+               <persName xml:lang="grc">Μουκατραλις</persName>
+               <persName xml:lang="en">Mukatralis</persName>
+               <persName xml:lang="bg"></persName>
+               <occupation></occupation>
+            </person>
+            <person xml:id="AT127">
+               <persName xml:lang="grc">Διτουσιουκις Σουδιπορεος</persName>
+               <persName xml:lang="en">Ditusiukis Sudiporeos</persName>
+               <persName xml:lang="bg"></persName>
+               <occupation></occupation>
+            </person>
+            <person xml:id="AT128">
+               <persName xml:lang="grc">Σουδιπορεος</persName>
+               <persName xml:lang="en">Sudiporeos</persName>
+               <persName xml:lang="bg"></persName>
+               <occupation></occupation>
+            </person>
+            <person xml:id="AT210">
+               <persName xml:lang="grc">Μᾶρκος Μέστριος Αἴνιος</persName>
+               <persName xml:lang="en"></persName>
+               <persName xml:lang="bg"></persName>
+               <occupation>φυλάρχης</occupation>
+            </person>
+            <person xml:id="AT211">
+               <persName xml:lang="grc">Λούκιος Κορνήλιος Ἀνύλλεινος</persName>
+               <persName xml:lang="en"></persName>
+               <persName xml:lang="bg"></persName>
+               <occupation>ὕπατος</occupation>
             </person>
             <person xml:id="AT308">
                <persName xml:lang="grc">Ἡρακλείδης Γρανίου</persName>

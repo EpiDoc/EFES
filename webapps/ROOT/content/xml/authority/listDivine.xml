@@ -65,6 +65,17 @@
                <persName xml:lang="bg">Сирийската богиня</persName>
                <idno type="wp">https://en.wikipedia.org/wiki/Atargatis</idno>
             </person>
+            <person xml:id="Asclepius">
+               <persName xml:lang="grc">Ἀσκληπιός</persName>
+               <persName xml:lang="en">Asclepius</persName>
+               <persName xml:lang="bg"></persName>
+               <idno type="wp">https://en.wikipedia.org/wiki/Asclepius</idno>
+            </person>
+            <person sameAs="Asclepius">
+               <persName xml:lang="grc">Ζυμζδρηνος</persName>
+               <persName xml:lang="en">Zymzdrenus</persName>
+               <persName xml:lang="bg">Зимздрен</persName>
+            </person>
             <person xml:id="Calchas">
                <persName xml:lang="grc">Κάλχας</persName>
                <persName xml:lang="en">Calchas</persName>
@@ -80,6 +91,12 @@
             <person xml:id="Halitherses">
                <persName xml:lang="grc">Ἁλιθέρσης</persName>
                <persName xml:lang="en">Halitherses</persName>
+               <persName xml:lang="bg">Халитерс</persName>
+               <idno type="wp">https://en.wikipedia.org/wiki/Halitherses</idno>
+            </person>
+            <person xml:id="Dzver">
+               <persName xml:lang="grc">Κανζουρηνος</persName>
+               <persName xml:lang="en">Kanzurinus</persName>
                <persName xml:lang="bg">Халитерс</persName>
                <idno type="wp">https://en.wikipedia.org/wiki/Halitherses</idno>
             </person>

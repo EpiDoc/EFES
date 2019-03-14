@@ -51,6 +51,19 @@
                     <placeName xml:lang="en">Cillae</placeName>
                     <placeName xml:lang="bg"></placeName>
                 </place>
+                <place xml:id="Cyzicus">
+                    <placeName xml:lang="grc">Κύζικος</placeName>
+                    <placeName xml:lang="en">Cyzicus</placeName>
+                    <placeName xml:lang="bg"></placeName>
+                    <idno type="pleiades">https://pleiades.stoa.org/places/511218</idno>
+                </place>
+                <place xml:id="Pautalia">
+                    <placeName xml:lang="grc">Παυταλεωτῶν πόλις</placeName>
+                    <placeName xml:lang="en">Pautalia</placeName>
+                    <placeName xml:lang="bg"></placeName>
+                    <idno type="pleiades">https://pleiades.stoa.org/places/481949</idno>
+                </place>
+               
             </listPlace>
         </body>
     </text>
