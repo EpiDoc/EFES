@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bg">Строителен надпис от Квинт Клоний</title><!-- Заглавие -->
+                <title xml:lang="en">Building inscription by Quintus Clonius</title>
+                <editor>
+                    <persName xml:lang="bg">Георги Михайлов</persName>
+                    <persName xml:lang="en">Georgi Mihailov</persName>
+                </editor>
+            </titleStmt>            
+            <publicationStmt>
+                <authority>Telamon Project</authority>
+                <date>2018</date>
+                <idno type="filename">III.907</idno><!-- номер на надписа -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><country/> <!-- какво слагаме в първия идентификатор и в алт идентификатора? на едното място може би да отиде инв. номер от музея, но на кое? ДИ -->
+                        <altIdentifier  xml:lang="bg">
+                            <repository>Национален археологически институт с музей</repository><!-- Институция -->
+                            <idno>2670</idno><!-- Инвентарен номер -->
+                        </altIdentifier>
+                        <altIdentifier xml:lang="en">
+                            <repository>National Archeological Institute with Museum</repository>
+                            <idno>2670</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents><!-- Жанр на надписа -->
+                        <summary corresp="document-type.xml#doc21"><!-- добави в @corresp след # съответното id от document-type.xml -->
+                            <seg xml:lang="bg">почетен надпис</seg><!-- с думи -->
+                            <seg xml:lang="en">honorary inscription</seg>
+                        </summary>
+                    </msContents>
+                        <!-- <msPart xml:id="A">                      
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material xml:lang="bg" ref="material.xml#l">варовик</material> 
+                                    <material xml:lang="en">limestone</material>
+                                    <objectType xml:lang="bg" ref="object.xml#epi">архитрав</objectType>
+                                    <objectType xml:lang="en">architrave</objectType>
+                                        <dimensions>
+                                        <height quantity="49">49</height>
+                                        <width quantity="122">122</width>
+                                        <depth quantity="49">49</depth></dimensions></support>
+                    </supportDesc></objectDesc></physDesc></msPart>
+                                        <msPart xml:id="B">
+                                            <dimensions><height quantity="58">58 cm</height>
+                                        <depth quantity="52" unit="cm">52 cm</depth>
+                                        <width quantity="200" unit="cm">200 cm</width>
+                                    </dimensions></msPart>
+                                </support>
+                                </supportDesc>
+                            <layoutDesc>
+                                <layout></layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <height atLeast="9" atMost="5.8" unit="cm">9 - 5.8 cm</height>
+                            </handNote>
+                        </handDesc> 
+                    </physDesc>-->
+                    <history>
+                        <origin>
+                            <origPlace ref="origloc.xml#"><!-- добави в @ref след # съответното id от origloc.xml; съдържание на елемента - с думи -->
+                                <seg xml:lang="bg"></seg>
+                                <seg xml:lang="en"></seg>
+                            </origPlace>
+                            <origDate notBefore="0211" notAfter="0212"><!-- приема @notBefore заедно с @notAfter, ако имаме датировка по години на управление на император или посочен век (виж бележки как се бележат вековете), както и @when във формат година-месец-дата -->
+                                <seg xml:lang="bg">211-212г. сл.Хр.</seg>
+                                <seg xml:lang="en">211-212 AD</seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <seg xml:lang="bg">
+                                <placeName type="ancientFindspot" ref="findsp.xml#"></placeName><!-- добави в @ref след # съответното id от findsp.xml; съдържание на елемента - с думи -->
+                            </seg>
+                            <seg xml:lang="en">
+                                <placeName  type="ancientFindspot"></placeName>
+                            </seg>
+                        </provenance>
+                        <provenance type="observed">
+                            <seg xml:lang="bg">
+                                <placeName></placeName><!-- само с думи --> <!-- само с думи ли да остане наистина или да имаме референтен списък на места и тук? ДИ -->
+                            </seg>
+                            <seg xml:lang="en">
+                                <placeName></placeName>
+                            </seg>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2018-11-08" who="BI">encoded the text according to the editions made by Mihailov and Sharankov</change><!-- сложи @when с година-месец-ден и @who с инициали; като съдържание сложи описание на свършената от теб работа по надписа -->
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="именаснимка.jpeg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                <ab>
+                    <lb n="1"/>
+                    <supplied reason="lost">
+                        <w>Ὑπὲρ</w> 
+                        <w>τῆς</w> 
+                        <w>τῶν</w> 
+                        <w lemma="κύριος">κυρίων</w> 
+                        <w lemma="αὐτοκράτωρ">αὐτοκρατόρων</w> 
+                        <persName ref="listemperors.xml#MarcusAurelius">
+                            <name nymRef="Μάρκος"><expan><abbr>Μ</abbr><ex>άρκου</ex></expan></name> 
+                            <name nymRef="Αὐρήλιος"><expan><abbr>Αὐρ</abbr><ex>ηλίου</ex></expan></name> 
+                            <name nymRef="Ἀντωνίνος">Ἀντωνίνου</name>
+                        </persName> 
+                        <w>καὶ</w> 
+                        <persName ref="https://en.wikipedia.org/wiki/Geta_(emperor)">
+                            <name nymRef="Πόπλιος"><expan><abbr>Π</abbr><ex>οπλίου</ex></expan></name> 
+                            <name nymRef="Σεπτίμιος">Σεπτιμίου</name> 
+                            <name nymRef="Γέτα">Γέτα</name></persName> 
+                        <w lemma="εὐσεβής">εὐσεβῶν</w> 
+                        <w lemma="σεβαστός">σεβαστῶν</w> 
+                        (vel sim.)<!-- не знам как се кодира това, може би със certainty="low" по някакъв начин --> 
+                        <w lemma="τύχη">τύχης</w> 
+                        <w>τε</w>
+                    </supplied> 
+                    <w><supplied reason="lost">κα</supplied><unclear>ὶ</unclear></w> 
+                    <w lemma="νίκη">νείκης</w> 
+                    <w>καὶ</w> 
+                    <w lemma="αἰώνιος">αἰωνίου</w> 
+                    <supplied reason="lost">
+                        <w lemma="διαμονή">διαμονῆς</w> 
+                        <w>καὶ</w> 
+                        <w>τοῦ</w>
+                    </supplied> 
+                    <w lemma="σύμπας">σύνπαντος</w> 
+                    <w lemma="αὐτός">αὐτῶν</w> 
+                    <w lemma="οἶκος">οἴκου</w>
+                    <lb n="2"/>
+                    <supplied reason="lost">
+                        <w>καὶ</w> 
+                        <w lemma="ἱερά">ἱερᾶς</w> 
+                        <w lemma="σύγκλητος">συγκλήτου</w> 
+                        <w>καὶ</w> 
+                        <w lemma="δῆμος">δήμου</w> 
+                        <w lemma="Ῥωμαῖος">Ῥωμαίων</w>
+                    </supplied> 
+                    <gap reason="lost" unit="character"/>δείτης 
+                    <w>ἐκ</w> 
+                    <w>τῶν</w> 
+                    <w lemma="ἴδιος">ἰδίων</w> 
+                    <w lemma="κατασκευάζω">κατεσκεύ<supplied reason="lost">ασεν</supplied></w> 
+                    <supplied reason="lost">
+                        <w>ἐπὶ</w>
+                    </supplied> 
+                    <persName ref="listPers.xml#AT302">
+                        <supplied reason="lost">
+                            <name nymRef="Κόϊντος"><expan><abbr>Κ</abbr><ex>οΐντου</ex></expan></name> 
+                            <name nymRef="Ἄτριος">Ἀτρίου</name>
+                        </supplied> 
+                        <name nymRef="Κλόνιος"><supplied reason="lost">Κλο</supplied><unclear>ν</unclear>ίου</name>
+                    </persName> 
+                    <w>τοῦ</w> 
+                    <w lemma="λαμπρότατος">λαμπροτάτου</w> 
+                    <w lemma="ὕπατος">ὑπάτου</w>.<!-- тук сложи гръцкия текст -->
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app>
+                    <note></note><!-- бележки за лигатури и особености -->
+                    <rdg></rdg>
+                </app>
+            </listApp>
+            </div>
+            <div type="translation">
+                <p></p><!-- превод -->
+            </div>
+            <div type="commentary"> <!-- да опишем подробно какво се съдържа в коментара при нас -->
+            </div>
+            <div type="bibliography"> <!-- съдържанието тук защо е comment-out-нато? ДИ -->
+<!--                <p><listBibl>
+                    <biblStruct>
+                        <monogr>
+                            <author><ref target="GM">Georgi Mihailov</ref></author>
+                            <title>Inscriptones Grecae in Bulgaria repertae</title>
+                            <imprint>
+                                <biblScope unit="volume">3.2</biblScope>
+                                <pubPlace>
+                                    <settlement>Sofia</settlement>
+                                    <country>Bulgaria</country>
+                                </pubPlace>
+                                <date>1964</date>
+                            </imprint></monogr>
+                    </biblStruct>
+                </listBibl></p>-->
+            </div>
+        </body>
+    </text>
+</TEI>

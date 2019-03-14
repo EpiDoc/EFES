@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bg">(Посветителна) Колона за Север Александър от Рутилий Пуден Криспин </title><!-- Заглавие -->
+                <title xml:lang="en">(Honorary) column for  Severus Alexander by Rutilius Pudens Crispinus</title>
+                <editor>
+                    <persName xml:lang="bg">Георги Михайлов</persName>
+                    <persName xml:lang="en">Georgi Mihailov</persName>
+                </editor>
+            </titleStmt>            
+            <publicationStmt>
+                <authority>Telamon Project</authority>
+                <date>2018</date>
+                <idno type="filename">III.898</idno><!-- номер на надписа -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><country/> <!-- какво слагаме в първия идентификатор и в алт идентификатора? на едното място може би да отиде инв. номер от музея, но на кое? ДИ -->
+                        <altIdentifier  xml:lang="bg">
+                            <repository>Национален археологически институт с музей</repository><!-- Институция -->
+                            <idno>Не е наличен</idno><!-- Инвентарен номер -->
+                        </altIdentifier>
+                        <altIdentifier xml:lang="en">
+                            <repository>National Archaeological Institue with Museum</repository>
+                            <idno>N/A</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents><!-- Жанр на надписа -->
+                        <summary corresp="document-type.xml#doc21"><!-- добави в @corresp след # съответното id от document-type.xml -->
+                            <seg xml:lang="bg">почетен надпис</seg><!-- с думи -->
+                            <seg xml:lang="en">honorary inscription</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material xml:lang="bg" ref="material.xml#l">варовик</material><!-- добави в @ref след # съответното id от material.xml; съдържание на елемента - с думи -->  
+                                    <material xml:lang="en">limestone</material>
+                                    <objectType xml:lang="bg" ref="object.xml#col">колона</objectType><!-- добави в @ref след # съответното id от object.xml; съдържание на елемента - с думи--> 
+                                    <objectType xml:lang="en">column</objectType>
+                                    <dimensions><!-- само числова стойност като стойност на атрибута и като съдържание на елемента -->
+                                        <height quantity="0.85">85</height>
+                                        <dim type="diameter" quantity="30">30</dim>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout> <!-- трябва да добавим и специален таг за място на надписа върху обекта, който може и да не се пълни винаги ДИ -->
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <height  atLeast="3" atMost="35">3 - 3.5</height><!-- само числова стойност като стойност на атрибута и като съдържание на елемента -->
+                            </handNote>
+                        </handDesc> <!-- и decoDesc, също незадължително за пълнене всеки път? ДИ -->
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="origloc.xml#Phil"><!-- добави в @ref след # съответното id от origloc.xml; съдържание на елемента - с думи -->
+                                <seg xml:lang="bg">Филипопол</seg>
+                                <seg xml:lang="en">Philippopolis</seg>
+                            </origPlace>
+                            <origDate atLeast="0222" atMost="0235"  evidence="reign"><!-- приема @notBefore заедно с @notAfter, ако имаме датировка по години на управление на император или посочен век (виж бележки как се бележат вековете), както и @when във формат година-месец-дата -->
+                                <seg xml:lang="bg">222 - 235 сл.Хр.</seg>
+                                <seg xml:lang="en">222 - 235 A.D.</seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <seg xml:lang="bg">
+                                <placeName ref="findsp.xml#Phil">Пловдив</placeName><!-- добави в @ref след # съответното id от findsp.xml; съдържание на елемента - с думи -->
+                            </seg>
+                            <seg xml:lang="en">
+                                <placeName>Plovdiv</placeName>
+                            </seg>
+                        </provenance>
+                        <provenance type="observed">
+                            <seg xml:lang="bg">
+                                <placeName></placeName><!-- само с думи --> <!-- само с думи ли да остане наистина или да имаме референтен списък на места и тук? ДИ -->
+                            </seg>
+                            <seg xml:lang="en">
+                                <placeName></placeName>
+                            </seg>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>Martin</change>
+            <change when="2019-03-14" who="E.B."></change><!-- сложи @when с година-месец-ден и @who с инициали; като съдържание сложи описание на свършената от теб работа по надписа -->
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="именаснимка.jpeg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                <ab>
+                    <lb n="1"/><w lemma="αὐτοκράτωρ">Αὐτ<unclear>ο</unclear><supplied reason="lost">κράτορι</supplied></w> <supplied reason="lost"><w lemma="καῖσαρ">Καίσαρι</w></supplied> 
+                    <persName ref="listemperors.xml#AlexSev"><supplied reason="lost"><name nymRef="Μᾶρκος" ref="Onom.xml#Marcus"><expan><abbr>Μ</abbr><ex>άρκῳ</ex></expan></name>
+                        <name nymRef="Αὐρήλιος" ref="Onom.xml#Aurelius"><expan><abbr>Αὐρ</abbr><ex>ηλίῳ</ex></expan></name></supplied>
+<lb n="2"/><name nymRef="Σευήρος" ref="Onom.xml#Severus">Σευήρῳ</name> 
+                        <name nymRef="Ἀλέξανδρος" ref="Onom.xml#Alexander">Ἀ<unclear>λ</unclear><supplied reason="lost">εξάνδρῳ</supplied></name>
+                    </persName> <w lemma="εὐτυχής"><supplied reason="lost">Εὐτυχῖ</supplied></w>
+<lb n="3"/> <w lemma="εὐσεβής">Εὐσεβῖ</w> <g type="dot"/> <w lemma="σεβαστός"><expan><abbr>Σεβ</abbr><ex>αστῷ</ex></expan></w> 
+    <w><supplied reason="lost">ἡ</supplied></w> <w lemma="λαμπρός"><supplied reason="lost">λαμπροτ</supplied>άτη</w> <w>τῆς</w>
+<lb n="4"/><placeName type="ethnic">Θρᾳκῶν</placeName> <w lemma="ἐπαρχία">ἐ<supplied reason="lost">παρχίας</supplied></w> 
+                    <w lemma="μητρόπολις"><supplied reason="lost">μητ</supplied>ρόπολις</w>
+<lb n="5"/><placeName ref="listPlaces.xml#Phil">Φιλιπόπολ<supplied reason="lost">ις</supplied></placeName>  <w lemma="νεωκόρος"><supplied reason="lost">νεωκό</supplied>ρος</w>
+                    <w lemma="ἡγεμονεύω">ἡγεμο
+    <lb n="6" break="no"/>νεύοντος</w> <persName ref="listemperors.xml#RutCrisp"><name role="praenomen" nymRef="Ῥουτίλιος" ref="Onom.xml#Rutilius">Ῥο<supplied reason="lost">υτειλί</supplied>ου</name> 
+        <name role="cognomen" nymRef="Πούδηνς" ref="Onom.xml#Pudens">Πούδεν
+        <lb n="7" break="no"/>το<supplied reason="lost">ς</supplied></name> <name role="gentilicium" nymRef="Κρισπῖνος" ref="Onom.xml#Crispinus"><unclear>Κ</unclear>ρισπείνου</name></persName> 
+                    <w lemma="πρεσβευτής"><expan><abbr><unclear>πρεσ</unclear><supplied reason="lost">β</supplied></abbr>̣<ex>ευτοῦ</ex></expan></w>
+                    <w lemma="σεβαστός"><expan><abbr><unclear>Σ</unclear>εβ</abbr><ex>αστοῦ</ex></expan></w>
+<lb n="8"/><space quantity="11" unit="character" precision="low"></space> <w lemma="ἀντιστράτηγος">ἀντιστ<supplied reason="lost">ρατήγου</supplied></w><!-- тук сложи гръцкия текст -->
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app>
+                    <note n="1">
+                        <seg xml:lang="bg" rendition="5">На пети ред, първата дума трябва да е "Φιλιππόπολις"</seg>
+                        <seg xml:lang="en" rendition="5">The first word on line 5 should be "Φιλιππόπολις"</seg>
+                    </note><!-- бележки за лигатури и особености -->
+                    <note n="2">
+                        <seg xml:lang="bg"> Лигатури по редове: 2. ήρ, τῆς 4. ῶν 5. ἡγ 6. νε, ντ 7. πε, πρ</seg>
+                        <seg xml:lang="en">Letters in ligature: 2. ήρ, τῆς 4. ῶν 5. ἡγ 6. νε, ντ 7. πε, πρ </seg>
+                    </note>
+                    <rdg></rdg>
+                </app>
+            </listApp>
+            </div>
+            <div type="translation">
+                <p xml:lang="bg">За император цезар Марк Аврелий Север Александър , щастлив, свят [и]  август, Филипопол, най-блестящ главен град на провинция Тракия с храм на императора, [издигна/посвети колоната] когато управляваше  Рутилий Пудент Криспин, легат [с чин] пропретор на августа.  </p><!-- превод -->
+                <p xml:lang="en">[In honour of]/For emperor Caesar Marc Aurelius Severus Alexander, fortunate, pious [and] august, Philippopolis, [the] most illustrious chief town of [the] province of Thrace, [dedicated], when Rutilius Pudens Crispinus, staff officer [ranked as] propraetor of the August, was governor. </p>
+                </div>
+            <div type="commentary"> <!-- да опишем подробно какво се съдържа в коментара при нас -->
+            </div>
+            <div type="bibliography"> <!-- съдържанието тук защо е comment-out-нато? ДИ -->
+<!--                <p><listBibl>
+                    <biblStruct>
+                        <monogr>
+                            <author><ref target="GM">Georgi Mihailov</ref></author>
+                            <title>Inscriptones Grecae in Bulgaria repertae</title>
+                            <imprint>
+                                <biblScope unit="volume">3.2</biblScope>
+                                <pubPlace>
+                                    <settlement>Sofia</settlement>
+                                    <country>Bulgaria</country>
+                                </pubPlace>
+                                <date>1964</date>
+                            </imprint></monogr>
+                    </biblStruct>
+                </listBibl></p>-->
+            </div>
+        </body>
+    </text>
+</TEI>
