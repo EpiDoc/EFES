@@ -25,32 +25,32 @@
                 <msDesc>
                     <msIdentifier><country/> <!-- какво слагаме в първия идентификатор и в алт идентификатора? на едното място може би да отиде инв. номер от музея, но на кое? ДИ -->
                         <altIdentifier  xml:lang="bg">
-                            <repository>Национален археологически музей</repository>
+                            <repository>Национален археологически институт с музей</repository>
                             <idno>2618</idno>
                         </altIdentifier>
                         <altIdentifier xml:lang="en">
-                            <repository>National Archeological Museum</repository>
+                            <repository>National Archeological Institute with Museum</repository>
                             <idno>2618</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents><!-- Жанр на надписа -->
-                        <summary corresp="document-type.xml#"><!-- добави в @corresp след # съответното id от document-type.xml -->
-                            <seg xml:lang="bg"></seg><!-- с думи -->
-                            <seg xml:lang="en"></seg>
+                        <summary corresp="document-type.xml#21"><!-- добави в @corresp след # съответното id от document-type.xml -->
+                            <seg xml:lang="bg">почетен надпис</seg><!-- с думи -->
+                            <seg xml:lang="en">honorary inscription</seg>
                         </summary>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material xml:lang="bg" ref="material.xml#">вар</material><!-- добави в @ref след # съответното id от material.xml; съдържание на елемента - с думи -->  
-                                    <material xml:lang="en">lime</material>
-                                    <objectType xml:lang="bg" ref="object.xml#b"></objectType><!-- не е споменато нито при Михайлов, нито при Шаранков, няма снимка--> 
+                                    <material xml:lang="bg" ref="material.xml#l">варовик</material><!-- добави в @ref след # съответното id от material.xml; съдържание на елемента - с думи -->  
+                                    <material xml:lang="en">limestone</material>
+                                    <objectType xml:lang="bg" ref="object.xml#"></objectType><!-- не е споменато нито при Михайлов, нито при Шаранков, няма снимка--> 
                                     <objectType xml:lang="en"></objectType>
                                     <dimensions><!-- само числова стойност като стойност на атрибута и като съдържание на елемента -->
-                                        <height quantity="55" unit="cm">55 cm</height>
-                                        <width quantity="65" unit="cm">65 cm</width>
-                                        <depth quantity="25" unit="cm"> 25 cm></depth>
+                                        <height quantity="55">55</height>
+                                        <width quantity="65">65</width>
+                                        <depth quantity="25">25</depth>
                                     </dimensions>
                                 </support>
                             </supportDesc>
@@ -66,21 +66,21 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace ref="origloc.xml#"><!-- добави в @ref след # съответното id от origloc.xml; съдържание на елемента - с думи -->
-                                <seg xml:lang="bg"></seg>
-                                <seg xml:lang="en"></seg>
+                            <origPlace ref="origloc.xml#Phil"><!-- добави в @ref след # съответното id от origloc.xml; съдържание на елемента - с думи -->
+                                <seg xml:lang="bg">Филипопол</seg>
+                                <seg xml:lang="en">Philippopolis</seg>
                             </origPlace>
-                            <origDate><!-- приема @notBefore заедно с @notAfter, ако имаме датировка по години на управление на император или посочен век (виж бележки как се бележат вековете), както и @when във формат година-месец-дата -->
-                                <seg xml:lang="bg"></seg>
-                                <seg xml:lang="en"></seg>
+                            <origDate notBefore="0198" notAfter="0211"  evidence="reign"><!-- приема @notBefore заедно с @notAfter, ако имаме датировка по години на управление на император или посочен век (виж бележки как се бележат вековете), както и @when във формат година-месец-дата -->
+                                <seg xml:lang="bg">198 - 211 сл. Хр.</seg>
+                                <seg xml:lang="en">198 - 211 A.D.</seg>
                             </origDate>
                         </origin>
                         <provenance type="found">
                             <seg xml:lang="bg">
-                                <placeName type="ancientFindspot" ref="findsp.xml#"></placeName><!-- добави в @ref след # съответното id от findsp.xml; съдържание на елемента - с думи -->
+                                <placeName type="ancientFindspot" ref="findsp.xml#Pl">Пловдив</placeName><!-- добави в @ref след # съответното id от findsp.xml; съдържание на елемента - с думи -->
                             </seg>
                             <seg xml:lang="en">
-                                <placeName  type="ancientFindspot"></placeName>
+                                <placeName  type="ancientFindspot">Plovdiv</placeName>
                             </seg>
                         </provenance>
                         <provenance type="observed">
@@ -96,7 +96,8 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2018-08-17" who="I.V.">encoded the text according to the editions made by Mihailov and Sharankov</change><!-- сложи @when с година-месец-ден и @who с инициали; като съдържание сложи описание на свършената от теб работа по надписа -->
+            <change when="2018-08-17" who="I.V.">encoded the text according to the editions made by Mihailov and Sharankov</change>
+            <change when="2019-03-15" who="E.B.">corrected, added links to authority</change><!-- сложи @when с година-месец-ден и @who с инициали; като съдържание сложи описание на свършената от теб работа по надписа -->
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -106,22 +107,13 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="grc">
                 <ab>
-                    <lb n="1"/>
-                    <w lemma="ἀγαθός">Ἀγα<supplied reason="lost">θῇ</supplied> </w> <w lemma="τύχη"><supplied reason="lost">τύχῃ</supplied></w>.
-                    <lb n="2"/>
-                    <w>Ὑπὲρ</w> <w>τῆς</w> <w>τοῦ</w> 
-                    <persName nymRef="Λουκίος Σεπτιμίος Σεουήρος " ref="listpersons.xml#AT306">Αὐτ
-                        <supplied reason="lost">οκράτορος Καίσαρος 
-                            <expan>
-                                      <abbr>Λ</abbr>
-                                      <ex>ουκίου</ex>
-                                      </expan>
-                        Σεπτιμίου</supplied>
-                    <lb n="3" break="no"/>
-                    Σεουήρου Περτίν
-                    <supplied reason="lost">ακος</supplied>
-                    </persName>
-                    <supplied reason="lost">
+                    <lb n="1"/><w lemma="ἀγαθός">Ἀγα<supplied reason="lost">θῇ</supplied></w> <w lemma="τύχη"><supplied reason="lost">τύχῃ</supplied></w>.
+                    <lb n="2"/><w>Ὑπὲρ</w> <w>τῆς</w> <w>τοῦ</w> 
+                    <w lemma="αὐτοκράτωρ">Αὐτ<supplied reason="lost">οκράτορος</supplied></w> <w lemma="καίσαρ"><supplied reason="lost">Καίσαρος</supplied></w> 
+                            <persName ref="listemperors.xml#Pertinax"><supplied reason="lost"><name nymRef="Λουκίος"><expan><abbr>Λ</abbr><ex>ουκίου</ex>
+                                      </expan></name> <name nymRef="Σεπτιμίος">Σεπτιμίου</name></supplied>
+                    <lb n="3" break="no"/><name nymRef="Σεουήρος">Σεουήρου</name> <name nymRef="Περτίναξ">Περτίν<supplied reason="lost">ακος</supplied></name></persName>
+                     <supplied reason="lost">
                     <w>καὶ</w> 
                         <w lemma="αὐτοκράτωρ">Αὐτοκράτορος</w> 
                         <w lemma="καίσαρ">Καίσαρος</w> 
@@ -129,10 +121,7 @@
                             <name nymRef="Μάρκος"><expan><abbr>Μ</abbr><ex>άρκου</ex></expan></name> 
                             <name nymRef="Αὐρήλιος"><expan><abbr>Αὐρ</abbr><ex>ηλίου</ex></expan></name> 
                             <name nymRef="Ἀντωνίνος">Ἀντω
-                    <lb n="4" break="no"/> νίνου 
-                    </name>
-                        </persName>
-                        </supplied>
+                    <lb n="4" break="no"/>νίνου</name></persName></supplied>
                     <w lemma="σεβαστός">σεβ<supplied reason="lost">αστῶν</supplied></w> 
                     <supplied reason="lost"><w lemma="τύχη">τύχης</w> <w>καὶ</w> 
                     <w lemma="νίκη">νίκης</w></supplied>
@@ -142,14 +131,27 @@
             <div type="apparatus">
                 <listApp>
                 <app>
-                    <note></note><!-- бележки за лигатури и особености -->
+                    <note xml:lang="bg"> 
+                        Букви в лигатура: 2. πε, της 
+                        4. νε </note>
+                    <note xml:lang="en">
+                        Letters in ligature:
+                        2. πε, της 
+                        4. νε
+                    </note><!-- бележки за лигатури и особености -->
                     <rdg></rdg>
                 </app>
             </listApp>
             </div>
-            <div type="translation">
-                <p></p><!-- превод -->
-            </div>
+            <div type="translation"> <note xml:lang="bg">
+                <p>
+                    На добър час. За благополучието и победата на император Цезар Луций Септимий Север Пертинакс и император Цезар Марк Аврелий Антонин Августи.
+                </p><!-- превод --></note>
+            <note xml:lang="en">
+                <p>
+                    Good luck for the well being and the victory of emperor Caesar Lucius Septimius Severus Pertinax and emperor Caesar Marcus Aurelius Antoninus Augustus.
+                </p>
+            </note>  </div>
             <div type="commentary"> <!-- да опишем подробно какво се съдържа в коментара при нас -->
             </div>
             <div type="bibliography"> <!-- съдържанието тук защо е comment-out-нато? ДИ -->

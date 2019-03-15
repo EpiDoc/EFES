@@ -25,6 +25,11 @@
                     <idno type="geonames">http://www.geonames.org/725930/vetren.html</idno>
                     <idno type="wp">https://bg.wikipedia.org/wiki/%D0%91%D0%BE%D0%BD%D0%B0_%D0%9C%D0%B0%D0%BD%D1%81%D0%B8%D0%BE</idno>
                 </place>
+                <place xml:id="Koz">
+                    <placeName xml:lang="en">Kozarsko</placeName>
+                    <placeName xml:lang="bg">Козарско</placeName>
+                    <idno type="geonames">https://www.geonames.org/730028/kozarsko.html</idno> 
+                </place>
                 <place xml:id="StZ">
                     <placeName xml:lang="en">Stara Zagora</placeName>
                     <placeName xml:lang="bg">Стара Загора</placeName>

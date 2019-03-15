@@ -46,8 +46,8 @@
                <idno type="wp">https://en.wikipedia.org/wiki/Caracalla</idno>
             </person>
             <person xml:id="Severus">
-               <persName xml:lang="en">Lucius Septimius Severus</persName>
-               <persName xml:lang="grc">Λουκίος Σεπτιμίος Σεουήρος</persName>
+               <persName xml:lang="en">Lucius Septimius Severus Pertinax</persName>
+               <persName xml:lang="grc">Λουκίος Σεπτιμίος Σεουήρος Περτίναξ</persName>
                <persName xml:lang="bg">Луций Септимий Север</persName>
                <floruit>193-211</floruit>
                <idno type="wp">https://en.wikipedia.org/wiki/Septimius_Severus</idno>
@@ -65,6 +65,13 @@
                <persName xml:lang="bg">Гай Юлий Вер Максим</persName>
                <floruit>236-238</floruit>
                <idno type="wp">https://en.wikipedia.org/wiki/Gaius_Julius_Verus_Maximus</idno>
+            </person>
+           <person xml:id="Gallienus">
+              <persName xml:lang="en">Publius Licinius Egnatius Gallienus</persName>
+              <persName xml:lang="grc">Πόπλιος Λικίνιος Ἐγνατίος Γαλιηνός</persName>
+            <persName xml:lang="bg">Публий Лициний Егнаций Галиен</persName>
+            <floruit>253-268</floruit>
+              <idno type="wp">https://en.wikipedia.org/wiki/Gallienus</idno>
             </person>
             <person xml:id="Gordianus">
                <persName xml:lang="en">Marcus Antonius Gordianus</persName>

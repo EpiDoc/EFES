@@ -82,6 +82,12 @@
                <persName xml:lang="bg">Калхант</persName>
                <idno type="wp">https://en.wikipedia.org/wiki/Calchas</idno>
             </person>
+            <person xml:id="Hygia">
+               <persName xml:lang="grc">Ὑγεία</persName>
+               <persName xml:lang="en">Hygia</persName>
+               <persName xml:lang="bg"></persName>
+               <idno type="wp">https://en.wikipedia.org/wiki/Asclepius</idno>
+            </person>
             <person xml:id="Polydamas">
                <persName xml:lang="grc">Πολυδάμας</persName>
                <persName xml:lang="en">Polydamas</persName>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bg">Статуя от Асклепиона в с. Баткун с Асклепий и Хигия Зимидриноски</title><!-- Заглавие -->
+                <title xml:lang="en">Statue form the Asclepoin in the village Batkun with Asclepius and Hygia Zimidrines</title>
+                <editor>
+                    <persName xml:lang="bg">Георги Михайлов</persName>
+                    <persName xml:lang="en">Georgi Mihailov</persName>
+                </editor>
+            </titleStmt>            
+            <publicationStmt>
+                <authority>Telamon Project</authority>
+                <date>2018</date>
+                <idno type="filename">III.1140</idno><!-- номер на надписа -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><country/> <!-- какво слагаме в първия идентификатор и в алт идентификатора? на едното място може би да отиде инв. номер от музея, но на кое? ДИ -->
+                        <altIdentifier  xml:lang="bg">
+                            <repository>Регионален исторически музей Пловдив</repository><!-- Институция -->
+                            <idno>3342</idno><!-- Инвентарен номер -->
+                        </altIdentifier>
+                        <altIdentifier xml:lang="en">
+                            <repository>Plovdiv Regional History Museum</repository>
+                            <idno>3342</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents><!-- Жанр на надписа -->
+                        <summary corresp="document-type.xml#21"><!-- добави в @corresp след # съответното id от document-type.xml -->
+                            <seg xml:lang="bg">посветителен надпис</seg><!-- с думи -->
+                            <seg xml:lang="en">dedicatory inscription</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material xml:lang="bg" ref="material.xml#m">мрамор</material><!-- добави в @ref след # съответното id от material.xml; съдържание на елемента - с думи -->  
+                                    <material xml:lang="en">marble</material>
+                                    <objectType xml:lang="bg" ref="object.xml#st">статуя</objectType><!-- добави в @ref след # съответното id от object.xml; съдържание на елемента - с думи--> 
+                                    <objectType xml:lang="en">statue</objectType>
+                                    <dimensions><!-- само числова стойност като стойност на атрибута и като съдържание на елемента -->
+                                        <height quantity="20">20</height>
+                                        <width quantity="21.5">21.5</width>
+                                        <depth quantity="8">8</depth>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <seg xml:lang="bg">надпис на постамента на статуетката</seg>
+                                    <seg xml:lang="en">inscription on the base of the statuette</seg>
+                                </layout> <!-- трябва да добавим и специален таг за място на надписа върху обекта, който може и да не се пълни винаги ДИ -->
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <height atLeast="1.5" atMost="2">1.5 - 2</height><!-- само числова стойност като стойност на атрибута и като съдържание на елемента -->
+                            </handNote>
+                        </handDesc> 
+                        <decoDesc>
+                            <decoNote xml:lang="bg">статуя на Асклепий, Хигия и (вероятно) Телесфор</decoNote>
+                            <decoNote xml:lang="en">statue of Asclepius, Hygia and (probably) Telesphoros</decoNote>
+                        </decoDesc><!-- и decoDesc, също незадължително за пълнене всеки път? ДИ -->
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><!-- добави в @ref след # съответното id от origloc.xml; съдържание на елемента - с думи -->
+                                <seg xml:lang="bg"></seg>
+                                <seg xml:lang="en"></seg>
+                            </origPlace>
+                            <origDate><!-- приема @notBefore заедно с @notAfter, ако имаме датировка по години на управление на император или посочен век (виж бележки как се бележат вековете), както и @when във формат година-месец-дата -->
+                                <seg xml:lang="bg"></seg>
+                                <seg xml:lang="en"></seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <seg xml:lang="bg">
+                                <placeName type="ancientFindspot" ref="findsp.xml#Batkun">Баткун</placeName><!-- добави в @ref след # съответното id от findsp.xml; съдържание на елемента - с думи -->
+                            </seg>
+                            <seg xml:lang="en">
+                                <placeName  type="ancientFindspot">Batkun</placeName>
+                            </seg>
+                        </provenance>
+                        <provenance type="observed">
+                            <seg xml:lang="bg">
+                                <placeName></placeName><!-- само с думи --> <!-- само с думи ли да остане наистина или да имаме референтен списък на места и тук? ДИ -->
+                            </seg>
+                            <seg xml:lang="en">
+                                <placeName></placeName>
+                            </seg>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2018-11" who="Veronika Lobutova">
+                Coded the text, the history, the present-day location, the palaeography of the monument.
+            </change>
+            <change when="2019-03-15" who="E.B.">corrected, added links to authority</change><!-- сложи @when с година-месец-ден и @who с инициали; като съдържание сложи описание на свършената от теб работа по надписа -->
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="именаснимка.jpeg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                <ab>
+                   <lb n="1"/>
+                       <w lemma="ἐπιφανής">ἐπιφ<supplied reason="lost">ανεστάτοις</supplied>
+                       </w>
+                       <w lemma="θεός">
+                         <supplied reason="lost">θεοῖς</supplied>
+                      </w>
+                        <supplied reason="lost">
+                            <persName type="divine" ref="listDivine.xml#Asclepius">Ἀσκληπιῷ</persName></supplied>
+                      
+                   <lb n="2"/>
+                      <w>κ<supplied reason="lost">αὶ</supplied>
+                      </w>
+                        <supplied reason="lost">
+                            <persName type="divine" ref="listDivine.xml#Hygia">Ὑγείᾳ</persName>
+                        </supplied>
+                        <supplied reason="lost">
+                            <persName ref="listDivine.xml#Asclepius">Ζυμυδρηνοις</persName></supplied>.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app>
+                    <note></note><!-- бележки за лигатури и особености -->
+                    <rdg></rdg>
+                </app>
+            </listApp>
+            </div>
+            <div type="translation" xml:lang="bg">
+                <p>На най-видните божества Асклепий и Хигия Зимидренски.</p><!-- превод -->
+            </div>
+            <div type="translation" xml:lang="en">
+                <p> To the most prominent deities Asclepius and Hygia Zimidrenski.</p><!-- превод -->
+            </div>
+            <div type="commentary"> <!-- да опишем подробно какво се съдържа в коментара при нас -->
+            </div>
+            <div type="bibliography"> <!-- съдържанието тук защо е comment-out-нато? ДИ -->
+<!--                <p><listBibl>
+                    <biblStruct>
+                        <monogr>
+                            <author><ref target="GM">Georgi Mihailov</ref></author>
+                            <title>Inscriptones Grecae in Bulgaria repertae</title>
+                            <imprint>
+                                <biblScope unit="volume">3.2</biblScope>
+                                <pubPlace>
+                                    <settlement>Sofia</settlement>
+                                    <country>Bulgaria</country>
+                                </pubPlace>
+                                <date>1964</date>
+                            </imprint></monogr>
+                    </biblStruct>
+                </listBibl></p>-->
+            </div>
+        </body>
+    </text>
+</TEI>

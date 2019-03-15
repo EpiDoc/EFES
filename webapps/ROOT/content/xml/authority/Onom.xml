@@ -48,6 +48,16 @@
         <persName xml:lang="en"></persName>
         <persName xml:lang="bg"></persName>
     </person>
+    <person xml:id="Licinius">
+        <persName xml:lang="grc">Λικίνιος</persName>
+        <persName xml:lang="en"></persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Gallienus">
+        <persName xml:lang="grc">Γαλιηνός</persName>
+        <persName xml:lang="en"></persName>
+        <persName xml:lang="bg"></persName>
+    </person>
     <person xml:id="Fronton">
         <persName xml:lang="grc">Φρόντων</persName>
         <persName xml:lang="en"></persName>
@@ -216,6 +226,21 @@
     <person xml:id="Aurelius">
         <persName xml:lang="grc">Αὐρήλιος</persName>
         <persName xml:lang="en">Aurelius</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Apphe"> 
+        <persName xml:lang="grc">Αφφη</persName>
+        <persName xml:lang="en">Apphe</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Cocceius">
+        <persName xml:lang="grc">Κοκκαίειος</persName>
+        <persName xml:lang="en">Cocceius</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Hesychus">
+        <persName xml:lang="grc">Ἥσυχος </persName>
+        <persName xml:lang="en">Hesychus</persName>
         <persName xml:lang="bg"></persName>
     </person>
     <person xml:id="Alexander">
@@ -417,6 +442,11 @@
     <person xml:id="Trophimus">
         <persName xml:lang="grc">Τρόφιμος</persName>
         <persName xml:lang="en">Trophimus</persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Hippias">
+        <persName xml:lang="grc">Ἱππίας</persName>
+        <persName xml:lang="en">Hippias</persName>
         <persName xml:lang="bg"></persName>
     </person>
     <person xml:id="Iulius">
