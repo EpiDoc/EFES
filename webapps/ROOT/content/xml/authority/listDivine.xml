@@ -39,6 +39,11 @@
                <persName xml:lang="en">Hera</persName>
                <persName xml:lang="bg">Хера</persName>
             </person>
+            <person xml:id="Zeus">
+               <persName xml:lang="grc">Ζεύς</persName>
+               <persName xml:lang="en">Zeus</persName>
+               <persName xml:lang="bg">Хера</persName>
+            </person>
             <person xml:id="Apollo">
                <persName xml:lang="grc">Απόλλων</persName>
                <persName xml:lang="en">Apollo</persName>
@@ -103,7 +108,7 @@
             <person xml:id="Dzver">
                <persName xml:lang="grc">Κανζουρηνος</persName>
                <persName xml:lang="en">Kanzurinus</persName>
-               <persName xml:lang="bg">Халитерс</persName>
+               <persName xml:lang="bg">Кандзверин</persName>
                <idno type="wp">https://en.wikipedia.org/wiki/Halitherses</idno>
             </person>
          </listPerson>

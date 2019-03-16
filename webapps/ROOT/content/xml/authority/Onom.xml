@@ -123,6 +123,27 @@
     <persName xml:lang="en"></persName>
     <persName xml:lang="bg"></persName>
 </person>
+    <person xml:id="Auluzenes">
+        <persName xml:lang="grc">Αυλουζενης</persName>
+        <persName xml:lang="en"></persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Ascanius">
+        <persName xml:lang="grc">Ἀσκάνιος</persName>
+        <persName xml:lang="en"></persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Scorianus">
+        <persName xml:lang="grc">Σκωριανός</persName>
+        <persName xml:lang="en"></persName>
+        <persName xml:lang="bg"></persName>
+    </person>
+    <person xml:id="Sadalas">
+        <persName xml:lang="grc">Σαδαλας</persName>
+        <persName xml:lang="en">Sadalas</persName>
+        <persName xml:lang="bg"></persName>
+        <occupation></occupation>
+    </person>
     <person xml:id="Proclus">
         <persName xml:lang="grc">Πρόκλος</persName>
         <persName xml:lang="en">Proclus</persName>
