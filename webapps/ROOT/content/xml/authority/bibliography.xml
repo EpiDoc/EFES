@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bibliography</title>
+            </titleStmt>
+            <publicationStmt><p></p></publicationStmt> 
+            <sourceDesc><p></p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listBibl>
+                <biblStruct xml:id="b1">
+                    <monogr>
+                        <author>
+                            <surname xml:lang="bg">Михайлов</surname><surname xml:lang="en">Mihailov</surname>
+                            <forename xml:lang="bg">Георги</forename><forename xml:lang="en">Georgi</forename>
+                        </author>
+                        <title level="m" xml:lang="bg">Inscriptones Grecae in Bulgaria repertae</title>
+                        <title level="m" xml:lang="en">Inscriptones Grecae in Bulgaria repertae</title>
+                        <title></title>
+                        <imprint>
+                            <biblScope unit="volume">1</biblScope>
+                            <pubPlace xml:lang="bg">
+                                <settlement>София</settlement>
+                                <country>България</country>
+                            </pubPlace>
+                            <pubPlace xml:lang="en">
+                                <settlement>Sofia</settlement>
+                                <country>Bulgaria</country>
+                            </pubPlace>
+                            <date>1964</date>
+                        </imprint></monogr>
+                </biblStruct>
+            </listBibl>
+        </body>
+    </text>
+</TEI>

@@ -70,9 +70,9 @@
           <td>
             <xsl:choose>
               <xsl:when test="//t:support/t:dimensions//text()[not(normalize-space(.)=' ')]">
-                <xsl:if test="//t:support/t:dimensions/t:height/text()[not(normalize-space(.)=' ')]"><i18n:text i18n:key="h">h.</i18n:text> <xsl:value-of select="//t:support/t:dimensions/t:height"/>,</xsl:if>
-                <xsl:if test="//t:support/t:dimensions/t:width/text()[not(normalize-space(.)=' ')]"><i18n:text i18n:key="w">w.</i18n:text> <xsl:value-of select="//t:support/t:dimensions/t:width"/>,</xsl:if>
-                <xsl:if test="//t:support/t:dimensions/t:depth/text()[not(normalize-space(.)=' ')]"><i18n:text i18n:key="th">th.</i18n:text> <xsl:value-of select="//t:support/t:dimensions/t:depth"/></xsl:if>
+                <xsl:if test="//t:support/t:dimensions/t:height/text()[not(normalize-space(.)=' ')]"><i18n:text i18n:key="h">h.</i18n:text> <xsl:value-of select="//t:support/t:dimensions/t:height"/> <i18n:text i18n:key="cm">cm</i18n:text>,</xsl:if>
+                <xsl:if test="//t:support/t:dimensions/t:width/text()[not(normalize-space(.)=' ')]"><i18n:text i18n:key="w"> w. </i18n:text> <xsl:value-of select="//t:support/t:dimensions/t:width"/> <i18n:text i18n:key="cm">cm</i18n:text>,</xsl:if>
+                <xsl:if test="//t:support/t:dimensions/t:depth/text()[not(normalize-space(.)=' ')]"><i18n:text i18n:key="th"> th. </i18n:text> <xsl:value-of select="//t:support/t:dimensions/t:depth"/> <i18n:text i18n:key="cm">cm</i18n:text></xsl:if>
                 <xsl:if test="//t:support/t:dimensions/t:dim[@type='diameter']/text()[not(normalize-space(.)=' ')]">, Diam. <xsl:value-of select="//t:support/t:dimensions/t:dim[@type='diameter']"/></xsl:if>
               </xsl:when>
               <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-iospe-unknown">Unknown</i18n:text></xsl:otherwise>
@@ -91,9 +91,9 @@
               </xsl:when>
               <xsl:when test="//t:msIdentifier//t:repository/text()">
                 <xsl:value-of select="//t:msIdentifier//t:repository"/>
-                <xsl:text>no inv. no.</xsl:text>
+                <i18n:text i18n:key="no-inventary-number">no inventory number</i18n:text>
               </xsl:when>
-              <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-iospe-unknown">Unknown</i18n:text></xsl:otherwise>
+              <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-iospe-unavailable-pl">Not available.</i18n:text></xsl:otherwise>
             </xsl:choose>
           </td>
         </tr>
@@ -106,7 +106,20 @@
               <xsl:when test="//t:handNote//t:height/text()">
                 <xsl:value-of select="//t:handNote//t:height"/>
               </xsl:when>
-              <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-iospe-not-specified">Not specified</i18n:text></xsl:otherwise>
+              <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-iospe-not-specified-m">Not specified</i18n:text></xsl:otherwise>
+            </xsl:choose>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">
+            <i18n:text i18n:key="epidoc-xslt-iospe-decoration">Decoration</i18n:text>
+          </th>
+          <td>
+            <xsl:choose>
+              <xsl:when test="//t:decoNote//text()">
+                <xsl:value-of select="//t:decoNote//text()"/>
+              </xsl:when>
+              <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-iospe-not-specified-m">Not specified</i18n:text></xsl:otherwise>
             </xsl:choose>
           </td>
         </tr>
@@ -158,7 +171,7 @@
                 </xsl:for-each>
               </xsl:when>
               <xsl:otherwise>
-                <xsl:text>n/a</xsl:text>
+                <i18n:text i18n:key="epidoc-xslt-iospe-not-specified-letters">Not specified.</i18n:text>
               </xsl:otherwise>
             </xsl:choose>
           </td>
@@ -220,6 +233,10 @@
         </xsl:variable>
         <!-- Moded templates found in htm-tpl-sqbrackets.xsl -->
         <xsl:apply-templates select="$commtxt" mode="sqbrackets"/>
+      </div>
+     <div id="bibliography">
+        <h4 ><i18n:text i18n:key="epidoc-xslt-iospe-bibliography">Bibliography</i18n:text></h4>
+        <xsl:apply-templates select="//t:body//t:div[@type='bibliography']//t:p"/>
       </div>
       <div id="images" >
         <h4 ><i18n:text i18n:key="epidoc-xslt-iospe-images">Images</i18n:text></h4>

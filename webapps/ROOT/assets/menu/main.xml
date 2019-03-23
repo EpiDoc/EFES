@@ -4,7 +4,7 @@
       xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
   <menu label="Inscriptions" match="local-epidoc-index-display"
         i18n:key="menu-inscriptions" />
-  <menu label="Indices" match="local-indices-type-display" i18n:key="menu-indices">
+  <menu label="Indices" match="local-indices-type-display" params="epidoc" i18n:key="menu-indices">
     <item label="Abbreviations" match="local-index-display-html" params="epidoc abbreviation" i18n:key="menu-index-abbreviation"/>
     <item label="Fragments" match="local-index-display-html" params="epidoc fragment" i18n:key="menu-index-fragment"/>
     <item label="Lemmata" match="local-index-display-html" params="epidoc lemma" i18n:key="menu-index-lemma"/>

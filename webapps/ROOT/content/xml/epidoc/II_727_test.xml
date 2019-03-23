@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bg">Почетен надпис от Дискодуратере</title>
+                <title xml:lang="en">Honorary inscription from Discoduraterae</title>
+                <editor>
+                    <persName xml:lang="bg">Георги Михайлов</persName>
+                    <persName xml:lang="en">Georgi Mihailov</persName>
+                </editor>
+                <editor>
+                    <persName xml:lang="bg">Николай Шаранков</persName>
+                    <persName xml:lang="en">Nikolay Sharankov</persName>
+                </editor> 
+            </titleStmt>            
+            <publicationStmt>
+                <authority>Telamon Project</authority>
+                <date>2018</date>
+                <idno type="filename">II.727</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><country/>
+                        <altIdentifier  xml:lang="bg">
+                            <repository></repository>
+                            <idno>—</idno>
+                        </altIdentifier>
+                        <altIdentifier xml:lang="en">
+                            <repository></repository>
+                            <idno>—</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="document-type.xml#doc21">
+                            <seg xml:lang="bg">Почетен надпис</seg>
+                            <seg xml:lang="en">Honorary inscription</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material xml:lang="bg" ref="material.xml#l">Варовик</material>
+                                    <material xml:lang="en">Limestone</material>
+                                    <objectType xml:lang="bg" ref="object.xml#b">Постамент</objectType>
+                                    <objectType xml:lang="en">Base</objectType>
+                                    <dimensions>
+                                        <height quantity="176">176</height>
+                                        <width quantity="55">55</width>
+                                        <depth quantity="53">53</depth>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <height atLeast="0.35" atMost="0.55">0.35 - 0.55</height>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote xml:lang="bg">—</decoNote>
+                            <decoNote xml:lang="en">—</decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="origloc.xml#Discoduraterae">
+                                <seg xml:lang="bg">Дискодуратере</seg>
+                                <seg xml:lang="en">Discoduraterae</seg>
+                            </origPlace>
+                            <origDate notBefore="0175" notAfter="0180" cert="high">
+                                <seg xml:lang="bg">175 - 180 сл. Хр.</seg>
+                                <seg xml:lang="en">175 - 180 AD</seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <seg xml:lang="bg">Намерен в местността Калето до село
+                                <placeName type="ancientFindspot" ref="findsp.xml#Gost">Гостилица</placeName>
+                            </seg>
+                            <seg xml:lang="en">found in Kaleto region, near 
+                                <placeName  type="ancientFindspot">Gostilica</placeName> village
+                            </seg>
+                        </provenance>
+                        <provenance type="observed">
+                            <seg xml:lang="bg"> Извън село
+                                <placeName ref="findsp.xml#Gost">Гостилица</placeName>
+                            </seg>
+                            <seg xml:lang="en">
+                                <placeName>Gostilica, outside the village</placeName>
+                            </seg>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2018-06-13" who="EB">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="727.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                <ab>
+                    <lb n="1"/><w lemma="ἀγαθός">Ἀγαθῇ</w> <w lemma="τύχη">τύχῃ.</w>
+                    <lb n="2"/><persName type="emperor" ref="listemperors.xml#MarcusAurelius"><name nymRef="Μάρκος" ref="Onom.xml#Marcus">Μᾶρκον</name> 
+                            <name nymRef="Αὐρήλιος" ref="Onom.xml#Aurelius">Αὐρήλιον</name> <name nymRef="Ἀντονείνος" ref="Onom.xml#Antoninus">Ἀν 
+                    <lb n="3" break="no"/>τωνεῖνον</name> </persName> <w lemma="αὐτοκράτωρ">αὐτοκράτο 
+                    <lb n="4" break="no"/>ρα</w> <w lemma="Γερμανικός">Γερμανικὸν</w> <w lemma="Σαρματικός">Σαρματι 
+                    <lb n="5" break="no"/> κὸν</w> <w lemma="Μηδικός">Μηδικὸν</w> <w lemma="Παρθικός">Παρθι	
+                    <lb n="6" break="no"/>κὸν</w> <w>ἡ</w> <placeName ref="listPlaces.xml#AugTr"><w lemma="πόλις">πόλις</w> <w>ἡ</w> 
+                            <w lemma="Τραιανέος">Τραιαν 
+                    <lb n="7" break="no"/>έων</w></placeName> <w>τὸν</w> <w lemma="ἑαυτοῦ">αὑτῆς</w> 
+                            <w lemma="κτίστης">κτίστ 
+                    <lb n="8" break="no"/>ην</w> <w>ἐν</w> <w>τῷ</w> <w lemma="ἐμπόριον">ἐνπορίῳ</w> <w>ἐν</w> 
+                            <placeName ref="listPlaces.xml#Discoduraterae">Δισ 
+                    <lb n="9" break="no"/>κοδουρατέραις</placeName>, <w lemma="ἡγεμονεύω">ἡγεμο 
+                    <lb n="10" break="no"/>νεύοντος</w> <w>τῆς</w> <w lemma="ἐπαρχία">ἐπαρχίας</w> 
+                    <lb n="11"/><del rend="erasure"><persName type="official" ref="listemperors.xml#Asellius"> 
+                                    <name nymRef="Ἀσέλλιος" ref="Onom.xml#Asellius"><unclear>Ἀ</unclear>σε<unclear>λλίου</unclear></name>
+                                            <name><unclear>Αἰμ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                            <unclear>αν</unclear><gap reason="lost" extent="2" unit="character"/></name></persName></del>. 
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp >
+                    <head xml:lang="bg">Букви в лигатура:</head>
+                    <head xml:lang="en">Letters in ligature:</head>
+                    <app loc="3">
+                        <rdg>ΑΥ</rdg>
+                    </app>
+                    <app loc="7">
+                        <rdg>ΑΥ, ΗΣ</rdg>
+                    </app>
+                    <app loc="8">
+                        <rdg>ΗΝΕ, ΝΤ, ΩΕ</rdg>
+                    </app>
+                    <app loc="9">
+                        <rdg>ΤΕ, ΗΓ</rdg>
+                    </app>
+                    <app loc="10">
+                        <rdg>ΝΕ, ΝΤ, ΗΣ</rdg>
+                    </app>
+              </listApp>
+            </div>
+            <div type="translation">
+                <p>
+                    <seg xml:lang="bg">
+                        Не е наличен.
+                    </seg>
+                    <seg xml:lang="en">
+                        Not available.
+                    </seg>
+                </p>
+            </div>
+            <div type="commentary">
+                <p>
+                    <seg xml:lang="bg">
+                        Не е наличен.
+                    </seg>
+                    <seg xml:lang="en">
+                        Not available.
+                    </seg>
+                </p>
+            </div>
+            <div type="bibliography">
+                <p>
+                    <seg xml:lang="en">
+                     <listBibl>
+                    <bibl xml:id="b1">
+                       <author><ref target="GM">Georgi Mihailov</ref></author>, 
+                            <title>Inscriptones Grecae in Bulgaria repertae</title>
+                            <biblScope unit="volume">3.2</biblScope>, 
+                            <pubPlace>
+                                    <settlement>Sofia</settlement>
+                                    <country>Bulgaria</country>
+                                </pubPlace>, 
+                                <date>1964</date>
+                    </bibl>
+                </listBibl>
+                    </seg>
+                    <seg xml:lang="bg">
+                        <listBibl>
+                            <bibl>
+                                <author><ref target="GM">Георги Михайлов</ref></author>.                                
+                                <date>1964</date>. 
+                                <title>Inscriptones Grecae in Bulgaria repertae</title>
+                                <biblScope unit="volume">3.2</biblScope>, 
+                                <pubPlace>
+                                    <settlement>София</settlement>, 
+                                    <country>България</country>
+                                </pubPlace>
+                            </bibl>
+                        </listBibl>
+                    </seg>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
