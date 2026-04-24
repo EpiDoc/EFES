@@ -4,7 +4,7 @@
 
 **EFES is a delivery, search and browse platform that can be set up and customized for an individual EpiDoc XML-based project with only minimal training and technical skill on the part of a project team.**
 
-The authors of EFES plan to offer advanced, follow-up training workshops for students already familiar with EpiDoc, but lacking further technical skills, with a view to empowering them to create and manage all stages of their digital publication, from modelling to indexing to publishing online.
+The authors of EFES occasionally offer advanced, follow-up training workshops for students already familiar with EpiDoc, but lacking further technical skills, with a view to empowering them to create and manage all stages of their digital publication, from modelling to indexing to publishing online.
 
 EFES is a fork of the **Kiln** publication platform, described below.
 
