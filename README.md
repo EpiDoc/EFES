@@ -22,12 +22,12 @@ EFES is a fork of the **Kiln** publication platform, described below.
 
 ## Kiln
 
-Kiln is an open source multi-platform framework for building and deploying
-complex websites whose source content is primarily in XML. It brings together
-various independent software components into an integrated whole that provides
+Kiln, now deprecated and archived, was an open source multi-platform framework for building and deploying
+complex websites whose source content is primarily in XML. It brought together
+various independent software components into an integrated whole that provided
 the infrastructure and base functionality for such sites.
 
-Kiln is developed and maintained by a team at the King's Digital Lab (KDL), King’s College London. 
+Until 2024 Kiln was developed and maintained by a team at the King's Digital Lab (KDL), King’s College London. 
 Over the past years and versions, Kiln has been used to generate more than 50 websites
 which have very different source materials and customised
 functionality. It has been adapted to work on a variety of flavours of
